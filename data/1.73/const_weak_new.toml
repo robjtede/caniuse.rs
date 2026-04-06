@@ -1,0 +1,5 @@
+title = "`rc::Weak::new` and `sync::Weak::new` as `const fn`"
+flag = "const_weak_new"
+tracking_issue_id = 95091
+stabilization_pr_id = 95965
+items = ["std::rc::Weak::new", "std::sync::Weak::new"]

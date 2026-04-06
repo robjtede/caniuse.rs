@@ -1,0 +1,7 @@
+title = "`std::ffi::FromBytesUntilNulError`"
+flag = "cstr_from_bytes_until_nul"
+impl_pr_id = 113701
+tracking_issue_id = 95027
+stabilization_pr_id = 107429
+items = ["std::ffi::FromBytesUntilNulError"]
+doc_path = "std/ffi/struct.FromBytesUntilNulError.html"

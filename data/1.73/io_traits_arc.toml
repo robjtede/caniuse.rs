@@ -1,0 +1,8 @@
+title = "`Read`, `Write`, and `Seek` implementations for `Arc<File>`"
+flag = "io_traits_arc"
+impl_pr_id = 94748
+items = [
+    "impl std::io::Read for std::sync::Arc<std::fs::File>",
+    "impl std::io::Write for std::sync::Arc<std::fs::File>",
+    "impl std::io::Seek for std::sync::Arc<std::fs::File>",
+]

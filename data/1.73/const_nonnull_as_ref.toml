@@ -1,0 +1,5 @@
+title = "`NonNull::as_ref` as `const fn`"
+flag = "const_nonnull_as_ref"
+stabilization_pr_id = 102198
+items = ["std::ptr::NonNull::as_ref"]
+doc_path = "std/ptr/struct.NonNull.html#method.as_ref"

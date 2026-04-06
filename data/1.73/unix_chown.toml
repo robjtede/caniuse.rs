@@ -1,0 +1,8 @@
+title = "Unix `chown` functions in `std::os::unix::fs`"
+flag = "unix_chown"
+impl_pr_id = 88953
+items = [
+    "std::os::unix::fs::chown",
+    "std::os::unix::fs::fchown",
+    "std::os::unix::fs::lchown",
+]

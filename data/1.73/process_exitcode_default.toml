@@ -1,0 +1,4 @@
+title = "`Default` implementation for `ExitStatus`"
+flag = "process-exitcode-default"
+impl_pr_id = 106425
+items = ["impl Default for std::process::ExitStatus"]

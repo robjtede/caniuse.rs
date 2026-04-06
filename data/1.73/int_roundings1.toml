@@ -1,0 +1,27 @@
+title = "unsigned integer rounding methods"
+flag = "int_roundings1"
+impl_pr_id = 88582
+tracking_issue_id = 88581
+stabilization_pr_id = 94455
+items = [
+    "u8::div_ceil",
+    "u16::div_ceil",
+    "u32::div_ceil",
+    "u64::div_ceil",
+    "u128::div_ceil",
+    "usize::div_ceil",
+
+    "u8::next_multiple_of",
+    "u16::next_multiple_of",
+    "u32::next_multiple_of",
+    "u64::next_multiple_of",
+    "u128::next_multiple_of",
+    "usize::next_multiple_of",
+
+    "u8::checked_next_multiple_of",
+    "u16::checked_next_multiple_of",
+    "u32::checked_next_multiple_of",
+    "u64::checked_next_multiple_of",
+    "u128::checked_next_multiple_of",
+    "usize::checked_next_multiple_of",
+]

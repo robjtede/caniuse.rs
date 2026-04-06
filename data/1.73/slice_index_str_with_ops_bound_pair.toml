@@ -1,0 +1,4 @@
+title = "`impl SliceIndex<str> for (Bound<usize>, Bound<usize>)`"
+flag = "slice_index_str_with_ops_bound_pair"
+impl_pr_id = 111081
+items = ["impl SliceIndex<str> for (std::ops::Bound<usize>, std::ops::Bound<usize>)"]

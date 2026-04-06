@@ -1,0 +1,17 @@
+title = "convenience methods for thread-local `Cell` and `RefCell`"
+flag = "local_key_cell_methods"
+rfc_id = 3184
+impl_pr_id = 92123
+tracking_issue_id = 92122
+stabilization_pr_id = 114689
+items = [
+    "std::thread::LocalKey<std::cell::Cell<T>>::get",
+    "std::thread::LocalKey<std::cell::Cell<T>>::set",
+    "std::thread::LocalKey<std::cell::Cell<T>>::take",
+    "std::thread::LocalKey<std::cell::Cell<T>>::replace",
+    "std::thread::LocalKey<std::cell::RefCell<T>>::with_borrow",
+    "std::thread::LocalKey<std::cell::RefCell<T>>::with_borrow_mut",
+    "std::thread::LocalKey<std::cell::RefCell<T>>::set",
+    "std::thread::LocalKey<std::cell::RefCell<T>>::take",
+    "std::thread::LocalKey<std::cell::RefCell<T>>::replace",
+]

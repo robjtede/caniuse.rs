@@ -1,0 +1,6 @@
+title = "`thiscall` and `thiscall-unwind` ABIs"
+flag = "abi_thiscall"
+impl_pr_id = 42058
+tracking_issue_id = 42202
+stabilization_pr_id = 114562
+doc_path = "reference/items/external-blocks.html#abi"
