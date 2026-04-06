@@ -1,0 +1,11 @@
+title = "file timestamp-setting APIs"
+flag = "file_set_times"
+tracking_issue_id = 98245
+stabilization_pr_id = 117422
+items = [
+    "std::fs::FileTimes",
+    "std::fs::File::set_modified",
+    "std::fs::File::set_times",
+    "std::os::windows::fs::FileTimesExt",
+]
+doc_path = "std/fs/struct.FileTimes.html"

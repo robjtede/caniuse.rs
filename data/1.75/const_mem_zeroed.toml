@@ -1,0 +1,5 @@
+title = "`mem::zeroed` as `const fn`"
+flag = "const_mem_zeroed"
+stabilization_pr_id = 116218
+items = ["std::mem::zeroed"]
+doc_path = "std/mem/fn.zeroed.html"

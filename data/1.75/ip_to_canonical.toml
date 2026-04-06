@@ -1,0 +1,8 @@
+title = "`IpAddr::to_canonical` and `Ipv6Addr::to_canonical`"
+flag = "ip_to_canonical"
+stabilization_pr_id = 115955
+items = [
+    "std::net::IpAddr::to_canonical",
+    "std::net::Ipv6Addr::to_canonical",
+]
+doc_path = "std/net/enum.IpAddr.html#method.to_canonical"

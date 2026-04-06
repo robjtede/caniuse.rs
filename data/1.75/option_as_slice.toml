@@ -1,0 +1,9 @@
+title = "`Option::as_slice` and `Option::as_mut_slice`"
+flag = "option_as_slice"
+impl_pr_id = 105871
+tracking_issue_id = 108545
+items = [
+    "Option::as_slice",
+    "Option::as_mut_slice",
+]
+doc_path = "std/option/enum.Option.html#method.as_slice"

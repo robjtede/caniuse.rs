@@ -1,0 +1,4 @@
+title = "`FusedIterator` implementation for `DecodeUtf16`"
+flag = "decode_utf16_fused_iterator"
+impl_pr_id = 110729
+items = ["impl<I: Iterator<Item = u16> + FusedIterator> FusedIterator for std::char::DecodeUtf16<I>"]

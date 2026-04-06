@@ -1,0 +1,19 @@
+title = "`Atomic*::from_ptr`"
+flag = "atomic_from_ptr"
+tracking_issue_id = 108652
+stabilization_pr_id = 115719
+items = [
+    "AtomicBool::from_ptr",
+    "AtomicPtr::from_ptr",
+    "AtomicI8::from_ptr",
+    "AtomicU8::from_ptr",
+    "AtomicI16::from_ptr",
+    "AtomicU16::from_ptr",
+    "AtomicI32::from_ptr",
+    "AtomicU32::from_ptr",
+    "AtomicI64::from_ptr",
+    "AtomicU64::from_ptr",
+    "AtomicIsize::from_ptr",
+    "AtomicUsize::from_ptr",
+]
+doc_path = "std/sync/atomic/struct.AtomicUsize.html#method.from_ptr"

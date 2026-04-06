@@ -1,0 +1,5 @@
+title = "`Default` implementation for `process::ExitCode`"
+flag = "process_exitcode_default"
+impl_pr_id = 114589
+items = ["impl Default for std::process::ExitCode"]
+doc_path = "std/process/struct.ExitCode.html"

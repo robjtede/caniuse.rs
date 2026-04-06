@@ -1,0 +1,15 @@
+title = "bitwise operator implementations for IP addresses"
+flag = "ip_bitops"
+impl_pr_id = 113747
+items = [
+    "impl Not for std::net::Ipv4Addr",
+    "impl Not for std::net::Ipv6Addr",
+    "impl BitAnd for std::net::Ipv4Addr",
+    "impl BitAndAssign for std::net::Ipv4Addr",
+    "impl BitOr for std::net::Ipv4Addr",
+    "impl BitOrAssign for std::net::Ipv4Addr",
+    "impl BitAnd for std::net::Ipv6Addr",
+    "impl BitAndAssign for std::net::Ipv6Addr",
+    "impl BitOr for std::net::Ipv6Addr",
+    "impl BitOrAssign for std::net::Ipv6Addr",
+]

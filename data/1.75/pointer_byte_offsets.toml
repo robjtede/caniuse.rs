@@ -1,0 +1,22 @@
+title = "byte-wise raw-pointer offset methods"
+flag = "pointer_byte_offsets"
+impl_pr_id = 95643
+tracking_issue_id = 96283
+stabilization_pr_id = 116205
+items = [
+    "*const T::byte_offset",
+    "*const T::wrapping_byte_offset",
+    "*const T::byte_offset_from",
+    "*const T::byte_add",
+    "*const T::byte_sub",
+    "*const T::wrapping_byte_add",
+    "*const T::wrapping_byte_sub",
+    "*mut T::byte_offset",
+    "*mut T::wrapping_byte_offset",
+    "*mut T::byte_offset_from",
+    "*mut T::byte_add",
+    "*mut T::byte_sub",
+    "*mut T::wrapping_byte_add",
+    "*mut T::wrapping_byte_sub",
+]
+doc_path = "std/primitive.pointer.html"

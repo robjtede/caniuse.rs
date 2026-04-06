@@ -1,0 +1,5 @@
+title = "`MaybeUninit::assume_init_read` as `const fn`"
+flag = "const_maybe_uninit_assume_init_read"
+stabilization_pr_id = 116233
+items = ["std::mem::MaybeUninit::assume_init_read"]
+doc_path = "std/mem/union.MaybeUninit.html#method.assume_init_read"

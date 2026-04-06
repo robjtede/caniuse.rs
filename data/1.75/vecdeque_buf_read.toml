@@ -1,0 +1,4 @@
+title = "`BufRead` implementation for `VecDeque<u8>`"
+flag = "vecdeque_buf_read"
+impl_pr_id = 110604
+items = ["impl BufRead for std::collections::VecDeque<u8>"]

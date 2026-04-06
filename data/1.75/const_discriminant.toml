@@ -1,0 +1,6 @@
+title = "`mem::discriminant` as `const fn`"
+flag = "const_discriminant"
+impl_pr_id = 69825
+tracking_issue_id = 69821
+items = ["std::mem::discriminant"]
+doc_path = "std/mem/fn.discriminant.html"

@@ -1,0 +1,6 @@
+title = "`MaybeUninit::zeroed` as `const fn`"
+flag = "const_maybe_uninit_zeroed"
+tracking_issue_id = 91850
+stabilization_pr_id = 116218
+items = ["std::mem::MaybeUninit::zeroed"]
+doc_path = "std/mem/union.MaybeUninit.html#method.zeroed"
