@@ -1,0 +1,12 @@
+title = "raw pointer `read`/`read_unaligned` as `const fn`"
+flag = "const_ptr_read"
+stabilization_pr_id = 111402
+items = [
+    "<*const T>::read",
+    "<*const T>::read_unaligned",
+    "<*mut T>::read",
+    "<*mut T>::read_unaligned",
+    "std::ptr::read",
+    "std::ptr::read_unaligned",
+]
+

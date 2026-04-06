@@ -1,0 +1,12 @@
+title = "Windows `AsHandle`/`AsSocket` for `Box<T>`, `Rc<T>`, and `Arc<T>`"
+flag = "as_windows_ptrs"
+impl_pr_id = 108196
+items = [
+    "impl<T: AsHandle> AsHandle for Box<T>",
+    "impl<T: AsHandle> AsHandle for Rc<T>",
+    "impl<T: AsHandle> AsHandle for Arc<T>",
+    "impl<T: AsSocket> AsSocket for Box<T>",
+    "impl<T: AsSocket> AsSocket for Rc<T>",
+    "impl<T: AsSocket> AsSocket for Arc<T>",
+]
+

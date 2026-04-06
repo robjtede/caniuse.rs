@@ -1,0 +1,6 @@
+title = "`BuildHasher::hash_one`"
+flag = "build_hasher_simple_hash_one"
+tracking_issue_id = 86161
+impl_pr_id = 86151
+stabilization_pr_id = 111934
+

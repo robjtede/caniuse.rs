@@ -1,0 +1,6 @@
+title = "`#[link_ordinal]`"
+flag = "raw_dylib"
+rfc_id = 2627
+tracking_issue_id = 58713
+impl_pr_id = 89025
+

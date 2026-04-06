@@ -1,0 +1,7 @@
+title = "`#[debugger_visualizer]`"
+flag = "debugger_visualizer"
+rfc_id = 3191
+tracking_issue_id = 95939
+impl_pr_id = 97028
+stabilization_pr_id = 108668
+
