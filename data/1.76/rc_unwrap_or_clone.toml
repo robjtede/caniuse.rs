@@ -1,0 +1,6 @@
+title = "`Rc::unwrap_or_clone`"
+flag = "arc_unwrap_or_clone"
+impl_pr_id = 91589
+tracking_issue_id = 93610
+stabilization_pr_id = 116949
+doc_path = "std/rc/struct.Rc.html#method.unwrap_or_clone"

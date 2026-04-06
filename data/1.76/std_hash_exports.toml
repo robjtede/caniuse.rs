@@ -1,0 +1,8 @@
+title = "`DefaultHasher` and `RandomState` exports in `std::hash`"
+flag = "std_hash_exports"
+impl_pr_id = 115694
+items = [
+    "std::hash::DefaultHasher",
+    "std::hash::RandomState",
+]
+doc_path = "std/hash/index.html#structs"

@@ -1,0 +1,10 @@
+title = "`inspect` methods on `Option` and `Result`"
+flag = "result_option_inspect"
+impl_pr_id = 91346
+tracking_issue_id = 91345
+stabilization_pr_id = 116866
+items = [
+    "Option::inspect",
+    "Result::inspect",
+    "Result::inspect_err",
+]

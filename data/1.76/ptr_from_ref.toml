@@ -1,0 +1,10 @@
+title = "`ptr::from_ref` and `ptr::from_mut`"
+flag = "ptr_from_ref"
+impl_pr_id = 104977
+tracking_issue_id = 106116
+stabilization_pr_id = 117824
+items = [
+    "std::ptr::from_ref",
+    "std::ptr::from_mut",
+]
+doc_path = "std/ptr/fn.from_ref.html"

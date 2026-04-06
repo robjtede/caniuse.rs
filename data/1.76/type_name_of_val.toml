@@ -1,0 +1,6 @@
+title = "`type_name_of_val`"
+flag = "type_name_of_val"
+impl_pr_id = 65961
+tracking_issue_id = 66359
+stabilization_pr_id = 118234
+doc_path = "std/any/fn.type_name_of_val.html"

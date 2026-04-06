@@ -1,0 +1,6 @@
+title = "`ptr::addr_eq`"
+flag = "ptr_addr_eq"
+impl_pr_id = 116325
+tracking_issue_id = 116324
+stabilization_pr_id = 117968
+doc_path = "std/ptr/fn.addr_eq.html"
