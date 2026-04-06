@@ -1,5 +1,3 @@
-#![feature(array_windows)]
-
 use std::{
     cmp::Reverse,
     collections::{BTreeMap, BTreeSet},
@@ -13,7 +11,7 @@ use std::{
 use anyhow::Context as _;
 use fs_err::{self as fs, DirEntry, File};
 use proc_macro2::{Ident, Span, TokenStream};
-use quote::{quote, ToTokens};
+use quote::{ToTokens, quote};
 use serde::{Deserialize, Serialize};
 use serde_json::json;
 use tera::{Context, Tera};

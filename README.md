@@ -27,8 +27,16 @@ Pre-requisites:
 [rollup]: https://www.rollupjs.org/guide/en/
 [npm]: https://www.npmjs.com/get-npm
 
-Once those are installed, just run `cargo xtask serve` and the site will be
+Once those are installed, run `just serve` and the site will be
 built and served at <http://localhost:8000/>.
+
+Available recipes:
+
+- `just build`: build development wasm/js assets into `public/`
+- `just build-release`: build release wasm/js assets into `public/`
+- `just serve`: build development assets and serve the site locally
+- `just serve-release`: build release assets and serve the site locally
+- `just deploy`: build release assets and upload them to production
 
 ### Adding data
 
