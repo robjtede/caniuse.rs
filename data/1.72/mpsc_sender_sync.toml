@@ -1,0 +1,3 @@
+title = "`impl<T: Send> Sync for mpsc::Sender<T>`"
+impl_pr_id = 111087
+

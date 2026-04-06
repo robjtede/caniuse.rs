@@ -1,0 +1,10 @@
+title = "`CStr` methods as `const fn`"
+impl_pr_id = 100291
+tracking_issue_id = 101719
+stabilization_pr_id = 107624
+items = [
+    "std::ffi::CStr::from_bytes_with_nul",
+    "std::ffi::CStr::to_bytes",
+    "std::ffi::CStr::to_bytes_with_nul",
+    "std::ffi::CStr::to_str",
+]
