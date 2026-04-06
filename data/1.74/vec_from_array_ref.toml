@@ -1,0 +1,7 @@
+title = "`From<&[T; N]>` and `From<&mut [T; N]>` implementations for `Vec<T>`"
+flag = "vec_from_array_ref"
+impl_pr_id = 111278
+items = [
+    "impl<T: Clone, const N: usize> From<&[T; N]> for Vec<T>",
+    "impl<T: Clone, const N: usize> From<&mut [T; N]> for Vec<T>",
+]

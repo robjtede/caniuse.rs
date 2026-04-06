@@ -1,0 +1,10 @@
+title = "encoded-bytes conversions for `OsStr` and `OsString`"
+flag = "os_str_bytes"
+tracking_issue_id = 111544
+stabilization_pr_id = 115443
+items = [
+    "std::ffi::OsString::from_encoded_bytes_unchecked",
+    "std::ffi::OsString::into_encoded_bytes",
+    "std::ffi::OsStr::from_encoded_bytes_unchecked",
+    "std::ffi::OsStr::as_encoded_bytes",
+]

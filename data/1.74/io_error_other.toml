@@ -1,0 +1,7 @@
+title = "`io::Error::other`"
+flag = "io_error_other"
+impl_pr_id = 91947
+tracking_issue_id = 91946
+stabilization_pr_id = 115453
+items = ["std::io::Error::other"]
+doc_path = "std/io/struct.Error.html#method.other"

@@ -1,0 +1,7 @@
+title = "`From<io::Stdout>` and `From<io::Stderr>` implementations for `Stdio`"
+flag = "stdio_from_stdio"
+impl_pr_id = 114590
+items = [
+    "impl From<std::io::Stdout> for std::process::Stdio",
+    "impl From<std::io::Stderr> for std::process::Stdio",
+]

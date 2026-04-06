@@ -1,0 +1,6 @@
+title = "`[u8]::is_ascii` and `str::is_ascii` as `const fn`"
+flag = "const_slice_is_ascii"
+impl_pr_id = 111222
+tracking_issue_id = 111090
+stabilization_pr_id = 115449
+items = ["[u8]::is_ascii", "str::is_ascii"]

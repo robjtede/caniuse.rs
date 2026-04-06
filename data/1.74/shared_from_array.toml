@@ -1,0 +1,7 @@
+title = "`From<[T; N]>` implementations for `Rc<[T]>` and `Arc<[T]>`"
+flag = "shared_from_array"
+impl_pr_id = 114041
+items = [
+    "impl<T, const N: usize> From<[T; N]> for Rc<[T]>",
+    "impl<T, const N: usize> From<[T; N]> for Arc<[T]>",
+]

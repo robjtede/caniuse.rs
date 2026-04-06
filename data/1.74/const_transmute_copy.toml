@@ -1,0 +1,6 @@
+title = "`mem::transmute_copy` as `const fn`"
+flag = "const_transmute_copy"
+tracking_issue_id = 83165
+stabilization_pr_id = 115520
+items = ["std::mem::transmute_copy"]
+doc_path = "std/mem/fn.transmute_copy.html"

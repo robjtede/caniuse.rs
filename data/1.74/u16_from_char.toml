@@ -1,0 +1,4 @@
+title = "`TryFrom<char>` implementation for `u16`"
+flag = "u16_from_char"
+impl_pr_id = 114065
+items = ["impl TryFrom<char> for u16"]

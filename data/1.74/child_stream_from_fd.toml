@@ -1,0 +1,11 @@
+title = "`From<OwnedFd>` / `From<OwnedHandle>` implementations for `ChildStdin`, `ChildStdout`, and `ChildStderr`"
+flag = "child_stream_from_fd"
+impl_pr_id = 98704
+items = [
+    "impl From<std::os::fd::OwnedFd> for std::process::ChildStdin",
+    "impl From<std::os::fd::OwnedFd> for std::process::ChildStdout",
+    "impl From<std::os::fd::OwnedFd> for std::process::ChildStderr",
+    "impl From<std::os::windows::io::OwnedHandle> for std::process::ChildStdin",
+    "impl From<std::os::windows::io::OwnedHandle> for std::process::ChildStdout",
+    "impl From<std::os::windows::io::OwnedHandle> for std::process::ChildStderr",
+]
