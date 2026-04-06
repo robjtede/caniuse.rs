@@ -1,0 +1,6 @@
+title = "`<[T]>::split_at` as `const fn`"
+flag = "const_slice_split_at_not_mut"
+tracking_issue_id = 101158
+stabilization_pr_id = 108273
+items = ["<[T]>::split_at"]
+

@@ -1,0 +1,49 @@
+title = "negation-related operations for `NonZeroI*`"
+flag = "nonzero_negation_ops"
+tracking_issue_id = 102443
+impl_pr_id = 102342
+stabilization_pr_id = 111044
+items = [
+    "NonZeroI8::is_positive",
+    "NonZeroI16::is_positive",
+    "NonZeroI32::is_positive",
+    "NonZeroI64::is_positive",
+    "NonZeroI128::is_positive",
+    "NonZeroIsize::is_positive",
+
+    "NonZeroI8::is_negative",
+    "NonZeroI16::is_negative",
+    "NonZeroI32::is_negative",
+    "NonZeroI64::is_negative",
+    "NonZeroI128::is_negative",
+    "NonZeroIsize::is_negative",
+
+    "NonZeroI8::checked_neg",
+    "NonZeroI16::checked_neg",
+    "NonZeroI32::checked_neg",
+    "NonZeroI64::checked_neg",
+    "NonZeroI128::checked_neg",
+    "NonZeroIsize::checked_neg",
+
+    "NonZeroI8::overflowing_neg",
+    "NonZeroI16::overflowing_neg",
+    "NonZeroI32::overflowing_neg",
+    "NonZeroI64::overflowing_neg",
+    "NonZeroI128::overflowing_neg",
+    "NonZeroIsize::overflowing_neg",
+
+    "NonZeroI8::saturating_neg",
+    "NonZeroI16::saturating_neg",
+    "NonZeroI32::saturating_neg",
+    "NonZeroI64::saturating_neg",
+    "NonZeroI128::saturating_neg",
+    "NonZeroIsize::saturating_neg",
+
+    "NonZeroI8::wrapping_neg",
+    "NonZeroI16::wrapping_neg",
+    "NonZeroI32::wrapping_neg",
+    "NonZeroI64::wrapping_neg",
+    "NonZeroI128::wrapping_neg",
+    "NonZeroIsize::wrapping_neg",
+]
+

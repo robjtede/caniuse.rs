@@ -1,0 +1,18 @@
+title = "`Neg` for `NonZeroI*`"
+flag = "signed_nonzero_neg"
+tracking_issue_id = 102443
+stabilization_pr_id = 111044
+items = [
+    "impl Neg for NonZeroI8",
+    "impl Neg for NonZeroI16",
+    "impl Neg for NonZeroI32",
+    "impl Neg for NonZeroI64",
+    "impl Neg for NonZeroI128",
+    "impl Neg for NonZeroIsize",
+    "impl Neg for &NonZeroI8",
+    "impl Neg for &NonZeroI16",
+    "impl Neg for &NonZeroI32",
+    "impl Neg for &NonZeroI64",
+    "impl Neg for &NonZeroI128",
+    "impl Neg for &NonZeroIsize",
+]
