@@ -1,4 +1,5 @@
 title = "`as_ptr` method for atomics"
+flag = "atomic_as_ptr"
 stabilization_pr_id = 108419
 items = [
     "AtomicBool::as_ptr",
@@ -16,3 +17,4 @@ items = [
     "AtomicU64::as_ptr",
     "AtomicUsize::as_ptr",
 ]
+doc_path = "std/sync/atomic/struct.AtomicUsize.html#method.as_ptr"

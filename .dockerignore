@@ -1,0 +1,9 @@
+.git
+.github
+target
+pkg
+public
+node_modules
+npm-debug.log
+Dockerfile.*
+.DS_Store

@@ -1,4 +1,7 @@
 title = "`OnceCell`"
+flag = "once_cell"
 rfc_id = 2788
 tracking_issue_id = 74465
 stabilization_pr_id = 105587
+items = ["std::cell::OnceCell"]
+doc_path = "std/cell/struct.OnceCell.html"

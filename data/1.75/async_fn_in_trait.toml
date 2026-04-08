@@ -1,4 +1,5 @@
 title = "`async fn` in traits"
 aliases = ["AFIT"]
+flag = "async_fn_in_trait"
 tracking_issue_id = 91611
 stabilization_pr_id = 115822

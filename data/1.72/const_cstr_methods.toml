@@ -1,4 +1,5 @@
 title = "`CStr` methods as `const fn`"
+flag = "const_cstr_methods"
 impl_pr_id = 100291
 tracking_issue_id = 101719
 stabilization_pr_id = 107624
