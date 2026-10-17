@@ -1,0 +1,20 @@
+title = "`NonZero::from_str_radix`, including `const` contexts"
+flag = "nonzero_from_str_radix"
+impl_pr_id = 151945
+tracking_issue_id = 152193
+stabilization_pr_id = 157877
+items = [
+    "NonZero<i8>::from_str_radix",
+    "NonZero<i16>::from_str_radix",
+    "NonZero<i32>::from_str_radix",
+    "NonZero<i64>::from_str_radix",
+    "NonZero<i128>::from_str_radix",
+    "NonZero<isize>::from_str_radix",
+    "NonZero<u8>::from_str_radix",
+    "NonZero<u16>::from_str_radix",
+    "NonZero<u32>::from_str_radix",
+    "NonZero<u64>::from_str_radix",
+    "NonZero<u128>::from_str_radix",
+    "NonZero<usize>::from_str_radix",
+]
+doc_path = "core/num/struct.NonZero.html#method.from_str_radix"

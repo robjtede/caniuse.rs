@@ -1,0 +1,4 @@
+title = "`'static` panic locations from `PanicInfo` and `PanicHookInfo`"
+impl_pr_id = 146561
+items = ["core::panic::PanicInfo::location", "std::panic::PanicHookInfo::location"]
+doc_path = "std/panic/struct.PanicHookInfo.html#method.location"

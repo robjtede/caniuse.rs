@@ -1,0 +1,7 @@
+title = "Remove a prefix and suffix together from strings and slices"
+flag = "strip_circumfix"
+impl_pr_id = 147947
+tracking_issue_id = 147946
+stabilization_pr_id = 158012
+items = ["str::strip_circumfix", "<[T]>::strip_circumfix"]
+doc_path = "std/primitive.str.html#method.strip_circumfix"

@@ -1,0 +1,7 @@
+title = "`Box::as_ptr` and `Box::as_mut_ptr`"
+flag = "box_as_ptr"
+impl_pr_id = 129091
+tracking_issue_id = 129090
+stabilization_pr_id = 157876
+items = ["Box::as_ptr", "Box::as_mut_ptr"]
+doc_path = "alloc/boxed/struct.Box.html#method.as_ptr"
