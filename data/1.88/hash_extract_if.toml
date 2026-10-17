@@ -1,0 +1,17 @@
+title = "conditional extraction from `HashMap` and `HashSet`"
+flag = "hash_extract_if"
+tracking_issue_id = 59618
+stabilization_pr_id = 134655
+items = [
+    "HashMap::extract_if",
+    "HashSet::extract_if",
+    "std::collections::hash_map::ExtractIf",
+    "std::collections::hash_set::ExtractIf",
+    "impl Iterator for hash_map::ExtractIf",
+    "impl FusedIterator for hash_map::ExtractIf",
+    "impl Debug for hash_map::ExtractIf",
+    "impl Iterator for hash_set::ExtractIf",
+    "impl FusedIterator for hash_set::ExtractIf",
+    "impl Debug for hash_set::ExtractIf",
+]
+doc_path = "std/collections/struct.HashMap.html#method.extract_if"

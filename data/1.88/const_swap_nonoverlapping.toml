@@ -1,0 +1,6 @@
+title = "`ptr::swap_nonoverlapping` as `const fn`"
+flag = "const_swap_nonoverlapping"
+tracking_issue_id = 133668
+stabilization_pr_id = 137280
+items = ["std::ptr::swap_nonoverlapping"]
+doc_path = "std/ptr/fn.swap_nonoverlapping.html"

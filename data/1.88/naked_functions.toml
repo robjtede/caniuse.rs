@@ -1,0 +1,7 @@
+title = "`#[unsafe(naked)]` functions and `naked_asm!`"
+flag = "naked_functions"
+rfc_id = 2972
+tracking_issue_id = 90957
+stabilization_pr_id = 134213
+items = ["#[unsafe(naked)]", "core::arch::naked_asm!"]
+doc_path = "reference/attributes/codegen.html#the-naked-attribute"

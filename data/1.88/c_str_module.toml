@@ -1,0 +1,25 @@
+title = "`ffi::c_str` modules"
+flag = "c_str_module"
+impl_pr_id = 112136
+tracking_issue_id = 112134
+stabilization_pr_id = 137439
+items = [
+    "core::ffi::c_str",
+    "core::ffi::c_str::CStr",
+    "core::ffi::c_str::FromBytesUntilNulError",
+    "core::ffi::c_str::FromBytesWithNulError",
+    "alloc::ffi::c_str",
+    "alloc::ffi::c_str::CString",
+    "alloc::ffi::c_str::FromVecWithNulError",
+    "alloc::ffi::c_str::IntoStringError",
+    "alloc::ffi::c_str::NulError",
+    "std::ffi::c_str",
+    "std::ffi::c_str::CStr",
+    "std::ffi::c_str::CString",
+    "std::ffi::c_str::FromBytesUntilNulError",
+    "std::ffi::c_str::FromBytesWithNulError",
+    "std::ffi::c_str::FromVecWithNulError",
+    "std::ffi::c_str::IntoStringError",
+    "std::ffi::c_str::NulError",
+]
+doc_path = "std/ffi/c_str/index.html"

@@ -1,0 +1,11 @@
+title = "`proc_macro::Span` source locations"
+flag = "proc_macro_span_location"
+tracking_issue_id = 54725
+stabilization_pr_id = 139865
+items = [
+    "proc_macro::Span::start",
+    "proc_macro::Span::end",
+    "proc_macro::Span::line",
+    "proc_macro::Span::column",
+]
+doc_path = "proc_macro/struct.Span.html#method.start"

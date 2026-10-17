@@ -1,0 +1,6 @@
+title = "pointer `replace` methods as `const fn`"
+flag = "const_inherent_ptr_replace"
+impl_pr_id = 136877
+tracking_issue_id = 83164
+items = ["<*mut T>::replace", "NonNull::replace"]
+doc_path = "std/primitive.pointer.html#method.replace"
