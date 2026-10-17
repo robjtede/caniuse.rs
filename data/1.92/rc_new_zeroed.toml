@@ -1,0 +1,9 @@
+title = "`Rc::new_zeroed` and `Rc::new_zeroed_slice`"
+flag = "new_zeroed_alloc"
+tracking_issue_id = 129396
+stabilization_pr_id = 144091
+items = [
+    "std::rc::Rc::new_zeroed",
+    "std::rc::Rc::new_zeroed_slice",
+]
+doc_path = "std/rc/struct.Rc.html#method.new_zeroed"

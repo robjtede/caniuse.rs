@@ -1,0 +1,10 @@
+title = "slice rotation methods as `const fn`"
+flag = "const_slice_rotate"
+impl_pr_id = 143554
+tracking_issue_id = 143812
+stabilization_pr_id = 146841
+items = [
+    "<[T]>::rotate_left",
+    "<[T]>::rotate_right",
+]
+doc_path = "std/primitive.slice.html#method.rotate_left"
