@@ -1,0 +1,11 @@
+title = "`LinkedList::extract_if` and `linked_list::ExtractIf`"
+flag = "extract_if"
+tracking_issue_id = 43244
+stabilization_pr_id = 137109
+items = [
+    "std::collections::LinkedList::extract_if",
+    "std::collections::linked_list::ExtractIf",
+    "impl Iterator for std::collections::linked_list::ExtractIf",
+    "impl Debug for std::collections::linked_list::ExtractIf",
+]
+doc_path = "std/collections/struct.LinkedList.html#method.extract_if"

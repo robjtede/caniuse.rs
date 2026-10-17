@@ -1,0 +1,14 @@
+title = "`midpoint` for signed integers"
+flag = "num_midpoint_signed"
+impl_pr_id = 92048
+tracking_issue_id = 110840
+stabilization_pr_id = 134340
+items = [
+    "i8::midpoint",
+    "i16::midpoint",
+    "i32::midpoint",
+    "i64::midpoint",
+    "i128::midpoint",
+    "isize::midpoint",
+]
+doc_path = "std/primitive.i32.html#method.midpoint"

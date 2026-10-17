@@ -1,0 +1,32 @@
+title = "Integer signedness casts"
+flag = "integer_sign_cast"
+impl_pr_id = 125884
+tracking_issue_id = 125882
+stabilization_pr_id = 137026
+items = [
+    "u8::cast_signed",
+    "std::num::NonZero<u8>::cast_signed",
+    "u16::cast_signed",
+    "std::num::NonZero<u16>::cast_signed",
+    "u32::cast_signed",
+    "std::num::NonZero<u32>::cast_signed",
+    "u64::cast_signed",
+    "std::num::NonZero<u64>::cast_signed",
+    "u128::cast_signed",
+    "std::num::NonZero<u128>::cast_signed",
+    "usize::cast_signed",
+    "std::num::NonZero<usize>::cast_signed",
+    "i8::cast_unsigned",
+    "std::num::NonZero<i8>::cast_unsigned",
+    "i16::cast_unsigned",
+    "std::num::NonZero<i16>::cast_unsigned",
+    "i32::cast_unsigned",
+    "std::num::NonZero<i32>::cast_unsigned",
+    "i64::cast_unsigned",
+    "std::num::NonZero<i64>::cast_unsigned",
+    "i128::cast_unsigned",
+    "std::num::NonZero<i128>::cast_unsigned",
+    "isize::cast_unsigned",
+    "std::num::NonZero<isize>::cast_unsigned",
+]
+doc_path = "std/primitive.u32.html#method.cast_signed"

@@ -1,0 +1,13 @@
+title = "`split_off` methods on slices"
+flag = "slice_take"
+tracking_issue_id = 62280
+stabilization_pr_id = 137829
+items = [
+    "[T]::split_off",
+    "[T]::split_off_mut",
+    "[T]::split_off_first",
+    "[T]::split_off_first_mut",
+    "[T]::split_off_last",
+    "[T]::split_off_last_mut",
+]
+doc_path = "std/primitive.slice.html#method.split_off"

@@ -1,0 +1,15 @@
+title = "`Vec` pointer, slice, length, and capacity methods as `const fn`"
+flag = "const_vec_string_slice"
+impl_pr_id = 128399
+tracking_issue_id = 129041
+stabilization_pr_id = 137319
+items = [
+    "Vec::as_ptr",
+    "Vec::as_mut_ptr",
+    "Vec::as_slice",
+    "Vec::as_mut_slice",
+    "Vec::capacity",
+    "Vec::len",
+    "Vec::is_empty",
+]
+doc_path = "std/vec/struct.Vec.html#method.as_slice"

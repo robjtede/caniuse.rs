@@ -1,0 +1,6 @@
+title = "Slice flattening methods as `const fn`"
+flag = "const_slice_flatten"
+tracking_issue_id = 95629
+stabilization_pr_id = 134995
+items = ["[[T; N]]::as_flattened", "[[T; N]]::as_flattened_mut"]
+doc_path = "std/primitive.slice.html#method.as_flattened"

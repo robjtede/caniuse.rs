@@ -1,0 +1,7 @@
+title = "`[T]::copy_from_slice` as `const fn`"
+flag = "const_copy_from_slice"
+impl_pr_id = 131416
+tracking_issue_id = 131415
+stabilization_pr_id = 138098
+items = ["[T]::copy_from_slice"]
+doc_path = "std/primitive.slice.html#method.copy_from_slice"

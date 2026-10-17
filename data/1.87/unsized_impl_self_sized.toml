@@ -1,0 +1,3 @@
+title = "Omit methods with `Self: Sized` bounds in implementations for unsized types"
+impl_pr_id = 135480
+doc_path = "reference/items/implementations.html#trait-implementations"

@@ -1,0 +1,8 @@
+title = "Safe calls to architecture intrinsics when the required target features are enabled"
+impl_pr_id = 136831
+items = [
+    "std::arch::x86",
+    "std::arch::x86_64",
+    "std::arch::aarch64",
+]
+doc_path = "std/arch/index.html"
