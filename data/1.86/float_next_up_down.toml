@@ -1,0 +1,12 @@
+title = "`next_up` and `next_down` as `const fn` for floats"
+flag = "float_next_up_down"
+impl_pr_id = 100578
+tracking_issue_id = 91399
+stabilization_pr_id = 135661
+items = [
+    "f32::next_up",
+    "f32::next_down",
+    "f64::next_up",
+    "f64::next_down",
+]
+doc_path = "std/primitive.f64.html#method.next_up"

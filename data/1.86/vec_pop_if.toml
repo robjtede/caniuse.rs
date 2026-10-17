@@ -1,0 +1,7 @@
+title = "`Vec::pop_if`"
+flag = "vec_pop_if"
+impl_pr_id = 123107
+tracking_issue_id = 122741
+stabilization_pr_id = 135488
+items = ["Vec::pop_if"]
+doc_path = "std/vec/struct.Vec.html#method.pop_if"

@@ -1,0 +1,7 @@
+title = "blocking wait methods for `Once` and `OnceLock`"
+flag = "once_wait"
+impl_pr_id = 127567
+tracking_issue_id = 127527
+stabilization_pr_id = 136360
+items = ["Once::wait", "Once::wait_force", "OnceLock::wait"]
+doc_path = "std/sync/struct.Once.html#method.wait"

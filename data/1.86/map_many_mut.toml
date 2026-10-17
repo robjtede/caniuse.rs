@@ -1,0 +1,7 @@
+title = "mutable access to multiple disjoint `HashMap` entries"
+flag = "map_many_mut"
+impl_pr_id = 94647
+tracking_issue_id = 97601
+stabilization_pr_id = 136152
+items = ["HashMap::get_disjoint_mut", "HashMap::get_disjoint_unchecked_mut"]
+doc_path = "std/collections/hash_map/struct.HashMap.html#method.get_disjoint_mut"
