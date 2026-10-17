@@ -1,0 +1,6 @@
+title = "`Arguments::as_str` and `PanicMessage::as_str` as `const fn`"
+flag = "const_arguments_as_str"
+tracking_issue_id = 103900
+stabilization_pr_id = 132511
+items = ["std::fmt::Arguments::as_str", "core::panic::PanicMessage::as_str"]
+doc_path = "std/fmt/struct.Arguments.html#method.as_str"

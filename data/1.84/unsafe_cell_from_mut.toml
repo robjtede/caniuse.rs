@@ -1,0 +1,7 @@
+title = "`UnsafeCell::from_mut`"
+flag = "unsafe_cell_from_mut"
+impl_pr_id = 111654
+tracking_issue_id = 111645
+stabilization_pr_id = 131261
+items = ["UnsafeCell::from_mut"]
+doc_path = "std/cell/struct.UnsafeCell.html#method.from_mut"

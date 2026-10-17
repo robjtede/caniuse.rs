@@ -1,0 +1,15 @@
+title = "ASCII case conversion in place as `const fn`"
+flag = "const_make_ascii"
+tracking_issue_id = 130698
+stabilization_pr_id = 131496
+items = [
+    "char::make_ascii_uppercase",
+    "char::make_ascii_lowercase",
+    "u8::make_ascii_uppercase",
+    "u8::make_ascii_lowercase",
+    "<[u8]>::make_ascii_uppercase",
+    "<[u8]>::make_ascii_lowercase",
+    "str::make_ascii_uppercase",
+    "str::make_ascii_lowercase",
+]
+doc_path = "std/primitive.str.html#method.make_ascii_uppercase"

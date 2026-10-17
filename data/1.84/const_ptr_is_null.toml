@@ -1,0 +1,12 @@
+title = "raw pointer null checks and optional references as `const fn`"
+flag = "const_ptr_is_null"
+tracking_issue_id = 74939
+stabilization_pr_id = 133116
+items = [
+    "<*const T>::is_null",
+    "<*mut T>::is_null",
+    "<*const T>::as_ref",
+    "<*mut T>::as_ref",
+    "<*mut T>::as_mut",
+]
+doc_path = "std/primitive.pointer.html#method.is_null"

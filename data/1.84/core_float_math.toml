@@ -1,0 +1,12 @@
+title = "`f32` and `f64` sign methods in `core`"
+impl_pr_id = 131304
+tracking_issue_id = 50145
+items = [
+    "f32::abs",
+    "f32::signum",
+    "f32::copysign",
+    "f64::abs",
+    "f64::signum",
+    "f64::copysign",
+]
+doc_path = "core/primitive.f32.html#method.abs"

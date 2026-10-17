@@ -1,0 +1,21 @@
+title = "strict provenance pointer APIs"
+flag = "strict_provenance"
+rfc_id = 3559
+tracking_issue_id = 95228
+stabilization_pr_id = 130350
+items = [
+    "std::ptr::without_provenance",
+    "std::ptr::without_provenance_mut",
+    "std::ptr::dangling",
+    "std::ptr::dangling_mut",
+    "<*const T>::addr",
+    "<*mut T>::addr",
+    "<*const T>::with_addr",
+    "<*mut T>::with_addr",
+    "<*const T>::map_addr",
+    "<*mut T>::map_addr",
+    "NonNull::addr",
+    "NonNull::with_addr",
+    "NonNull::map_addr",
+]
+doc_path = "std/ptr/index.html#strict-provenance"

@@ -1,0 +1,7 @@
+title = "`Pin::as_deref_mut`"
+flag = "pin_deref_mut"
+impl_pr_id = 81363
+tracking_issue_id = 86918
+stabilization_pr_id = 129424
+items = ["Pin::as_deref_mut"]
+doc_path = "std/pin/struct.Pin.html#method.as_deref_mut"
