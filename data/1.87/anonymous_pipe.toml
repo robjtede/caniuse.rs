@@ -1,0 +1,45 @@
+title = "Anonymous pipes in `std::io`"
+flag = "anonymous_pipe"
+impl_pr_id = 127153
+tracking_issue_id = 127154
+stabilization_pr_id = 137793
+items = [
+    "std::io::pipe",
+    "std::io::PipeReader",
+    "std::io::PipeWriter",
+    "std::io::PipeReader::try_clone",
+    "std::io::PipeWriter::try_clone",
+    "impl Read for std::io::PipeReader",
+    "impl Read for &std::io::PipeReader",
+    "impl Write for std::io::PipeWriter",
+    "impl Write for &std::io::PipeWriter",
+    "impl Debug for std::io::PipeReader",
+    "impl Debug for std::io::PipeWriter",
+    "impl From<std::io::PipeReader> for std::process::Stdio",
+    "impl std::os::fd::AsFd for std::io::PipeReader",
+    "impl std::os::fd::AsRawFd for std::io::PipeReader",
+    "impl std::os::fd::FromRawFd for std::io::PipeReader",
+    "impl std::os::fd::IntoRawFd for std::io::PipeReader",
+    "impl From<std::io::PipeReader> for std::os::fd::OwnedFd",
+    "impl From<std::os::fd::OwnedFd> for std::io::PipeReader",
+    "impl std::os::windows::io::AsHandle for std::io::PipeReader",
+    "impl std::os::windows::io::AsRawHandle for std::io::PipeReader",
+    "impl std::os::windows::io::FromRawHandle for std::io::PipeReader",
+    "impl std::os::windows::io::IntoRawHandle for std::io::PipeReader",
+    "impl From<std::io::PipeReader> for std::os::windows::io::OwnedHandle",
+    "impl From<std::os::windows::io::OwnedHandle> for std::io::PipeReader",
+    "impl From<std::io::PipeWriter> for std::process::Stdio",
+    "impl std::os::fd::AsFd for std::io::PipeWriter",
+    "impl std::os::fd::AsRawFd for std::io::PipeWriter",
+    "impl std::os::fd::FromRawFd for std::io::PipeWriter",
+    "impl std::os::fd::IntoRawFd for std::io::PipeWriter",
+    "impl From<std::io::PipeWriter> for std::os::fd::OwnedFd",
+    "impl From<std::os::fd::OwnedFd> for std::io::PipeWriter",
+    "impl std::os::windows::io::AsHandle for std::io::PipeWriter",
+    "impl std::os::windows::io::AsRawHandle for std::io::PipeWriter",
+    "impl std::os::windows::io::FromRawHandle for std::io::PipeWriter",
+    "impl std::os::windows::io::IntoRawHandle for std::io::PipeWriter",
+    "impl From<std::io::PipeWriter> for std::os::windows::io::OwnedHandle",
+    "impl From<std::os::windows::io::OwnedHandle> for std::io::PipeWriter",
+]
+doc_path = "std/io/fn.pipe.html"

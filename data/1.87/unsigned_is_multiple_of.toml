@@ -1,0 +1,14 @@
+title = "`is_multiple_of` for unsigned integers"
+flag = "unsigned_is_multiple_of"
+impl_pr_id = 128103
+tracking_issue_id = 128101
+stabilization_pr_id = 137383
+items = [
+    "u8::is_multiple_of",
+    "u16::is_multiple_of",
+    "u32::is_multiple_of",
+    "u64::is_multiple_of",
+    "u128::is_multiple_of",
+    "usize::is_multiple_of",
+]
+doc_path = "std/primitive.u32.html#method.is_multiple_of"

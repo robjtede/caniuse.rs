@@ -1,0 +1,6 @@
+title = "`char::is_digit` and `char::is_whitespace` as `const fn`"
+flag = "const_char_classify"
+tracking_issue_id = 132241
+stabilization_pr_id = 138129
+items = ["char::is_digit", "char::is_whitespace"]
+doc_path = "std/primitive.char.html#method.is_digit"

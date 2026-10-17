@@ -1,0 +1,5 @@
+title = "`TryFrom<Vec<u8>>` implementation for `String`"
+flag = "try_from_vec_u8_for_string"
+impl_pr_id = 132268
+items = ["impl TryFrom<Vec<u8>> for String"]
+doc_path = "std/string/struct.String.html#impl-TryFrom%3CVec%3Cu8%3E%3E-for-String"

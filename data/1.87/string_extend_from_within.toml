@@ -1,0 +1,7 @@
+title = "`String::extend_from_within`"
+flag = "string_extend_from_within"
+impl_pr_id = 85801
+tracking_issue_id = 103806
+stabilization_pr_id = 137569
+items = ["String::extend_from_within"]
+doc_path = "std/string/struct.String.html#method.extend_from_within"

@@ -1,0 +1,14 @@
+title = "Inline `const` expressions in standard library macros"
+impl_pr_id = 138162
+items = [
+    "assert_eq!",
+    "assert_ne!",
+    "debug_assert_eq!",
+    "debug_assert_ne!",
+    "matches!",
+    "try!",
+    "vec!",
+    "write!",
+    "writeln!",
+]
+doc_path = "std/macro.assert_eq.html"
