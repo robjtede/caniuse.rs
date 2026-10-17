@@ -1,0 +1,16 @@
+title = "equality comparisons between `CStr`, `CString`, and `Cow<CStr>`"
+flag = "c_string_eq_c_str"
+impl_pr_id = 137268
+tracking_issue_id = 137265
+items = [
+    "impl PartialEq<&CStr> for CStr",
+    "impl PartialEq<CString> for CStr",
+    "impl PartialEq<Cow<'_, CStr>> for CStr",
+    "impl PartialEq<&CStr> for CString",
+    "impl PartialEq<CStr> for CString",
+    "impl PartialEq<Cow<'_, CStr>> for CString",
+    "impl PartialEq<&CStr> for Cow<'_, CStr>",
+    "impl PartialEq<CStr> for Cow<'_, CStr>",
+    "impl PartialEq<CString> for Cow<'_, CStr>",
+]
+doc_path = "std/ffi/struct.CStr.html#impl-PartialEq%3CCString%3E-for-CStr"
