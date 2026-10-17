@@ -1,0 +1,16 @@
+title = "`checked_signed_diff` on unsigned integers"
+flag = "unsigned_signed_diff"
+impl_pr_id = 126042
+tracking_issue_id = 126041
+stabilization_pr_id = 144900
+
+items = [
+    "u8::checked_signed_diff",
+    "u16::checked_signed_diff",
+    "u32::checked_signed_diff",
+    "u64::checked_signed_diff",
+    "u128::checked_signed_diff",
+    "usize::checked_signed_diff",
+]
+
+doc_path = "std/primitive.u32.html#method.checked_signed_diff"

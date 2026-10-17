@@ -1,0 +1,11 @@
+title = "`Path::file_prefix`"
+flag = "path_file_prefix"
+impl_pr_id = 85166
+tracking_issue_id = 86319
+stabilization_pr_id = 144870
+
+items = [
+    "Path::file_prefix",
+]
+
+doc_path = "std/path/struct.Path.html#method.file_prefix"

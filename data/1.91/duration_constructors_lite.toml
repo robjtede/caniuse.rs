@@ -1,0 +1,12 @@
+title = "`Duration::from_mins` and `Duration::from_hours`"
+flag = "duration_constructors_lite"
+impl_pr_id = 140882
+tracking_issue_id = 140881
+stabilization_pr_id = 145135
+
+items = [
+    "Duration::from_mins",
+    "Duration::from_hours",
+]
+
+doc_path = "std/time/struct.Duration.html#method.from_mins"

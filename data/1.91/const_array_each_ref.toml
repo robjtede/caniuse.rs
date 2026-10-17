@@ -1,0 +1,12 @@
+title = "`<[T; N]>::each_ref` and `each_mut` as `const fn`"
+flag = "const_array_each_ref"
+impl_pr_id = 133288
+tracking_issue_id = 133289
+stabilization_pr_id = 143383
+
+items = [
+    "<[T; N]>::each_ref",
+    "<[T; N]>::each_mut",
+]
+
+doc_path = "std/primitive.array.html#method.each_ref"

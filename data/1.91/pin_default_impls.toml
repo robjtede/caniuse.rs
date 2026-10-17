@@ -1,0 +1,12 @@
+title = "`Default` implementations for pinned smart pointers"
+flag = "pin_default_impls"
+impl_pr_id = 143717
+tracking_issue_id = 143688
+
+items = [
+    "impl<T: ?Sized> Default for Pin<Box<T>> where Box<T>: Default",
+    "impl<T: ?Sized> Default for Pin<Rc<T>> where Rc<T>: Default",
+    "impl<T: ?Sized> Default for Pin<Arc<T>> where Arc<T>: Default",
+]
+
+doc_path = "std/default/trait.Default.html#impl-Default-for-Pin%3CBox%3CT%3E%3E"

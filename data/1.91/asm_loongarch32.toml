@@ -1,0 +1,12 @@
+title = "inline assembly on LoongArch32"
+flag = "asm_experimental_arch"
+impl_pr_id = 142248
+tracking_issue_id = 93335
+stabilization_pr_id = 144402
+
+items = [
+    "core::arch::asm!",
+    "core::arch::global_asm!",
+]
+
+doc_path = "reference/inline-assembly.html"

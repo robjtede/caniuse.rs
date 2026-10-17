@@ -1,0 +1,12 @@
+title = "round string indices to character boundaries"
+flag = "round_char_boundary"
+impl_pr_id = 86497
+tracking_issue_id = 93743
+stabilization_pr_id = 145756
+
+items = [
+    "str::floor_char_boundary",
+    "str::ceil_char_boundary",
+]
+
+doc_path = "std/primitive.str.html#method.floor_char_boundary"

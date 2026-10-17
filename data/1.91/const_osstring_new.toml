@@ -1,0 +1,11 @@
+title = "`OsString::new` as `const fn`"
+flag = "const_pathbuf_osstring_new"
+impl_pr_id = 141467
+tracking_issue_id = 141520
+stabilization_pr_id = 145464
+
+items = [
+    "OsString::new",
+]
+
+doc_path = "std/ffi/struct.OsString.html#method.new"

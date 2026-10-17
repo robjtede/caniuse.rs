@@ -1,0 +1,12 @@
+title = "append an extension to a path"
+flag = "path_add_extension"
+impl_pr_id = 123600
+tracking_issue_id = 127292
+stabilization_pr_id = 145209
+
+items = [
+    "PathBuf::add_extension",
+    "Path::with_added_extension",
+]
+
+doc_path = "std/path/struct.Path.html#method.with_added_extension"

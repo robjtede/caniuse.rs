@@ -1,0 +1,11 @@
+title = "`iter::chain`"
+flag = "iter_chain"
+impl_pr_id = 106186
+tracking_issue_id = 125964
+stabilization_pr_id = 144963
+
+items = [
+    "core::iter::chain",
+]
+
+doc_path = "core/iter/fn.chain.html"

@@ -1,0 +1,11 @@
+title = "`Cell::as_array_of_cells`"
+flag = "as_array_of_cells"
+impl_pr_id = 87944
+tracking_issue_id = 88248
+stabilization_pr_id = 144054
+
+items = [
+    "Cell::as_array_of_cells",
+]
+
+doc_path = "std/cell/struct.Cell.html#method.as_array_of_cells"
