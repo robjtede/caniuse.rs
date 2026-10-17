@@ -1,0 +1,23 @@
+title = "Float classification as `const fn`"
+flag = "const_float_classify"
+tracking_issue_id = 72505
+stabilization_pr_id = 130157
+items = [
+    "f32::classify",
+    "f32::is_finite",
+    "f32::is_infinite",
+    "f32::is_nan",
+    "f32::is_normal",
+    "f32::is_sign_negative",
+    "f32::is_sign_positive",
+    "f32::is_subnormal",
+    "f64::classify",
+    "f64::is_finite",
+    "f64::is_infinite",
+    "f64::is_nan",
+    "f64::is_normal",
+    "f64::is_sign_negative",
+    "f64::is_sign_positive",
+    "f64::is_subnormal",
+]
+doc_path = "std/primitive.f64.html#method.classify"

@@ -1,0 +1,10 @@
+title = "Pointer `write_unaligned` as `const fn`"
+flag = "const_ptr_write"
+tracking_issue_id = 86302
+stabilization_pr_id = 130954
+items = [
+    "std::ptr::write_unaligned",
+    "<*mut T>::write_unaligned",
+    "NonNull::write_unaligned",
+]
+doc_path = "std/ptr/fn.write_unaligned.html"

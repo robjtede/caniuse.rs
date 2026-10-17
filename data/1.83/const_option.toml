@@ -1,0 +1,17 @@
+title = "More `Option` methods as `const fn`"
+flag = "const_option"
+tracking_issue_id = 67441
+stabilization_pr_id = 131120
+items = [
+    "Option::as_mut",
+    "Option::expect",
+    "Option::replace",
+    "Option::take",
+    "Option::unwrap",
+    "Option::unwrap_unchecked",
+    "Option::<&T>::copied",
+    "Option::<&mut T>::copied",
+    "Option::<Option<T>>::flatten",
+    "Option::<Result<T, E>>::transpose",
+]
+doc_path = "std/option/enum.Option.html#method.as_mut"

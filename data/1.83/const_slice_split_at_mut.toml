@@ -1,0 +1,10 @@
+title = "Mutable slice splitting as `const fn`"
+flag = "const_slice_split_at_mut"
+tracking_issue_id = 101804
+stabilization_pr_id = 130428
+items = [
+    "<[T]>::split_at_mut",
+    "<[T]>::split_at_mut_checked",
+    "<[T]>::split_at_mut_unchecked",
+]
+doc_path = "std/primitive.slice.html#method.split_at_mut"

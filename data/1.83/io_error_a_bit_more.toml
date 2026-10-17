@@ -1,0 +1,23 @@
+title = "More `io::ErrorKind` variants"
+flag = "io_error_a_bit_more"
+tracking_issue_id = 86442
+stabilization_pr_id = 128316
+items = [
+    "std::io::ErrorKind::ArgumentListTooLong",
+    "std::io::ErrorKind::Deadlock",
+    "std::io::ErrorKind::DirectoryNotEmpty",
+    "std::io::ErrorKind::ExecutableFileBusy",
+    "std::io::ErrorKind::FileTooLarge",
+    "std::io::ErrorKind::HostUnreachable",
+    "std::io::ErrorKind::IsADirectory",
+    "std::io::ErrorKind::NetworkDown",
+    "std::io::ErrorKind::NetworkUnreachable",
+    "std::io::ErrorKind::NotADirectory",
+    "std::io::ErrorKind::NotSeekable",
+    "std::io::ErrorKind::ReadOnlyFilesystem",
+    "std::io::ErrorKind::ResourceBusy",
+    "std::io::ErrorKind::StaleNetworkFileHandle",
+    "std::io::ErrorKind::StorageFull",
+    "std::io::ErrorKind::TooManyLinks",
+]
+doc_path = "std/io/enum.ErrorKind.html"

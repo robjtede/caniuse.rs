@@ -1,0 +1,7 @@
+title = "`MaybeUninit::as_mut_ptr` as `const fn`"
+flag = "const_maybe_uninit_as_mut_ptr"
+impl_pr_id = 75250
+tracking_issue_id = 75251
+stabilization_pr_id = 130542
+items = ["MaybeUninit::as_mut_ptr"]
+doc_path = "std/mem/union.MaybeUninit.html#method.as_mut_ptr"

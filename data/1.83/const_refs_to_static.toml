@@ -1,0 +1,6 @@
+title = "References to statics in `const` contexts"
+flag = "const_refs_to_static"
+impl_pr_id = 119614
+tracking_issue_id = 119618
+stabilization_pr_id = 129759
+doc_path = "reference/const_eval.html#constant-expressions"

@@ -1,0 +1,11 @@
+title = "Map and extract `ControlFlow` values"
+flag = "control_flow_enum"
+tracking_issue_id = 75744
+stabilization_pr_id = 130518
+items = [
+    "ControlFlow::break_value",
+    "ControlFlow::continue_value",
+    "ControlFlow::map_break",
+    "ControlFlow::map_continue",
+]
+doc_path = "std/ops/enum.ControlFlow.html#method.break_value"

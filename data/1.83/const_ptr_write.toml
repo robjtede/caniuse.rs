@@ -1,0 +1,13 @@
+title = "Pointer `write` and `write_bytes` as `const fn`"
+flag = "const_ptr_write"
+tracking_issue_id = 86302
+stabilization_pr_id = 130954
+items = [
+    "std::ptr::write",
+    "std::ptr::write_bytes",
+    "<*mut T>::write",
+    "<*mut T>::write_bytes",
+    "NonNull::write",
+    "NonNull::write_bytes",
+]
+doc_path = "std/ptr/fn.write.html"

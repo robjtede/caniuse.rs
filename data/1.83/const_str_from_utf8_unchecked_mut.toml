@@ -1,0 +1,7 @@
+title = "`str::from_utf8_unchecked_mut` as `const fn`"
+flag = "const_str_from_utf8_unchecked_mut"
+impl_pr_id = 90607
+tracking_issue_id = 91005
+stabilization_pr_id = 131177
+items = ["std::str::from_utf8_unchecked_mut"]
+doc_path = "std/str/fn.from_utf8_unchecked_mut.html"

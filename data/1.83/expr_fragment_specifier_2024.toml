@@ -1,0 +1,8 @@
+title = "`expr_2021` macro fragment specifier in all editions"
+flag = "expr_fragment_specifier_2024"
+rfc_id = 3531
+impl_pr_id = 123865
+tracking_issue_id = 123742
+stabilization_pr_id = 129972
+items = ["expr_2021"]
+doc_path = "reference/macros-by-example.html#metavariables"

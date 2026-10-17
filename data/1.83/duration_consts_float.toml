@@ -1,0 +1,11 @@
+title = "Float duration conversions and ratios as `const fn`"
+flag = "duration_consts_float"
+tracking_issue_id = 72440
+stabilization_pr_id = 131289
+items = [
+    "Duration::as_secs_f32",
+    "Duration::as_secs_f64",
+    "Duration::div_duration_f32",
+    "Duration::div_duration_f64",
+]
+doc_path = "std/time/struct.Duration.html#method.as_secs_f64"

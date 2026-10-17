@@ -1,0 +1,7 @@
+title = "Mutable `str` accessors as `const fn`"
+flag = "const_str_as_mut"
+impl_pr_id = 130046
+tracking_issue_id = 130086
+stabilization_pr_id = 131177
+items = ["str::as_bytes_mut", "str::as_mut_ptr"]
+doc_path = "std/primitive.str.html#method.as_bytes_mut"
