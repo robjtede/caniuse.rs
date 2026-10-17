@@ -1,0 +1,7 @@
+title = "`Duration::abs_diff`"
+flag = "duration_abs_diff"
+impl_pr_id = 117619
+tracking_issue_id = 117618
+stabilization_pr_id = 127128
+items = ["Duration::abs_diff"]
+doc_path = "std/time/struct.Duration.html#method.abs_diff"

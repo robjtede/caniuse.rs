@@ -1,0 +1,6 @@
+title = "`fs::exists`"
+flag = "fs_try_exists"
+tracking_issue_id = 83186
+stabilization_pr_id = 126140
+items = ["std::fs::exists"]
+doc_path = "std/fs/fn.exists.html"

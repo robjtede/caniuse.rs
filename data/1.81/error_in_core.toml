@@ -1,0 +1,25 @@
+title = "`core::error::Error` and downcasting without `std`"
+flag = "error_in_core"
+impl_pr_id = 99917
+tracking_issue_id = 103765
+stabilization_pr_id = 125951
+items = [
+    "core::error",
+    "core::error::Error",
+    "core::error::Error::source",
+    "core::error::Error::description",
+    "core::error::Error::cause",
+    "<dyn core::error::Error>::is",
+    "<dyn core::error::Error>::downcast_ref",
+    "<dyn core::error::Error>::downcast_mut",
+    "<dyn core::error::Error>::downcast",
+    "<dyn core::error::Error + Send>::is",
+    "<dyn core::error::Error + Send>::downcast_ref",
+    "<dyn core::error::Error + Send>::downcast_mut",
+    "<dyn core::error::Error + Send>::downcast",
+    "<dyn core::error::Error + Send + Sync>::is",
+    "<dyn core::error::Error + Send + Sync>::downcast_ref",
+    "<dyn core::error::Error + Send + Sync>::downcast_mut",
+    "<dyn core::error::Error + Send + Sync>::downcast",
+]
+doc_path = "core/error/trait.Error.html"

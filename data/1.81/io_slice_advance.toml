@@ -1,0 +1,11 @@
+title = "Advance `IoSlice` and `IoSliceMut` buffers"
+flag = "io_slice_advance"
+tracking_issue_id = 62726
+stabilization_pr_id = 127661
+items = [
+    "IoSlice::advance",
+    "IoSlice::advance_slices",
+    "IoSliceMut::advance",
+    "IoSliceMut::advance_slices",
+]
+doc_path = "std/io/struct.IoSlice.html#method.advance"
