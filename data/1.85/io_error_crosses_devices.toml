@@ -1,0 +1,8 @@
+title = "`ErrorKind::CrossesDevices`"
+flag = "io_error_crosses_devices"
+tracking_issue_id = 86442
+stabilization_pr_id = 130209
+items = [
+    "std::io::ErrorKind::CrossesDevices",
+]
+doc_path = "std/io/enum.ErrorKind.html#variant.CrossesDevices"

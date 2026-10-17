@@ -1,0 +1,9 @@
+title = "`#[diagnostic::do_not_recommend]`"
+flag = "do_not_recommend"
+rfc_id = 2397
+tracking_issue_id = 51992
+stabilization_pr_id = 132056
+items = [
+    "#[diagnostic::do_not_recommend]",
+]
+doc_path = "reference/attributes/diagnostics.html#the-diagnosticdo_not_recommend-attribute"

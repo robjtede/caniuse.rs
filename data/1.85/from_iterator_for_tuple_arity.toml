@@ -1,0 +1,17 @@
+title = "`FromIterator` implementations for tuples of arity 1 and 3 through 12"
+flag = "from_iterator_for_tuple"
+impl_pr_id = 132431
+items = [
+    "impl FromIterator<(EA,)> for (A,)",
+    "impl FromIterator<(EA, EB, EC)> for (A, B, C)",
+    "impl FromIterator<(EA, EB, EC, ED)> for (A, B, C, D)",
+    "impl FromIterator<(EA, EB, EC, ED, EE)> for (A, B, C, D, E)",
+    "impl FromIterator<(EA, EB, EC, ED, EE, EF)> for (A, B, C, D, E, F)",
+    "impl FromIterator<(EA, EB, EC, ED, EE, EF, EG)> for (A, B, C, D, E, F, G)",
+    "impl FromIterator<(EA, EB, EC, ED, EE, EF, EG, EH)> for (A, B, C, D, E, F, G, H)",
+    "impl FromIterator<(EA, EB, EC, ED, EE, EF, EG, EH, EI)> for (A, B, C, D, E, F, G, H, I)",
+    "impl FromIterator<(EA, EB, EC, ED, EE, EF, EG, EH, EI, EJ)> for (A, B, C, D, E, F, G, H, I, J)",
+    "impl FromIterator<(EA, EB, EC, ED, EE, EF, EG, EH, EI, EJ, EK)> for (A, B, C, D, E, F, G, H, I, J, K)",
+    "impl FromIterator<(EA, EB, EC, ED, EE, EF, EG, EH, EI, EJ, EK, EL)> for (A, B, C, D, E, F, G, H, I, J, K, L)",
+]
+doc_path = "std/iter/trait.FromIterator.html#impl-FromIterator%3C(T,)%3E-for-(ExtendT,)"

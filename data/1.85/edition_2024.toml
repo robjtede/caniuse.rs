@@ -1,0 +1,6 @@
+title = "the 2024 edition"
+rfc_id = 3501
+tracking_issue_id = 117258
+stabilization_pr_id = 133349
+doc_path = "edition-guide/rust-2024/index.html"
+edition_guide_path = "rust-2024/index.html"

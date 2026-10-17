@@ -1,0 +1,10 @@
+title = "`f32::midpoint` and `f64::midpoint` as `const fn`"
+flag = "num_midpoint"
+impl_pr_id = 92048
+tracking_issue_id = 110840
+stabilization_pr_id = 131784
+items = [
+    "f32::midpoint",
+    "f64::midpoint",
+]
+doc_path = "std/primitive.f32.html#method.midpoint"

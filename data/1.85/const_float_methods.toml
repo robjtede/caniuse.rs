@@ -1,0 +1,26 @@
+title = "floating-point methods as `const fn`"
+flag = "const_float_methods"
+impl_pr_id = 130568
+tracking_issue_id = 130843
+stabilization_pr_id = 133389
+items = [
+    "f32::recip",
+    "f32::to_degrees",
+    "f32::to_radians",
+    "f32::max",
+    "f32::min",
+    "f32::clamp",
+    "f32::abs",
+    "f32::signum",
+    "f32::copysign",
+    "f64::recip",
+    "f64::to_degrees",
+    "f64::to_radians",
+    "f64::max",
+    "f64::min",
+    "f64::clamp",
+    "f64::abs",
+    "f64::signum",
+    "f64::copysign",
+]
+doc_path = "std/primitive.f32.html#method.recip"

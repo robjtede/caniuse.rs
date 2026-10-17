@@ -1,0 +1,14 @@
+title = "unsigned integer `midpoint` as `const fn`"
+flag = "num_midpoint"
+impl_pr_id = 92048
+tracking_issue_id = 110840
+stabilization_pr_id = 131784
+items = [
+    "u8::midpoint",
+    "u16::midpoint",
+    "u32::midpoint",
+    "u64::midpoint",
+    "u128::midpoint",
+    "usize::midpoint",
+]
+doc_path = "std/primitive.u32.html#method.midpoint"

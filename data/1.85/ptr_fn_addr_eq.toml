@@ -1,0 +1,9 @@
+title = "`ptr::fn_addr_eq`"
+flag = "ptr_fn_addr_eq"
+impl_pr_id = 129323
+tracking_issue_id = 129322
+stabilization_pr_id = 133678
+items = [
+    "std::ptr::fn_addr_eq",
+]
+doc_path = "std/ptr/fn.fn_addr_eq.html"

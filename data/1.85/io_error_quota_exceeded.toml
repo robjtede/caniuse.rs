@@ -1,0 +1,8 @@
+title = "`ErrorKind::QuotaExceeded`"
+flag = "io_error_quota_exceeded"
+tracking_issue_id = 86442
+stabilization_pr_id = 130254
+items = [
+    "std::io::ErrorKind::QuotaExceeded",
+]
+doc_path = "std/io/enum.ErrorKind.html#variant.QuotaExceeded"
