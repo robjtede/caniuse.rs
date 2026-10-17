@@ -1,0 +1,16 @@
+title = "Socket address setters as `const fn`"
+flag = "const_sockaddr_setters"
+impl_pr_id = 131715
+tracking_issue_id = 131714
+stabilization_pr_id = 138129
+items = [
+    "std::net::SocketAddr::set_ip",
+    "std::net::SocketAddr::set_port",
+    "std::net::SocketAddrV4::set_ip",
+    "std::net::SocketAddrV4::set_port",
+    "std::net::SocketAddrV6::set_ip",
+    "std::net::SocketAddrV6::set_port",
+    "std::net::SocketAddrV6::set_flowinfo",
+    "std::net::SocketAddrV6::set_scope_id",
+]
+doc_path = "std/net/enum.SocketAddr.html#method.set_ip"

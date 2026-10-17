@@ -1,0 +1,32 @@
+title = "`unbounded_shl` and `unbounded_shr` for integers"
+flag = "unbounded_shifts"
+impl_pr_id = 129377
+tracking_issue_id = 129375
+stabilization_pr_id = 137393
+items = [
+    "u8::unbounded_shl",
+    "u8::unbounded_shr",
+    "u16::unbounded_shl",
+    "u16::unbounded_shr",
+    "u32::unbounded_shl",
+    "u32::unbounded_shr",
+    "u64::unbounded_shl",
+    "u64::unbounded_shr",
+    "u128::unbounded_shl",
+    "u128::unbounded_shr",
+    "usize::unbounded_shl",
+    "usize::unbounded_shr",
+    "i8::unbounded_shl",
+    "i8::unbounded_shr",
+    "i16::unbounded_shl",
+    "i16::unbounded_shr",
+    "i32::unbounded_shl",
+    "i32::unbounded_shr",
+    "i64::unbounded_shl",
+    "i64::unbounded_shr",
+    "i128::unbounded_shl",
+    "i128::unbounded_shr",
+    "isize::unbounded_shl",
+    "isize::unbounded_shr",
+]
+doc_path = "std/primitive.u32.html#method.unbounded_shl"

@@ -1,0 +1,11 @@
+title = "`Vec::extract_if` and `vec::ExtractIf`"
+flag = "extract_if"
+tracking_issue_id = 43244
+stabilization_pr_id = 137109
+items = [
+    "Vec::extract_if",
+    "std::vec::ExtractIf",
+    "impl Iterator for std::vec::ExtractIf",
+    "impl Debug for std::vec::ExtractIf",
+]
+doc_path = "std/vec/struct.Vec.html#method.extract_if"

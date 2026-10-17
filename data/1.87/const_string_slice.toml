@@ -1,0 +1,16 @@
+title = "`String` byte, slice, length, and capacity methods as `const fn`"
+flag = "const_vec_string_slice"
+impl_pr_id = 128399
+tracking_issue_id = 129041
+stabilization_pr_id = 137319
+items = [
+    "String::into_bytes",
+    "String::as_str",
+    "String::as_mut_str",
+    "String::capacity",
+    "String::as_bytes",
+    "String::as_mut_vec",
+    "String::len",
+    "String::is_empty",
+]
+doc_path = "std/string/struct.String.html#method.as_str"

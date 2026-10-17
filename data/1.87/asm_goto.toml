@@ -1,0 +1,6 @@
+title = "Label operands in inline assembly"
+flag = "asm_goto"
+tracking_issue_id = 119364
+stabilization_pr_id = 133870
+items = ["core::arch::asm!"]
+doc_path = "reference/inline-assembly.html#r-asm.operand-type.supported-operands.label"

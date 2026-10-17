@@ -1,0 +1,6 @@
+title = "Precise capturing with `use<...>` in return-position `impl Trait` in traits"
+flag = "precise_capturing_in_traits"
+rfc_id = 3617
+tracking_issue_id = 130044
+stabilization_pr_id = 138128
+doc_path = "reference/types/impl-trait.html#precise-capturing"

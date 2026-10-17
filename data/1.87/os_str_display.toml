@@ -1,0 +1,14 @@
+title = "`OsStr::display` and `os_str::Display`"
+flag = "os_str_display"
+impl_pr_id = 120051
+tracking_issue_id = 120048
+stabilization_pr_id = 137336
+items = [
+    "std::ffi::OsStr::display",
+    "std::ffi::OsString::display",
+    "std::ffi::os_str",
+    "std::ffi::os_str::Display",
+    "impl Debug for std::ffi::os_str::Display",
+    "impl Display for std::ffi::os_str::Display",
+]
+doc_path = "std/ffi/struct.OsStr.html#method.display"

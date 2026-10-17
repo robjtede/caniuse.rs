@@ -1,0 +1,6 @@
+title = "`io::ErrorKind::InvalidFilename`"
+flag = "io_error_invalid_filename"
+tracking_issue_id = 130192
+stabilization_pr_id = 134076
+items = ["std::io::ErrorKind::InvalidFilename"]
+doc_path = "std/io/enum.ErrorKind.html#variant.InvalidFilename"

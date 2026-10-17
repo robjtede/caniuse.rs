@@ -1,0 +1,13 @@
+title = "Unsigned pointer offset methods"
+flag = "ptr_sub_ptr"
+tracking_issue_id = 95892
+stabilization_pr_id = 137121
+items = [
+    "<*const T>::offset_from_unsigned",
+    "<*const T>::byte_offset_from_unsigned",
+    "<*mut T>::offset_from_unsigned",
+    "<*mut T>::byte_offset_from_unsigned",
+    "std::ptr::NonNull::offset_from_unsigned",
+    "std::ptr::NonNull::byte_offset_from_unsigned",
+]
+doc_path = "std/primitive.pointer.html#method.offset_from_unsigned"

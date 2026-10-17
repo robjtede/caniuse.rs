@@ -1,0 +1,6 @@
+title = "`Box<MaybeUninit<T>>::write`"
+flag = "box_uninit_write"
+tracking_issue_id = 129397
+stabilization_pr_id = 137850
+items = ["Box<MaybeUninit<T>>::write"]
+doc_path = "std/boxed/struct.Box.html#method.write"
