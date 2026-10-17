@@ -1,0 +1,6 @@
+title = "`cfg_select!` macro"
+flag = "cfg_select"
+tracking_issue_id = 115585
+stabilization_pr_id = 149783
+items = ["cfg_select!"]
+doc_path = "std/macro.cfg_select.html"

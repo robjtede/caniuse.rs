@@ -1,0 +1,11 @@
+title = "Unchecked raw-pointer reference conversions as `const fn`"
+flag = "ptr_as_ref_unchecked"
+impl_pr_id = 122492
+tracking_issue_id = 122034
+stabilization_pr_id = 151995
+items = [
+    "<*const T>::as_ref_unchecked",
+    "<*mut T>::as_ref_unchecked",
+    "<*mut T>::as_mut_unchecked",
+]
+doc_path = "std/primitive.pointer.html#method.as_ref_unchecked"

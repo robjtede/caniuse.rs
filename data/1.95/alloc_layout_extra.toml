@@ -1,0 +1,11 @@
+title = "Additional `alloc::Layout` methods as `const fn`"
+flag = "alloc_layout_extra"
+tracking_issue_id = 55724
+stabilization_pr_id = 148769
+items = [
+    "Layout::dangling_ptr",
+    "Layout::repeat",
+    "Layout::repeat_packed",
+    "Layout::extend_packed",
+]
+doc_path = "std/alloc/struct.Layout.html#method.repeat"

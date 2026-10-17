@@ -1,0 +1,29 @@
+title = "Copyable inclusive ranges and their iterators"
+flag = "new_range_inclusive_api"
+rfc_id = 3550
+impl_pr_id = 125751
+tracking_issue_id = 125687
+stabilization_pr_id = 150522
+items = [
+    "core::range",
+    "core::range::RangeInclusive",
+    "core::range::RangeInclusive::start",
+    "core::range::RangeInclusive::last",
+    "core::range::RangeInclusive::contains",
+    "core::range::RangeInclusive::is_empty",
+    "core::range::RangeInclusive::iter",
+    "core::range::RangeInclusive<T>: RangeBounds<T>",
+    "core::range::RangeInclusive<&T>: RangeBounds<T>",
+    "core::range::RangeInclusive<T>: From<core::ops::RangeInclusive<T>>",
+    "core::ops::RangeInclusive<T>: From<core::range::RangeInclusive<T>>",
+    "core::range::RangeInclusive<usize>: SliceIndex<[T]>",
+    "core::range::RangeInclusive<usize>: SliceIndex<str>",
+    "core::range::RangeInclusive<A>: IntoIterator",
+    "core::range::RangeInclusiveIter",
+    "core::range::RangeInclusiveIter<A>: Iterator",
+    "core::range::RangeInclusiveIter<A>: DoubleEndedIterator",
+    "core::range::RangeInclusiveIter<A>: FusedIterator",
+    "core::range::RangeInclusiveIter<u8>: ExactSizeIterator",
+    "core::range::RangeInclusiveIter<i8>: ExactSizeIterator",
+]
+doc_path = "core/range/struct.RangeInclusive.html"

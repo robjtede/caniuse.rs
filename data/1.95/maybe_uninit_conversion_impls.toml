@@ -1,0 +1,13 @@
+title = "Array and slice conversions for `MaybeUninit`"
+flag = "more_conversion_trait_impls"
+impl_pr_id = 145504
+tracking_issue_id = 96097
+items = [
+    "MaybeUninit<[T; N]>: From<[MaybeUninit<T>; N]>",
+    "MaybeUninit<[T; N]>: AsRef<[MaybeUninit<T>; N]>",
+    "MaybeUninit<[T; N]>: AsRef<[MaybeUninit<T>]>",
+    "MaybeUninit<[T; N]>: AsMut<[MaybeUninit<T>; N]>",
+    "MaybeUninit<[T; N]>: AsMut<[MaybeUninit<T>]>",
+    "[MaybeUninit<T>; N]: From<MaybeUninit<[T; N]>>",
+]
+doc_path = "std/mem/union.MaybeUninit.html"
