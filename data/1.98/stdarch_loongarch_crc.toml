@@ -1,0 +1,16 @@
+title = "LoongArch64 CRC intrinsics"
+flag = "stdarch_loongarch_crc"
+tracking_issue_id = 156908
+# This Rust PR imports the stabilization from rust-lang/stdarch#2137.
+stabilization_pr_id = 158497
+items = [
+    "core::arch::loongarch64::crc_w_b_w",
+    "core::arch::loongarch64::crc_w_h_w",
+    "core::arch::loongarch64::crc_w_w_w",
+    "core::arch::loongarch64::crc_w_d_w",
+    "core::arch::loongarch64::crcc_w_b_w",
+    "core::arch::loongarch64::crcc_w_h_w",
+    "core::arch::loongarch64::crcc_w_w_w",
+    "core::arch::loongarch64::crcc_w_d_w",
+]
+doc_path = "core/arch/loongarch64/fn.crc_w_b_w.html"

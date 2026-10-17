@@ -1,0 +1,13 @@
+title = "Legacy range types in `core::range::legacy`"
+flag = "new_range_api_legacy"
+rfc_id = 3550
+tracking_issue_id = 125687
+stabilization_pr_id = 156629
+items = [
+    "core::range::legacy",
+    "core::range::legacy::Range",
+    "core::range::legacy::RangeFrom",
+    "core::range::legacy::RangeInclusive",
+    "core::range::legacy::RangeToInclusive",
+]
+doc_path = "core/range/legacy/index.html"

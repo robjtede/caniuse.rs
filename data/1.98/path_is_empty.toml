@@ -1,0 +1,7 @@
+title = "`Path::is_empty`"
+flag = "path_is_empty"
+impl_pr_id = 148495
+tracking_issue_id = 148494
+stabilization_pr_id = 157065
+items = ["Path::is_empty"]
+doc_path = "std/path/struct.Path.html#method.is_empty"

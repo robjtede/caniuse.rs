@@ -1,0 +1,18 @@
+title = "Algebraic arithmetic on `f32` and `f64`, including `const` contexts"
+flag = "float_algebraic"
+impl_pr_id = 136457
+tracking_issue_id = 136469
+stabilization_pr_id = 157029
+items = [
+    "f32::algebraic_add",
+    "f32::algebraic_sub",
+    "f32::algebraic_mul",
+    "f32::algebraic_div",
+    "f32::algebraic_rem",
+    "f64::algebraic_add",
+    "f64::algebraic_sub",
+    "f64::algebraic_mul",
+    "f64::algebraic_div",
+    "f64::algebraic_rem",
+]
+doc_path = "core/primitive.f32.html#method.algebraic_add"

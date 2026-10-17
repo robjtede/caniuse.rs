@@ -1,0 +1,7 @@
+title = "`RangeFull` and `RangeTo` in `core::range`"
+flag = "new_range_api_exports"
+rfc_id = 3550
+tracking_issue_id = 125687
+stabilization_pr_id = 156629
+items = ["core::range::RangeFull", "core::range::RangeTo"]
+doc_path = "core/range/struct.RangeFull.html"

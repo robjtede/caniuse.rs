@@ -1,0 +1,11 @@
+title = "`fmt::NumBuffer` and its `const` constructor"
+flag = "int_format_into"
+impl_pr_id = 142098
+tracking_issue_id = 138215
+stabilization_pr_id = 152544
+items = [
+    "core::fmt::NumBuffer",
+    "core::fmt::NumBuffer::new",
+    "impl Debug for NumBuffer<T>",
+]
+doc_path = "core/fmt/struct.NumBuffer.html"
