@@ -1,0 +1,7 @@
+title = "`Cursor::get_mut` and `Cursor::set_position` as `const fn`"
+flag = "const_mut_cursor"
+impl_pr_id = 130800
+tracking_issue_id = 130801
+stabilization_pr_id = 136634
+items = ["std::io::Cursor::get_mut", "std::io::Cursor::set_position"]
+doc_path = "std/io/struct.Cursor.html#method.get_mut"

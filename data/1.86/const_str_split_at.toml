@@ -1,0 +1,12 @@
+title = "string split methods as `const fn`"
+flag = "const_str_split_at"
+impl_pr_id = 131520
+tracking_issue_id = 131518
+stabilization_pr_id = 134016
+items = [
+    "str::split_at",
+    "str::split_at_mut",
+    "str::split_at_checked",
+    "str::split_at_mut_checked",
+]
+doc_path = "std/primitive.str.html#method.split_at"

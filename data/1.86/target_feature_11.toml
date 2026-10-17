@@ -1,0 +1,8 @@
+title = "`#[target_feature]` on safe functions"
+flag = "target_feature_11"
+rfc_id = 2396
+impl_pr_id = 69274
+tracking_issue_id = 69098
+stabilization_pr_id = 134090
+items = ["#[target_feature]"]
+doc_path = "reference/attributes/codegen.html#the-target_feature-attribute"
