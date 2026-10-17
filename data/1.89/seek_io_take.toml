@@ -1,0 +1,8 @@
+title = "`Seek` implementation for `io::Take`"
+flag = "seek_io_take"
+impl_pr_id = 138023
+tracking_issue_id = 97227
+items = [
+    "impl Seek for io::Take<T>",
+]
+doc_path = "std/io/struct.Take.html#impl-Seek-for-Take%3CT%3E"

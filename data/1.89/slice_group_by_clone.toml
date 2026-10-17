@@ -1,0 +1,8 @@
+title = "`Clone` implementation for `slice::ChunkBy`"
+flag = "slice_group_by_clone"
+impl_pr_id = 138016
+tracking_issue_id = 137969
+items = [
+    "impl Clone for slice::ChunkBy<'a, T, P>",
+]
+doc_path = "std/slice/struct.ChunkBy.html#impl-Clone-for-ChunkBy%3C'a,+T,+P%3E"

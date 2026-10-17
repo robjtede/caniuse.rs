@@ -1,0 +1,35 @@
+title = "AVX-512 and related x86 target features"
+flag = "avx512_target_feature"
+rfc_id = 2045
+tracking_issue_id = 44839
+stabilization_pr_id = 138940
+items = [
+    "#[target_feature(enable = \"avx512bf16\")]",
+    "#[target_feature(enable = \"avx512bitalg\")]",
+    "#[target_feature(enable = \"avx512bw\")]",
+    "#[target_feature(enable = \"avx512cd\")]",
+    "#[target_feature(enable = \"avx512dq\")]",
+    "#[target_feature(enable = \"avx512f\")]",
+    "#[target_feature(enable = \"avx512fp16\")]",
+    "#[target_feature(enable = \"avx512ifma\")]",
+    "#[target_feature(enable = \"avx512vbmi\")]",
+    "#[target_feature(enable = \"avx512vbmi2\")]",
+    "#[target_feature(enable = \"avx512vl\")]",
+    "#[target_feature(enable = \"avx512vnni\")]",
+    "#[target_feature(enable = \"avx512vp2intersect\")]",
+    "#[target_feature(enable = \"avx512vpopcntdq\")]",
+    "#[target_feature(enable = \"avxifma\")]",
+    "#[target_feature(enable = \"avxneconvert\")]",
+    "#[target_feature(enable = \"avxvnni\")]",
+    "#[target_feature(enable = \"avxvnniint16\")]",
+    "#[target_feature(enable = \"avxvnniint8\")]",
+    "#[target_feature(enable = \"gfni\")]",
+    "#[target_feature(enable = \"vaes\")]",
+    "#[target_feature(enable = \"vpclmulqdq\")]",
+    "is_x86_feature_detected!(\"avxifma\")",
+    "is_x86_feature_detected!(\"avxneconvert\")",
+    "is_x86_feature_detected!(\"avxvnni\")",
+    "is_x86_feature_detected!(\"avxvnniint16\")",
+    "is_x86_feature_detected!(\"avxvnniint8\")",
+]
+doc_path = "reference/attributes/codegen.html#x86-or-x86_64"
