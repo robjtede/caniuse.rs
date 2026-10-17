@@ -1,0 +1,8 @@
+title = "`Copy` and `Hash` implementations for `IntErrorKind`"
+impl_pr_id = 131923
+tracking_issue_id = 131826
+items = [
+    "impl Copy for IntErrorKind",
+    "impl Hash for IntErrorKind",
+]
+doc_path = "std/num/enum.IntErrorKind.html#impl-Copy-for-IntErrorKind"
