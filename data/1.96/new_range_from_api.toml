@@ -1,0 +1,24 @@
+title = "`range::RangeFrom` and `RangeFromIter`"
+flag = "new_range_from_api"
+rfc_id = 3550
+impl_pr_id = 125751
+tracking_issue_id = 125687
+stabilization_pr_id = 153380
+items = [
+    "core::range::RangeFrom",
+    "core::range::RangeFrom::start",
+    "core::range::RangeFrom::iter",
+    "core::range::RangeFrom::contains",
+    "core::range::RangeFromIter",
+    "impl<T> From<core::range::RangeFrom<T>> for core::ops::RangeFrom<T>",
+    "impl<T> From<core::ops::RangeFrom<T>> for core::range::RangeFrom<T>",
+    "impl<T> RangeBounds<T> for core::range::RangeFrom<T>",
+    "impl<T> RangeBounds<T> for core::range::RangeFrom<&T>",
+    "impl<T: Step> IntoIterator for core::range::RangeFrom<T>",
+    "impl<T: Step> Iterator for core::range::RangeFromIter<T>",
+    "impl<T: Step> FusedIterator for core::range::RangeFromIter<T>",
+    "impl<T> SliceIndex<[T]> for core::range::RangeFrom<usize>",
+    "impl SliceIndex<str> for core::range::RangeFrom<usize>",
+    "impl Index<core::range::RangeFrom<usize>> for CStr",
+]
+doc_path = "std/range/struct.RangeFrom.html"

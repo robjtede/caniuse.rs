@@ -1,0 +1,5 @@
+title = "`From<T>` for `AssertUnwindSafe<T>` where `T: UnwindSafe`"
+flag = "from_wrapper_impls"
+impl_pr_id = 146013
+items = ["impl<T: UnwindSafe> From<T> for AssertUnwindSafe<T>"]
+doc_path = "std/panic/struct.AssertUnwindSafe.html#impl-From%3CT%3E-for-AssertUnwindSafe%3CT%3E"
