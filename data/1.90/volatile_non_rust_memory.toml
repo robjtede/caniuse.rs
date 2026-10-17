@@ -1,0 +1,7 @@
+title = "volatile access to memory outside Rust allocations, including address zero"
+impl_pr_id = 141260
+items = [
+    "std::ptr::read_volatile",
+    "std::ptr::write_volatile",
+]
+doc_path = "std/ptr/fn.read_volatile.html"

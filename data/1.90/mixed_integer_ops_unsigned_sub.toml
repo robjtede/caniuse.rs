@@ -1,0 +1,32 @@
+title = "subtract signed integers from unsigned integers in `const` and runtime code"
+flag = "mixed_integer_ops_unsigned_sub"
+impl_pr_id = 126046
+tracking_issue_id = 126043
+stabilization_pr_id = 143236
+items = [
+    "u8::checked_sub_signed",
+    "u8::overflowing_sub_signed",
+    "u8::saturating_sub_signed",
+    "u8::wrapping_sub_signed",
+    "u16::checked_sub_signed",
+    "u16::overflowing_sub_signed",
+    "u16::saturating_sub_signed",
+    "u16::wrapping_sub_signed",
+    "u32::checked_sub_signed",
+    "u32::overflowing_sub_signed",
+    "u32::saturating_sub_signed",
+    "u32::wrapping_sub_signed",
+    "u64::checked_sub_signed",
+    "u64::overflowing_sub_signed",
+    "u64::saturating_sub_signed",
+    "u64::wrapping_sub_signed",
+    "u128::checked_sub_signed",
+    "u128::overflowing_sub_signed",
+    "u128::saturating_sub_signed",
+    "u128::wrapping_sub_signed",
+    "usize::checked_sub_signed",
+    "usize::overflowing_sub_signed",
+    "usize::saturating_sub_signed",
+    "usize::wrapping_sub_signed",
+]
+doc_path = "std/primitive.usize.html#method.checked_sub_signed"

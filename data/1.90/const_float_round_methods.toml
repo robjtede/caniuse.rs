@@ -1,0 +1,20 @@
+title = "rounding methods on `f32` and `f64` as `const fn`"
+flag = "const_float_round_methods"
+impl_pr_id = 141521
+tracking_issue_id = 141555
+stabilization_pr_id = 143604
+items = [
+    "f32::floor",
+    "f32::ceil",
+    "f32::trunc",
+    "f32::fract",
+    "f32::round",
+    "f32::round_ties_even",
+    "f64::floor",
+    "f64::ceil",
+    "f64::trunc",
+    "f64::fract",
+    "f64::round",
+    "f64::round_ties_even",
+]
+doc_path = "std/primitive.f32.html#method.floor"

@@ -1,0 +1,7 @@
+title = "`<[T]>::reverse` as `const fn`"
+flag = "const_slice_reverse"
+impl_pr_id = 135121
+tracking_issue_id = 135120
+stabilization_pr_id = 143382
+items = ["<[T]>::reverse"]
+doc_path = "std/primitive.slice.html#method.reverse"
