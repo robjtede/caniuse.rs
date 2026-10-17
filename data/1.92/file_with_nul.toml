@@ -1,0 +1,7 @@
+title = "`Location::file_as_c_str`"
+flag = "file_with_nul"
+impl_pr_id = 135054
+tracking_issue_id = 141727
+stabilization_pr_id = 145664
+items = ["std::panic::Location::file_as_c_str"]
+doc_path = "std/panic/struct.Location.html#method.file_as_c_str"

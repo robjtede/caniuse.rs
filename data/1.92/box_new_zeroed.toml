@@ -1,0 +1,9 @@
+title = "`Box::new_zeroed` and `Box::new_zeroed_slice`"
+flag = "new_zeroed_alloc"
+tracking_issue_id = 129396
+stabilization_pr_id = 144091
+items = [
+    "Box::new_zeroed",
+    "Box::new_zeroed_slice",
+]
+doc_path = "std/boxed/struct.Box.html#method.new_zeroed"

@@ -1,0 +1,9 @@
+title = "`Arc::new_zeroed` and `Arc::new_zeroed_slice`"
+flag = "new_zeroed_alloc"
+tracking_issue_id = 129396
+stabilization_pr_id = 144091
+items = [
+    "std::sync::Arc::new_zeroed",
+    "std::sync::Arc::new_zeroed_slice",
+]
+doc_path = "std/sync/struct.Arc.html#method.new_zeroed"
