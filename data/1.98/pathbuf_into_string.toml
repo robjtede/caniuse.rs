@@ -1,0 +1,7 @@
+title = "`PathBuf::into_string`"
+flag = "pathbuf_into_string"
+impl_pr_id = 156204
+tracking_issue_id = 156203
+stabilization_pr_id = 156840
+items = ["PathBuf::into_string"]
+doc_path = "std/path/struct.PathBuf.html#method.into_string"

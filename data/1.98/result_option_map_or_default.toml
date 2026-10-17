@@ -1,0 +1,7 @@
+title = "`Option::map_or_default` and `Result::map_or_default`"
+flag = "result_option_map_or_default"
+impl_pr_id = 141659
+tracking_issue_id = 138099
+stabilization_pr_id = 156222
+items = ["Option::map_or_default", "Result::map_or_default"]
+doc_path = "std/option/enum.Option.html#method.map_or_default"

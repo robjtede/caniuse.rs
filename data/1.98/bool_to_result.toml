@@ -1,0 +1,7 @@
+title = "`bool::ok_or` and `bool::ok_or_else`"
+flag = "bool_to_result"
+impl_pr_id = 142749
+tracking_issue_id = 142748
+stabilization_pr_id = 156594
+items = ["bool::ok_or", "bool::ok_or_else"]
+doc_path = "std/primitive.bool.html#method.ok_or"

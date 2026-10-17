@@ -1,0 +1,20 @@
+title = "AArch64 NEON dot product intrinsics"
+flag = "stdarch_neon_dotprod"
+tracking_issue_id = 117224
+# This Rust PR imports the stabilization from rust-lang/stdarch#2120.
+stabilization_pr_id = 157467
+items = [
+    "core::arch::aarch64::vdot_lane_s32",
+    "core::arch::aarch64::vdotq_lane_s32",
+    "core::arch::aarch64::vdot_lane_u32",
+    "core::arch::aarch64::vdotq_lane_u32",
+    "core::arch::aarch64::vdot_laneq_s32",
+    "core::arch::aarch64::vdotq_laneq_s32",
+    "core::arch::aarch64::vdot_laneq_u32",
+    "core::arch::aarch64::vdotq_laneq_u32",
+    "core::arch::aarch64::vdot_s32",
+    "core::arch::aarch64::vdotq_s32",
+    "core::arch::aarch64::vdot_u32",
+    "core::arch::aarch64::vdotq_u32",
+]
+doc_path = "core/arch/aarch64/fn.vdot_s32.html"

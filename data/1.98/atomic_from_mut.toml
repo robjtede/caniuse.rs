@@ -1,0 +1,43 @@
+title = "Convert mutable references and slices to and from atomics"
+flag = "atomic_from_mut"
+tracking_issue_id = 76314
+stabilization_pr_id = 158573
+items = [
+    "AtomicBool::from_mut",
+    "AtomicBool::get_mut_slice",
+    "AtomicBool::from_mut_slice",
+    "AtomicI8::from_mut",
+    "AtomicI8::get_mut_slice",
+    "AtomicI8::from_mut_slice",
+    "AtomicI16::from_mut",
+    "AtomicI16::get_mut_slice",
+    "AtomicI16::from_mut_slice",
+    "AtomicI32::from_mut",
+    "AtomicI32::get_mut_slice",
+    "AtomicI32::from_mut_slice",
+    "AtomicI64::from_mut",
+    "AtomicI64::get_mut_slice",
+    "AtomicI64::from_mut_slice",
+    "AtomicIsize::from_mut",
+    "AtomicIsize::get_mut_slice",
+    "AtomicIsize::from_mut_slice",
+    "AtomicU8::from_mut",
+    "AtomicU8::get_mut_slice",
+    "AtomicU8::from_mut_slice",
+    "AtomicU16::from_mut",
+    "AtomicU16::get_mut_slice",
+    "AtomicU16::from_mut_slice",
+    "AtomicU32::from_mut",
+    "AtomicU32::get_mut_slice",
+    "AtomicU32::from_mut_slice",
+    "AtomicU64::from_mut",
+    "AtomicU64::get_mut_slice",
+    "AtomicU64::from_mut_slice",
+    "AtomicUsize::from_mut",
+    "AtomicUsize::get_mut_slice",
+    "AtomicUsize::from_mut_slice",
+    "AtomicPtr<T>::from_mut",
+    "AtomicPtr<T>::get_mut_slice",
+    "AtomicPtr<T>::from_mut_slice",
+]
+doc_path = "core/sync/atomic/type.AtomicBool.html#method.from_mut"

@@ -1,0 +1,20 @@
+title = "Format integers into a buffer of fixed size"
+flag = "int_format_into"
+impl_pr_id = 142098
+tracking_issue_id = 138215
+stabilization_pr_id = 152544
+items = [
+    "i8::format_into",
+    "i16::format_into",
+    "i32::format_into",
+    "i64::format_into",
+    "i128::format_into",
+    "isize::format_into",
+    "u8::format_into",
+    "u16::format_into",
+    "u32::format_into",
+    "u64::format_into",
+    "u128::format_into",
+    "usize::format_into",
+]
+doc_path = "core/primitive.i32.html#method.format_into"

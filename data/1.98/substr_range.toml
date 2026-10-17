@@ -1,0 +1,7 @@
+title = "Find the range of a substring or subslice"
+flag = "substr_range"
+impl_pr_id = 126770
+tracking_issue_id = 126769
+stabilization_pr_id = 141266
+items = ["str::substr_range", "<[T]>::subslice_range"]
+doc_path = "std/primitive.str.html#method.substr_range"
