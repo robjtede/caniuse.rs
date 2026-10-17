@@ -1,0 +1,14 @@
+title = "const `bit_width` methods for unsigned integers"
+flag = "uint_bit_width"
+impl_pr_id = 142328
+tracking_issue_id = 142326
+stabilization_pr_id = 155131
+doc_path = "std/primitive.u32.html#method.bit_width"
+items = [
+    "u8::bit_width",
+    "u16::bit_width",
+    "u32::bit_width",
+    "u64::bit_width",
+    "u128::bit_width",
+    "usize::bit_width",
+]

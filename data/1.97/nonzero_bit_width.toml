@@ -1,0 +1,14 @@
+title = "const `NonZero::bit_width` for unsigned integers"
+flag = "uint_bit_width"
+impl_pr_id = 148797
+tracking_issue_id = 142326
+stabilization_pr_id = 155131
+doc_path = "std/num/struct.NonZero.html#method.bit_width"
+items = [
+    "std::num::NonZero::<u8>::bit_width",
+    "std::num::NonZero::<u16>::bit_width",
+    "std::num::NonZero::<u32>::bit_width",
+    "std::num::NonZero::<u64>::bit_width",
+    "std::num::NonZero::<u128>::bit_width",
+    "std::num::NonZero::<usize>::bit_width",
+]

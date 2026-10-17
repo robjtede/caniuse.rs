@@ -1,0 +1,8 @@
+title = "LoongArch `lam-bh` runtime feature detection"
+flag = "stdarch_loongarch_lam_bh"
+tracking_issue_id = 117425
+stabilization_pr_id = 154510
+doc_path = "std/arch/macro.is_loongarch_feature_detected.html"
+items = [
+    "std::arch::is_loongarch_feature_detected!(\"lam-bh\")",
+]
