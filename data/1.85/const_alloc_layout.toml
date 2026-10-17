@@ -1,0 +1,13 @@
+title = "`Layout` methods as `const fn`"
+flag = "const_alloc_layout"
+impl_pr_id = 67494
+tracking_issue_id = 67521
+stabilization_pr_id = 134768
+items = [
+    "std::alloc::Layout::for_value",
+    "std::alloc::Layout::align_to",
+    "std::alloc::Layout::pad_to_align",
+    "std::alloc::Layout::extend",
+    "std::alloc::Layout::array",
+]
+doc_path = "std/alloc/struct.Layout.html#method.for_value"

@@ -1,0 +1,10 @@
+title = "`HashMap::with_hasher` and `HashSet::with_hasher` as `const fn`"
+flag = "const_collections_with_hasher"
+impl_pr_id = 102574
+tracking_issue_id = 102575
+stabilization_pr_id = 133696
+items = [
+    "std::collections::HashMap::with_hasher",
+    "std::collections::HashSet::with_hasher",
+]
+doc_path = "std/collections/struct.HashMap.html#method.with_hasher"

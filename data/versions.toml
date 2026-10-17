@@ -494,6 +494,12 @@ release_notes = "version-1840-2025-01-09"
 gh_milestone_id = 126
 blog_post_path = "2025/01/09/Rust-1.84.0/"
 
+["1.85"]
+release_date = "2025-02-20"
+release_notes = "version-1850-2025-02-20"
+gh_milestone_id = 127
+blog_post_path = "2025/02/20/Rust-1.85.0/"
+
 ["1.99"]
 release_date = "2026-10-01"
 release_notes = "version-1990-2026-10-01"

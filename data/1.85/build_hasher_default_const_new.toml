@@ -1,0 +1,9 @@
+title = "`BuildHasherDefault::new` as `const fn`"
+flag = "build_hasher_default_const_new"
+impl_pr_id = 123198
+tracking_issue_id = 123197
+stabilization_pr_id = 133696
+items = [
+    "std::hash::BuildHasherDefault::new",
+]
+doc_path = "std/hash/struct.BuildHasherDefault.html#method.new"

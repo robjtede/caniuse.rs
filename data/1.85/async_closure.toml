@@ -1,0 +1,20 @@
+title = "async closures and the `AsyncFn` traits"
+flag = "async_closure"
+rfc_id = 3668
+impl_pr_id = 120361
+tracking_issue_id = 62290
+stabilization_pr_id = 132706
+items = [
+    "std::ops::AsyncFn",
+    "std::ops::AsyncFnMut",
+    "std::ops::AsyncFnOnce",
+    "impl AsyncFn for &F",
+    "impl AsyncFnMut for &F",
+    "impl AsyncFnOnce for &F",
+    "impl AsyncFnMut for &mut F",
+    "impl AsyncFnOnce for &mut F",
+    "impl AsyncFn for Box<F>",
+    "impl AsyncFnMut for Box<F>",
+    "impl AsyncFnOnce for Box<F>",
+]
+doc_path = "std/ops/trait.AsyncFn.html"

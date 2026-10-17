@@ -1,0 +1,8 @@
+title = "`mem::align_of_val` as `const fn`"
+flag = "const_align_of_val"
+tracking_issue_id = 46571
+stabilization_pr_id = 133762
+items = [
+    "std::mem::align_of_val",
+]
+doc_path = "std/mem/fn.align_of_val.html"
