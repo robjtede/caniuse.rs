@@ -1,0 +1,33 @@
+title = "`range::Range` and `RangeIter`"
+flag = "new_range_api"
+rfc_id = 3550
+impl_pr_id = 125751
+tracking_issue_id = 125687
+stabilization_pr_id = 154620
+items = [
+    "std::range",
+    "core::range::Range",
+    "core::range::Range::start",
+    "core::range::Range::end",
+    "core::range::Range::iter",
+    "core::range::Range::contains",
+    "core::range::Range::is_empty",
+    "core::range::RangeIter",
+    "impl<T> From<core::range::Range<T>> for core::ops::Range<T>",
+    "impl<T> From<core::ops::Range<T>> for core::range::Range<T>",
+    "impl<T> RangeBounds<T> for core::range::Range<T>",
+    "impl<T> RangeBounds<T> for core::range::Range<&T>",
+    "impl<T: Step> IntoIterator for core::range::Range<T>",
+    "impl<T: Step> Iterator for core::range::RangeIter<T>",
+    "impl<T: Step> DoubleEndedIterator for core::range::RangeIter<T>",
+    "impl<T: Step> FusedIterator for core::range::RangeIter<T>",
+    "impl ExactSizeIterator for core::range::RangeIter<u8>",
+    "impl ExactSizeIterator for core::range::RangeIter<u16>",
+    "impl ExactSizeIterator for core::range::RangeIter<usize>",
+    "impl ExactSizeIterator for core::range::RangeIter<i8>",
+    "impl ExactSizeIterator for core::range::RangeIter<i16>",
+    "impl ExactSizeIterator for core::range::RangeIter<isize>",
+    "impl<T> SliceIndex<[T]> for core::range::Range<usize>",
+    "impl SliceIndex<str> for core::range::Range<usize>",
+]
+doc_path = "std/range/struct.Range.html"

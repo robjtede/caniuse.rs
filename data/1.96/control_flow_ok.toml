@@ -1,0 +1,7 @@
+title = "`ControlFlow::{break_ok, continue_ok}`"
+flag = "control_flow_ok"
+impl_pr_id = 140267
+tracking_issue_id = 140266
+stabilization_pr_id = 152911
+items = ["ControlFlow::break_ok", "ControlFlow::continue_ok"]
+doc_path = "std/ops/enum.ControlFlow.html#method.break_ok"

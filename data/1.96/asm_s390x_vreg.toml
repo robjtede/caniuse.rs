@@ -1,0 +1,7 @@
+title = "s390x vector register inputs and outputs in inline assembly"
+flag = "asm_experimental_reg"
+impl_pr_id = 131664
+tracking_issue_id = 133416
+stabilization_pr_id = 154184
+items = ["core::arch::asm!", "vreg"]
+doc_path = "reference/inline-assembly.html#register-operands"

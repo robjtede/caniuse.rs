@@ -1,0 +1,5 @@
+title = "`From<T>` for `LazyCell<T, F>`"
+flag = "from_wrapper_impls"
+impl_pr_id = 146013
+items = ["impl<T, F> From<T> for LazyCell<T, F>"]
+doc_path = "std/cell/struct.LazyCell.html#impl-From%3CT%3E-for-LazyCell%3CT,+F%3E"
