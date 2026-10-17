@@ -1,0 +1,10 @@
+title = "lossy UTF-8 conversion from owned bytes to `String`"
+flag = "string_from_utf8_lossy_owned"
+impl_pr_id = 129439
+tracking_issue_id = 129436
+stabilization_pr_id = 159099
+items = [
+    "String::from_utf8_lossy_owned",
+    "std::string::FromUtf8Error::into_utf8_lossy",
+]
+doc_path = "std/string/struct.String.html#method.from_utf8_lossy_owned"

@@ -1,0 +1,6 @@
+title = "C-variadic naked function definitions"
+flag = "c_variadic_naked_functions"
+impl_pr_id = 148770
+tracking_issue_id = 148767
+stabilization_pr_id = 159746
+doc_path = "reference/attributes/codegen.html#the-naked-attribute"

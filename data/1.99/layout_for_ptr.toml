@@ -1,0 +1,11 @@
+title = "size, alignment, and allocation layout from raw pointers"
+flag = "layout_for_ptr"
+impl_pr_id = 69079
+tracking_issue_id = 69835
+stabilization_pr_id = 157572
+items = [
+    "std::mem::size_of_val_raw",
+    "std::mem::align_of_val_raw",
+    "std::alloc::Layout::for_value_raw",
+]
+doc_path = "std/alloc/struct.Layout.html#method.for_value_raw"

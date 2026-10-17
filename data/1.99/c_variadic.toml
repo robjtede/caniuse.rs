@@ -1,0 +1,7 @@
+title = "C-variadic function definitions"
+flag = "c_variadic"
+rfc_id = 2137
+impl_pr_id = 57760
+tracking_issue_id = 44930
+stabilization_pr_id = 155697
+doc_path = "reference/items/functions.html#c-variadic-functions"

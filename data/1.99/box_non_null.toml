@@ -1,0 +1,10 @@
+title = "`Box` conversions to and from `NonNull`"
+flag = "box_vec_non_null"
+impl_pr_id = 130061
+tracking_issue_id = 130364
+stabilization_pr_id = 157226
+items = [
+    "Box::into_non_null",
+    "Box::from_non_null",
+]
+doc_path = "std/boxed/struct.Box.html#method.into_non_null"

@@ -1,0 +1,7 @@
+title = "`VecDeque::retain_back`"
+flag = "vec_deque_truncate_front"
+impl_pr_id = 140668
+tracking_issue_id = 140667
+stabilization_pr_id = 151379
+items = ["std::collections::VecDeque::retain_back"]
+doc_path = "std/collections/struct.VecDeque.html#method.retain_back"

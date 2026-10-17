@@ -1,0 +1,18 @@
+title = "`IntoIterator` implementations for boxed arrays"
+flag = "boxed_array_value_iter"
+impl_pr_id = 134021
+items = [
+    "impl IntoIterator for Box<[T; N]>",
+    "impl IntoIterator for &Box<[T; N]>",
+    "impl IntoIterator for &mut Box<[T; N]>",
+    "std::boxed::BoxedArrayIntoIter",
+    "BoxedArrayIntoIter::as_slice",
+    "BoxedArrayIntoIter::as_mut_slice",
+    "impl Iterator for BoxedArrayIntoIter<T, N>",
+    "impl DoubleEndedIterator for BoxedArrayIntoIter<T, N>",
+    "impl ExactSizeIterator for BoxedArrayIntoIter<T, N>",
+    "impl FusedIterator for BoxedArrayIntoIter<T, N>",
+    "impl<T: Clone, const N: usize> Clone for BoxedArrayIntoIter<T, N>",
+    "impl<T: Debug, const N: usize> Debug for BoxedArrayIntoIter<T, N>",
+]
+doc_path = "std/boxed/struct.BoxedArrayIntoIter.html"

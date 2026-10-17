@@ -1,0 +1,10 @@
+title = "`Vec` conversions to and from `NonNull` parts"
+flag = "box_vec_non_null"
+impl_pr_id = 130061
+tracking_issue_id = 130364
+stabilization_pr_id = 157226
+items = [
+    "Vec::into_parts",
+    "Vec::from_parts",
+]
+doc_path = "std/vec/struct.Vec.html#method.into_parts"
