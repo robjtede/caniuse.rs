@@ -1,0 +1,32 @@
+title = "const `NonZero::lowest_one` and `NonZero::highest_one`"
+flag = "int_lowest_highest_one"
+impl_pr_id = 145381
+tracking_issue_id = 145203
+stabilization_pr_id = 155147
+doc_path = "std/num/struct.NonZero.html#method.lowest_one"
+items = [
+    "std::num::NonZero::<u8>::lowest_one",
+    "std::num::NonZero::<u8>::highest_one",
+    "std::num::NonZero::<i8>::lowest_one",
+    "std::num::NonZero::<i8>::highest_one",
+    "std::num::NonZero::<u16>::lowest_one",
+    "std::num::NonZero::<u16>::highest_one",
+    "std::num::NonZero::<i16>::lowest_one",
+    "std::num::NonZero::<i16>::highest_one",
+    "std::num::NonZero::<u32>::lowest_one",
+    "std::num::NonZero::<u32>::highest_one",
+    "std::num::NonZero::<i32>::lowest_one",
+    "std::num::NonZero::<i32>::highest_one",
+    "std::num::NonZero::<u64>::lowest_one",
+    "std::num::NonZero::<u64>::highest_one",
+    "std::num::NonZero::<i64>::lowest_one",
+    "std::num::NonZero::<i64>::highest_one",
+    "std::num::NonZero::<u128>::lowest_one",
+    "std::num::NonZero::<u128>::highest_one",
+    "std::num::NonZero::<i128>::lowest_one",
+    "std::num::NonZero::<i128>::highest_one",
+    "std::num::NonZero::<usize>::lowest_one",
+    "std::num::NonZero::<usize>::highest_one",
+    "std::num::NonZero::<isize>::lowest_one",
+    "std::num::NonZero::<isize>::highest_one",
+]

@@ -1,0 +1,6 @@
+title = "`Send` for `File` on UEFI"
+impl_pr_id = 154003
+doc_path = "std/fs/struct.File.html#impl-Send-for-File"
+items = [
+    "impl Send for std::fs::File",
+]

@@ -1,0 +1,32 @@
+title = "const bit isolation methods for integers"
+flag = "isolate_most_least_significant_one"
+impl_pr_id = 136910
+tracking_issue_id = 136909
+stabilization_pr_id = 155130
+doc_path = "std/primitive.u32.html#method.isolate_highest_one"
+items = [
+    "u8::isolate_highest_one",
+    "u8::isolate_lowest_one",
+    "i8::isolate_highest_one",
+    "i8::isolate_lowest_one",
+    "u16::isolate_highest_one",
+    "u16::isolate_lowest_one",
+    "i16::isolate_highest_one",
+    "i16::isolate_lowest_one",
+    "u32::isolate_highest_one",
+    "u32::isolate_lowest_one",
+    "i32::isolate_highest_one",
+    "i32::isolate_lowest_one",
+    "u64::isolate_highest_one",
+    "u64::isolate_lowest_one",
+    "i64::isolate_highest_one",
+    "i64::isolate_lowest_one",
+    "u128::isolate_highest_one",
+    "u128::isolate_lowest_one",
+    "i128::isolate_highest_one",
+    "i128::isolate_lowest_one",
+    "usize::isolate_highest_one",
+    "usize::isolate_lowest_one",
+    "isize::isolate_highest_one",
+    "isize::isolate_lowest_one",
+]

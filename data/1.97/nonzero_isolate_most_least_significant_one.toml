@@ -1,0 +1,32 @@
+title = "const bit isolation methods for `NonZero`"
+flag = "isolate_most_least_significant_one"
+impl_pr_id = 136910
+tracking_issue_id = 136909
+stabilization_pr_id = 155130
+doc_path = "std/num/struct.NonZero.html#method.isolate_highest_one"
+items = [
+    "std::num::NonZero::<u8>::isolate_highest_one",
+    "std::num::NonZero::<u8>::isolate_lowest_one",
+    "std::num::NonZero::<i8>::isolate_highest_one",
+    "std::num::NonZero::<i8>::isolate_lowest_one",
+    "std::num::NonZero::<u16>::isolate_highest_one",
+    "std::num::NonZero::<u16>::isolate_lowest_one",
+    "std::num::NonZero::<i16>::isolate_highest_one",
+    "std::num::NonZero::<i16>::isolate_lowest_one",
+    "std::num::NonZero::<u32>::isolate_highest_one",
+    "std::num::NonZero::<u32>::isolate_lowest_one",
+    "std::num::NonZero::<i32>::isolate_highest_one",
+    "std::num::NonZero::<i32>::isolate_lowest_one",
+    "std::num::NonZero::<u64>::isolate_highest_one",
+    "std::num::NonZero::<u64>::isolate_lowest_one",
+    "std::num::NonZero::<i64>::isolate_highest_one",
+    "std::num::NonZero::<i64>::isolate_lowest_one",
+    "std::num::NonZero::<u128>::isolate_highest_one",
+    "std::num::NonZero::<u128>::isolate_lowest_one",
+    "std::num::NonZero::<i128>::isolate_highest_one",
+    "std::num::NonZero::<i128>::isolate_lowest_one",
+    "std::num::NonZero::<usize>::isolate_highest_one",
+    "std::num::NonZero::<usize>::isolate_lowest_one",
+    "std::num::NonZero::<isize>::isolate_highest_one",
+    "std::num::NonZero::<isize>::isolate_lowest_one",
+]

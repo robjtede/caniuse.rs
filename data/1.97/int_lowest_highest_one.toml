@@ -1,0 +1,32 @@
+title = "const `lowest_one` and `highest_one` methods for integers"
+flag = "int_lowest_highest_one"
+impl_pr_id = 145381
+tracking_issue_id = 145203
+stabilization_pr_id = 155147
+doc_path = "std/primitive.u32.html#method.lowest_one"
+items = [
+    "u8::lowest_one",
+    "u8::highest_one",
+    "i8::lowest_one",
+    "i8::highest_one",
+    "u16::lowest_one",
+    "u16::highest_one",
+    "i16::lowest_one",
+    "i16::highest_one",
+    "u32::lowest_one",
+    "u32::highest_one",
+    "i32::lowest_one",
+    "i32::highest_one",
+    "u64::lowest_one",
+    "u64::highest_one",
+    "i64::lowest_one",
+    "i64::highest_one",
+    "u128::lowest_one",
+    "u128::highest_one",
+    "i128::lowest_one",
+    "i128::highest_one",
+    "usize::lowest_one",
+    "usize::highest_one",
+    "isize::lowest_one",
+    "isize::highest_one",
+]

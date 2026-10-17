@@ -1,0 +1,6 @@
+title = "`cfg(target_has_atomic_primitive_alignment = \"...\")`"
+flag = "cfg_target_has_atomic_equal_alignment"
+impl_pr_id = 76965
+tracking_issue_id = 93822
+stabilization_pr_id = 155006
+doc_path = "reference/conditional-compilation.html#target_has_atomic_primitive_alignment"
