@@ -1,0 +1,6 @@
+title = "C-style variadic function declarations with the `system` ABI"
+flag = "extern_system_varargs"
+tracking_issue_id = 136946
+stabilization_pr_id = 145954
+doc_path = "reference/items/external-blocks.html#variadic-functions"
+

@@ -1,0 +1,8 @@
+title = "`Vec::into_raw_parts` and `String::into_raw_parts`"
+flag = "vec_into_raw_parts"
+impl_pr_id = 65705
+tracking_issue_id = 65816
+stabilization_pr_id = 148827
+items = ["Vec::into_raw_parts", "String::into_raw_parts"]
+doc_path = "std/vec/struct.Vec.html#method.into_raw_parts"
+

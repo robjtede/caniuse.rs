@@ -1,0 +1,13 @@
+title = "Convert slices and slice pointers to array references and pointers"
+flag = "core_slice_as_array"
+impl_pr_id = 133512
+tracking_issue_id = 133508
+stabilization_pr_id = 147540
+items = [
+    "<[T]>::as_array",
+    "<[T]>::as_mut_array",
+    "<*const [T]>::as_array",
+    "<*mut [T]>::as_mut_array",
+]
+doc_path = "std/primitive.slice.html#method.as_array"
+

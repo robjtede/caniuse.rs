@@ -1,0 +1,12 @@
+title = "Format a value with a closure"
+flag = "fmt_from_fn"
+tracking_issue_id = 146705
+stabilization_pr_id = 145915
+items = [
+    "std::fmt::from_fn",
+    "std::fmt::FromFn",
+    "impl Debug for FromFn<F>",
+    "impl Display for FromFn<F>",
+]
+doc_path = "std/fmt/fn.from_fn.html"
+

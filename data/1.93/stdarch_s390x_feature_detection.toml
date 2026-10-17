@@ -1,0 +1,7 @@
+title = "`is_s390x_feature_detected!`"
+flag = "stdarch_s390x_feature_detection"
+tracking_issue_id = 135413
+stabilization_pr_id = 145656
+items = ["std::arch::is_s390x_feature_detected!"]
+doc_path = "std/arch/macro.is_s390x_feature_detected.html"
+

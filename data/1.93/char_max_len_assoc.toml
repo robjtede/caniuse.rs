@@ -1,0 +1,8 @@
+title = "`char::MAX_LEN_UTF8` and `char::MAX_LEN_UTF16`"
+flag = "char_max_len_assoc"
+impl_pr_id = 120580
+tracking_issue_id = 121714
+stabilization_pr_id = 145610
+items = ["char::MAX_LEN_UTF8", "char::MAX_LEN_UTF16"]
+doc_path = "std/primitive.char.html#associatedconstant.MAX_LEN_UTF8"
+

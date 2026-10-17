@@ -1,0 +1,14 @@
+title = "`assume_init_*` methods for `MaybeUninit` slices"
+flag = "maybe_uninit_slice"
+rfc_id = 1892
+tracking_issue_id = 63569
+stabilization_pr_id = 149102
+# `assume_init_ref` and `assume_init_mut` are also const-stable.
+# `assume_init_drop` is not const-stable.
+items = [
+    "<[MaybeUninit<T>]>::assume_init_drop",
+    "<[MaybeUninit<T>]>::assume_init_ref",
+    "<[MaybeUninit<T>]>::assume_init_mut",
+]
+doc_path = "std/primitive.slice.html#method.assume_init_ref"
+
