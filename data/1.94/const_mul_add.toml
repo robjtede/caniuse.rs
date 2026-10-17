@@ -1,0 +1,10 @@
+title = "`f32::mul_add` and `f64::mul_add` as `const fn`"
+flag = "const_mul_add"
+impl_pr_id = 146735
+tracking_issue_id = 146724
+stabilization_pr_id = 148052
+doc_path = "std/primitive.f32.html#method.mul_add"
+items = [
+    "f32::mul_add",
+    "f64::mul_add",
+]

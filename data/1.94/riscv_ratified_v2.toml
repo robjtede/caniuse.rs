@@ -1,0 +1,27 @@
+title = "Runtime detection for additional RISC-V target features"
+flag = "riscv_ratified_v2"
+tracking_issue_id = 111192
+stabilization_pr_id = 145948
+doc_path = "std/arch/macro.is_riscv_feature_detected.html"
+items = [
+    "std::arch::is_riscv_feature_detected!(\"zicsr\")",
+    "std::arch::is_riscv_feature_detected!(\"zicntr\")",
+    "std::arch::is_riscv_feature_detected!(\"zihpm\")",
+    "std::arch::is_riscv_feature_detected!(\"zifencei\")",
+    "std::arch::is_riscv_feature_detected!(\"zihintntl\")",
+    "std::arch::is_riscv_feature_detected!(\"zihintpause\")",
+    "std::arch::is_riscv_feature_detected!(\"zimop\")",
+    "std::arch::is_riscv_feature_detected!(\"zicbom\")",
+    "std::arch::is_riscv_feature_detected!(\"zicboz\")",
+    "std::arch::is_riscv_feature_detected!(\"zicond\")",
+    "std::arch::is_riscv_feature_detected!(\"zalrsc\")",
+    "std::arch::is_riscv_feature_detected!(\"zaamo\")",
+    "std::arch::is_riscv_feature_detected!(\"zawrs\")",
+    "std::arch::is_riscv_feature_detected!(\"zabha\")",
+    "std::arch::is_riscv_feature_detected!(\"zacas\")",
+    "std::arch::is_riscv_feature_detected!(\"ztso\")",
+    "std::arch::is_riscv_feature_detected!(\"zca\")",
+    "std::arch::is_riscv_feature_detected!(\"zcb\")",
+    "std::arch::is_riscv_feature_detected!(\"zcmop\")",
+    "std::arch::is_riscv_feature_detected!(\"b\")",
+]

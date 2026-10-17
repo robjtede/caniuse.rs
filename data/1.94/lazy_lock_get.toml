@@ -1,0 +1,11 @@
+title = "`LazyLock::get`, `get_mut`, and `force_mut`"
+flag = "lazy_get"
+impl_pr_id = 130476
+tracking_issue_id = 129333
+stabilization_pr_id = 150016
+doc_path = "std/sync/struct.LazyLock.html#method.get"
+items = [
+    "LazyLock::get",
+    "LazyLock::get_mut",
+    "LazyLock::force_mut",
+]

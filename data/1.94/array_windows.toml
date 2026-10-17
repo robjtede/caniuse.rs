@@ -1,0 +1,16 @@
+title = "`<[T]>::array_windows` and `ArrayWindows`"
+flag = "array_windows"
+impl_pr_id = 75026
+tracking_issue_id = 75027
+stabilization_pr_id = 148814
+doc_path = "std/primitive.slice.html#method.array_windows"
+items = [
+    "<[T]>::array_windows",
+    "std::slice::ArrayWindows",
+    "impl Clone for ArrayWindows",
+    "impl Debug for ArrayWindows",
+    "impl Iterator for ArrayWindows",
+    "impl DoubleEndedIterator for ArrayWindows",
+    "impl ExactSizeIterator for ArrayWindows",
+    "impl FusedIterator for ArrayWindows",
+]

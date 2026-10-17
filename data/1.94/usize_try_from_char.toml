@@ -1,0 +1,7 @@
+title = "`TryFrom<char>` implementation for `usize`"
+flag = "usize_try_from_char"
+impl_pr_id = 146792
+doc_path = "std/primitive.usize.html#impl-TryFrom%3Cchar%3E-for-usize"
+items = [
+    "impl TryFrom<char> for usize",
+]
