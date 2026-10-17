@@ -1,0 +1,9 @@
+title = "`Option::is_none_or`"
+flag = "is_none_or"
+impl_pr_id = 126328
+tracking_issue_id = 126383
+stabilization_pr_id = 129086
+items = [
+    "Option::is_none_or",
+]
+doc_path = "std/option/enum.Option.html#method.is_none_or"

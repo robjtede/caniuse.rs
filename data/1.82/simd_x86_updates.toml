@@ -1,0 +1,33 @@
+# Rust PR #128466 imports the stabilization from rust-lang/stdarch#1615.
+title = "more x86 and x86-64 intrinsics"
+flag = "simd_x86_updates"
+impl_pr_id = 128466
+tracking_issue_id = 126936
+items = [
+    "core::arch::x86::_mm_broadcastsi128_si256",
+    "core::arch::x86_64::_mm_broadcastsi128_si256",
+    "core::arch::x86::_mm256_stream_load_si256",
+    "core::arch::x86_64::_mm256_stream_load_si256",
+    "core::arch::x86::_tzcnt_u16",
+    "core::arch::x86_64::_tzcnt_u16",
+    "core::arch::x86::_mm_storeu_si16",
+    "core::arch::x86_64::_mm_storeu_si16",
+    "core::arch::x86::_mm_storeu_si32",
+    "core::arch::x86_64::_mm_storeu_si32",
+    "core::arch::x86::_mm_storeu_si64",
+    "core::arch::x86_64::_mm_storeu_si64",
+    "core::arch::x86::_mm_loadu_si16",
+    "core::arch::x86_64::_mm_loadu_si16",
+    "core::arch::x86::_mm_loadu_si32",
+    "core::arch::x86_64::_mm_loadu_si32",
+    "core::arch::x86::_mm_stream_load_si128",
+    "core::arch::x86_64::_mm_stream_load_si128",
+    "core::arch::x86::_mm_extracti_si64",
+    "core::arch::x86_64::_mm_extracti_si64",
+    "core::arch::x86::_mm_inserti_si64",
+    "core::arch::x86_64::_mm_inserti_si64",
+    "core::arch::x86::_bextri_u32",
+    "core::arch::x86_64::_bextri_u32",
+    "core::arch::x86_64::_bextri_u64",
+]
+doc_path = "core/arch/x86/fn._mm_stream_load_si128.html"

@@ -1,0 +1,12 @@
+title = "explicit `unsafe(...)` attributes"
+flag = "unsafe_attributes"
+rfc_id = 3325
+tracking_issue_id = 123757
+stabilization_pr_id = 128771
+items = [
+    "#[unsafe(no_mangle)]",
+    "#[unsafe(export_name = \"...\")]",
+    "#[unsafe(link_section = \"...\")]",
+]
+doc_path = "reference/attributes.html#r-attributes.safety"
+edition_guide_path = "rust-2024/unsafe-attributes.html"

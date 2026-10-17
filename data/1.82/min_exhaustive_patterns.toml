@@ -1,0 +1,5 @@
+title = "omit patterns for uninhabited types matched by value"
+flag = "min_exhaustive_patterns"
+tracking_issue_id = 119612
+stabilization_pr_id = 122792
+doc_path = "nomicon/exotic-sizes.html#empty-types"

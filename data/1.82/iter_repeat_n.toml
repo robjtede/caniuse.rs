@@ -1,0 +1,17 @@
+title = "`iter::repeat_n` and `RepeatN`"
+flag = "iter_repeat_n"
+impl_pr_id = 104435
+tracking_issue_id = 104434
+stabilization_pr_id = 129294
+items = [
+    "iter::repeat_n",
+    "iter::RepeatN",
+    "impl Clone for RepeatN<T>",
+    "impl Debug for RepeatN<T>",
+    "impl Drop for RepeatN<T>",
+    "impl Iterator for RepeatN<T>",
+    "impl DoubleEndedIterator for RepeatN<T>",
+    "impl ExactSizeIterator for RepeatN<T>",
+    "impl FusedIterator for RepeatN<T>",
+]
+doc_path = "std/iter/fn.repeat_n.html"

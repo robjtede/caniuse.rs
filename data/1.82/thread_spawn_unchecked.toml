@@ -1,0 +1,9 @@
+title = "`thread::Builder::spawn_unchecked`"
+flag = "thread_spawn_unchecked"
+impl_pr_id = 55043
+tracking_issue_id = 55132
+stabilization_pr_id = 129161
+items = [
+    "thread::Builder::spawn_unchecked",
+]
+doc_path = "std/thread/struct.Builder.html#method.spawn_unchecked"

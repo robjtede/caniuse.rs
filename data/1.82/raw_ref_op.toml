@@ -1,0 +1,7 @@
+title = "raw borrow operators (`&raw const` and `&raw mut`)"
+flag = "raw_ref_op"
+rfc_id = 2582
+impl_pr_id = 64588
+tracking_issue_id = 64490
+stabilization_pr_id = 127679
+doc_path = "reference/expressions/operator-expr.html#raw-borrow-operators"

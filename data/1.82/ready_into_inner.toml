@@ -1,0 +1,9 @@
+title = "`Ready::into_inner`"
+flag = "ready_into_inner"
+impl_pr_id = 101189
+tracking_issue_id = 101196
+stabilization_pr_id = 116528
+items = [
+    "future::Ready::into_inner",
+]
+doc_path = "std/future/struct.Ready.html#method.into_inner"

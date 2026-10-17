@@ -1,0 +1,21 @@
+title = "`from_str_radix` and `ParseIntError::kind` as `const fn`"
+flag = "const_int_from_str"
+impl_pr_id = 99322
+tracking_issue_id = 59133
+stabilization_pr_id = 124941
+items = [
+    "i8::from_str_radix",
+    "i16::from_str_radix",
+    "i32::from_str_radix",
+    "i64::from_str_radix",
+    "i128::from_str_radix",
+    "isize::from_str_radix",
+    "u8::from_str_radix",
+    "u16::from_str_radix",
+    "u32::from_str_radix",
+    "u64::from_str_radix",
+    "u128::from_str_radix",
+    "usize::from_str_radix",
+    "num::ParseIntError::kind",
+]
+doc_path = "std/primitive.u32.html#method.from_str_radix"

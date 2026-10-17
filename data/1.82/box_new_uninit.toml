@@ -1,0 +1,12 @@
+title = "uninitialized allocations for `Box`"
+flag = "new_uninit"
+impl_pr_id = 62451
+tracking_issue_id = 63291
+stabilization_pr_id = 129401
+items = [
+    "Box<T>::new_uninit",
+    "Box<[T]>::new_uninit_slice",
+    "Box<MaybeUninit<T>>::assume_init",
+    "Box<[MaybeUninit<T>]>::assume_init",
+]
+doc_path = "std/boxed/struct.Box.html#method.new_uninit"
