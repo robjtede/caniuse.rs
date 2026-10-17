@@ -1,0 +1,5 @@
+title = "Mutable references and pointers in `const` contexts"
+flag = "const_mut_refs"
+tracking_issue_id = 57349
+stabilization_pr_id = 129195
+doc_path = "reference/const_eval.html#constant-expressions"

@@ -1,0 +1,3 @@
+title = "Empty matches on uninhabited `#[non_exhaustive]` structs"
+impl_pr_id = 128934
+doc_path = "reference/attributes/type_system.html#the-non_exhaustive-attribute"

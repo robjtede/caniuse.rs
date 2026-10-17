@@ -1,0 +1,16 @@
+title = "`Default` for `HashMap` and `HashSet` iterators"
+flag = "default_iters_hash"
+impl_pr_id = 128711
+items = [
+    "impl Default for hash_map::Iter<'_, K, V>",
+    "impl Default for hash_map::IterMut<'_, K, V>",
+    "impl Default for hash_map::IntoIter<K, V>",
+    "impl Default for hash_map::IntoKeys<K, V>",
+    "impl Default for hash_map::IntoValues<K, V>",
+    "impl Default for hash_map::Keys<'_, K, V>",
+    "impl Default for hash_map::Values<'_, K, V>",
+    "impl Default for hash_map::ValuesMut<'_, K, V>",
+    "impl Default for hash_set::Iter<'_, K>",
+    "impl Default for hash_set::IntoIter<K>",
+]
+doc_path = "std/collections/hash_map/struct.Iter.html#impl-Default-for-Iter%3C'_,+K,+V%3E"

@@ -1,0 +1,19 @@
+title = "Pointer copy operations as `const fn`"
+flag = "const_intrinsic_copy"
+tracking_issue_id = 80697
+stabilization_pr_id = 130762
+items = [
+    "std::ptr::copy",
+    "std::ptr::copy_nonoverlapping",
+    "<*const T>::copy_to",
+    "<*const T>::copy_to_nonoverlapping",
+    "<*mut T>::copy_to",
+    "<*mut T>::copy_to_nonoverlapping",
+    "<*mut T>::copy_from",
+    "<*mut T>::copy_from_nonoverlapping",
+    "NonNull::copy_to",
+    "NonNull::copy_to_nonoverlapping",
+    "NonNull::copy_from",
+    "NonNull::copy_from_nonoverlapping",
+]
+doc_path = "std/ptr/fn.copy.html"

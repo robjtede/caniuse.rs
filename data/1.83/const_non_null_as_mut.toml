@@ -1,0 +1,7 @@
+title = "`NonNull::as_mut` as `const fn`"
+flag = "const_ptr_as_ref"
+impl_pr_id = 91823
+tracking_issue_id = 91822
+stabilization_pr_id = 131177
+items = ["NonNull::as_mut"]
+doc_path = "std/ptr/struct.NonNull.html#method.as_mut"

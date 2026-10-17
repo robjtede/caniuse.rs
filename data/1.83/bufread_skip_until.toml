@@ -1,0 +1,7 @@
+title = "`BufRead::skip_until`"
+flag = "bufread_skip_until"
+impl_pr_id = 98943
+tracking_issue_id = 111735
+stabilization_pr_id = 131267
+items = ["std::io::BufRead::skip_until"]
+doc_path = "std/io/trait.BufRead.html#method.skip_until"

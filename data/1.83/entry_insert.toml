@@ -1,0 +1,10 @@
+title = "`insert_entry` for `HashMap` entries"
+flag = "entry_insert"
+impl_pr_id = 64656
+tracking_issue_id = 65225
+stabilization_pr_id = 130290
+items = [
+    "std::collections::hash_map::Entry::insert_entry",
+    "std::collections::hash_map::VacantEntry::insert_entry",
+]
+doc_path = "std/collections/hash_map/enum.Entry.html#method.insert_entry"
