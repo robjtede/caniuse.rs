@@ -1,0 +1,16 @@
+title = "`TryFrom` integer conversions for `bool`"
+flag = "bool_try_from_int"
+impl_pr_id = 147400
+items = [
+    "bool: TryFrom<u8>",
+    "bool: TryFrom<u16>",
+    "bool: TryFrom<u32>",
+    "bool: TryFrom<u64>",
+    "bool: TryFrom<u128>",
+    "bool: TryFrom<i8>",
+    "bool: TryFrom<i16>",
+    "bool: TryFrom<i32>",
+    "bool: TryFrom<i64>",
+    "bool: TryFrom<i128>",
+]
+doc_path = "std/primitive.bool.html#impl-TryFrom%3Cu128%3E-for-bool"

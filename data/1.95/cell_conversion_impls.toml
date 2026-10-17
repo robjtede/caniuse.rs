@@ -1,0 +1,10 @@
+title = "Array and slice `AsRef` implementations for `Cell`"
+flag = "more_conversion_trait_impls"
+impl_pr_id = 145504
+tracking_issue_id = 88248
+items = [
+    "Cell<[T; N]>: AsRef<[Cell<T>; N]>",
+    "Cell<[T; N]>: AsRef<[Cell<T>]>",
+    "Cell<[T]>: AsRef<[Cell<T>]>",
+]
+doc_path = "std/cell/struct.Cell.html"

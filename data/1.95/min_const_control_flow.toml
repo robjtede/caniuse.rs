@@ -1,0 +1,7 @@
+title = "`ControlFlow` predicates as `const fn`"
+flag = "min_const_control_flow"
+impl_pr_id = 148248
+tracking_issue_id = 148738
+stabilization_pr_id = 152253
+items = ["ControlFlow::is_break", "ControlFlow::is_continue"]
+doc_path = "std/ops/enum.ControlFlow.html#method.is_break"

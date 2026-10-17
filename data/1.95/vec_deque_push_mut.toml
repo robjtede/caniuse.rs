@@ -1,0 +1,7 @@
+title = "`VecDeque` insertion methods that return mutable references"
+flag = "push_mut"
+impl_pr_id = 135975
+tracking_issue_id = 135974
+stabilization_pr_id = 151785
+items = ["VecDeque::push_front_mut", "VecDeque::push_back_mut", "VecDeque::insert_mut"]
+doc_path = "std/collections/struct.VecDeque.html#method.push_front_mut"

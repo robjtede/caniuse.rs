@@ -1,0 +1,7 @@
+title = "`LinkedList` insertion methods that return mutable references"
+flag = "push_mut"
+impl_pr_id = 135975
+tracking_issue_id = 135974
+stabilization_pr_id = 151785
+items = ["LinkedList::push_front_mut", "LinkedList::push_back_mut"]
+doc_path = "std/collections/struct.LinkedList.html#method.push_front_mut"

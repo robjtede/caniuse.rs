@@ -1,0 +1,5 @@
+title = "`fmt::from_fn` as `const fn`"
+flag = "const_fmt_from_fn"
+impl_pr_id = 150300
+items = ["std::fmt::from_fn"]
+doc_path = "std/fmt/fn.from_fn.html"

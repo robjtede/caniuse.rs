@@ -1,0 +1,31 @@
+title = "`update` and `try_update` methods on atomic types"
+flag = "atomic_try_update"
+tracking_issue_id = 135894
+stabilization_pr_id = 148590
+items = [
+    "AtomicBool::update",
+    "AtomicBool::try_update",
+    "AtomicPtr::update",
+    "AtomicPtr::try_update",
+    "AtomicI8::update",
+    "AtomicI8::try_update",
+    "AtomicI16::update",
+    "AtomicI16::try_update",
+    "AtomicI32::update",
+    "AtomicI32::try_update",
+    "AtomicI64::update",
+    "AtomicI64::try_update",
+    "AtomicIsize::update",
+    "AtomicIsize::try_update",
+    "AtomicU8::update",
+    "AtomicU8::try_update",
+    "AtomicU16::update",
+    "AtomicU16::try_update",
+    "AtomicU32::update",
+    "AtomicU32::try_update",
+    "AtomicU64::update",
+    "AtomicU64::try_update",
+    "AtomicUsize::update",
+    "AtomicUsize::try_update",
+]
+doc_path = "1.95.0/std/sync/atomic/struct.AtomicPtr.html#method.try_update"
