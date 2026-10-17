@@ -1,0 +1,6 @@
+title = "inline assembly on Arm64EC"
+flag = "asm_experimental_arch"
+tracking_issue_id = 93335
+stabilization_pr_id = 131781
+items = ["asm!", "global_asm!"]
+doc_path = "reference/inline-assembly.html#register-operands"

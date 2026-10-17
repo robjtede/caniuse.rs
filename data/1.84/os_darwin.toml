@@ -1,0 +1,10 @@
+title = "`std::os::darwin`"
+flag = "os_darwin"
+impl_pr_id = 123723
+items = [
+    "std::os::darwin",
+    "std::os::darwin::fs",
+    "std::os::darwin::fs::MetadataExt",
+    "std::os::darwin::fs::FileTimesExt",
+]
+doc_path = "std/os/darwin/index.html"

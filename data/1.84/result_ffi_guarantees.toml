@@ -1,0 +1,7 @@
+title = "FFI layout guarantees for `Result` with a niche and a zero-sized variant"
+flag = "result_ffi_guarantees"
+rfc_id = 3391
+tracking_issue_id = 110503
+stabilization_pr_id = 130628
+items = ["Result"]
+doc_path = "std/result/index.html#representation"

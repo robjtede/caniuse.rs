@@ -1,0 +1,7 @@
+title = "`char::encode_utf16` as `const fn`"
+flag = "const_char_encode_utf16"
+impl_pr_id = 130659
+tracking_issue_id = 130660
+stabilization_pr_id = 132153
+items = ["char::encode_utf16"]
+doc_path = "std/primitive.char.html#method.encode_utf16"

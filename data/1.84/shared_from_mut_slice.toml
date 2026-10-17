@@ -1,0 +1,16 @@
+title = "`From` implementations for `Rc` and `Arc` from mutable slices and strings"
+flag = "shared_from_mut_slice"
+impl_pr_id = 129329
+items = [
+    "impl<T: Clone> From<&mut [T]> for Rc<[T]>",
+    "impl From<&mut str> for Rc<str>",
+    "impl From<&mut CStr> for Rc<CStr>",
+    "impl From<&mut OsStr> for Rc<OsStr>",
+    "impl From<&mut Path> for Rc<Path>",
+    "impl<T: Clone> From<&mut [T]> for Arc<[T]>",
+    "impl From<&mut str> for Arc<str>",
+    "impl From<&mut CStr> for Arc<CStr>",
+    "impl From<&mut OsStr> for Arc<OsStr>",
+    "impl From<&mut Path> for Arc<Path>",
+]
+doc_path = "std/rc/struct.Rc.html#impl-From%3C%26mut+%5BT%5D%3E-for-Rc%3C%5BT%5D%3E"

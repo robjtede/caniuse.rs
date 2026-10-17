@@ -1,0 +1,20 @@
+title = "atomic `from_ptr` constructors as `const fn`"
+flag = "const_atomic_from_ptr"
+impl_pr_id = 108540
+tracking_issue_id = 108652
+stabilization_pr_id = 131717
+items = [
+    "AtomicBool::from_ptr",
+    "AtomicPtr::from_ptr",
+    "AtomicU8::from_ptr",
+    "AtomicU16::from_ptr",
+    "AtomicU32::from_ptr",
+    "AtomicU64::from_ptr",
+    "AtomicUsize::from_ptr",
+    "AtomicI8::from_ptr",
+    "AtomicI16::from_ptr",
+    "AtomicI32::from_ptr",
+    "AtomicI64::from_ptr",
+    "AtomicIsize::from_ptr",
+]
+doc_path = "1.84.0/std/sync/atomic/struct.AtomicBool.html#method.from_ptr"
