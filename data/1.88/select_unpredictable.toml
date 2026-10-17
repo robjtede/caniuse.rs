@@ -1,0 +1,7 @@
+title = "`hint::select_unpredictable`"
+flag = "select_unpredictable"
+impl_pr_id = 133964
+tracking_issue_id = 133962
+stabilization_pr_id = 140550
+items = ["std::hint::select_unpredictable"]
+doc_path = "std/hint/fn.select_unpredictable.html"

@@ -1,0 +1,6 @@
+title = "`Cell::update`"
+flag = "cell_update"
+tracking_issue_id = 50186
+stabilization_pr_id = 134446
+items = ["Cell::update"]
+doc_path = "std/cell/struct.Cell.html#method.update"

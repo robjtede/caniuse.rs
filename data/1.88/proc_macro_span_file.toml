@@ -1,0 +1,6 @@
+title = "`proc_macro::Span` file paths"
+flag = "proc_macro_span_file"
+tracking_issue_id = 54725
+stabilization_pr_id = 140514
+items = ["proc_macro::Span::file", "proc_macro::Span::local_file"]
+doc_path = "proc_macro/struct.Span.html#method.file"

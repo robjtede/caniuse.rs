@@ -1,0 +1,13 @@
+title = "slice conversion to array chunks"
+flag = "slice_as_chunks"
+tracking_issue_id = 74985
+stabilization_pr_id = 139656
+items = [
+    "<[T]>::as_chunks",
+    "<[T]>::as_rchunks",
+    "<[T]>::as_chunks_unchecked",
+    "<[T]>::as_chunks_mut",
+    "<[T]>::as_rchunks_mut",
+    "<[T]>::as_chunks_unchecked_mut",
+]
+doc_path = "std/primitive.slice.html#method.as_chunks"

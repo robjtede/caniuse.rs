@@ -1,0 +1,6 @@
+title = "if- and while-let-chains in Rust 2024"
+flag = "let_chains"
+rfc_id = 2497
+tracking_issue_id = 53667
+stabilization_pr_id = 132833
+doc_path = "edition-guide/rust-2024/let-chains.html"
