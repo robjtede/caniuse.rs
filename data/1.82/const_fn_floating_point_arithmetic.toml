@@ -1,0 +1,6 @@
+title = "floating-point arithmetic in `const fn`"
+flag = "const_fn_floating_point_arithmetic"
+rfc_id = 911
+tracking_issue_id = 57241
+stabilization_pr_id = 128596
+doc_path = "reference/const_eval.html#const-functions"

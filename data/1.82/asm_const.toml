@@ -1,0 +1,9 @@
+title = "`const` operands in inline assembly"
+flag = "asm_const"
+tracking_issue_id = 93332
+stabilization_pr_id = 128570
+items = [
+    "asm!",
+    "global_asm!",
+]
+doc_path = "reference/inline-assembly.html#r-asm.operand-type.supported-operands.const"

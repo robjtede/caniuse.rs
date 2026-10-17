@@ -1,0 +1,35 @@
+title = "WebAssembly relaxed SIMD intrinsics"
+flag = "stdarch_wasm_relaxed_simd"
+tracking_issue_id = 111196
+stabilization_pr_id = 117468
+items = [
+    "core::arch::wasm32::i8x16_relaxed_swizzle",
+    "core::arch::wasm32::u8x16_relaxed_swizzle",
+    "core::arch::wasm32::i32x4_relaxed_trunc_f32x4",
+    "core::arch::wasm32::u32x4_relaxed_trunc_f32x4",
+    "core::arch::wasm32::i32x4_relaxed_trunc_f64x2_zero",
+    "core::arch::wasm32::u32x4_relaxed_trunc_f64x2_zero",
+    "core::arch::wasm32::f32x4_relaxed_madd",
+    "core::arch::wasm32::f32x4_relaxed_nmadd",
+    "core::arch::wasm32::f64x2_relaxed_madd",
+    "core::arch::wasm32::f64x2_relaxed_nmadd",
+    "core::arch::wasm32::i8x16_relaxed_laneselect",
+    "core::arch::wasm32::u8x16_relaxed_laneselect",
+    "core::arch::wasm32::i16x8_relaxed_laneselect",
+    "core::arch::wasm32::u16x8_relaxed_laneselect",
+    "core::arch::wasm32::i32x4_relaxed_laneselect",
+    "core::arch::wasm32::u32x4_relaxed_laneselect",
+    "core::arch::wasm32::i64x2_relaxed_laneselect",
+    "core::arch::wasm32::u64x2_relaxed_laneselect",
+    "core::arch::wasm32::f32x4_relaxed_min",
+    "core::arch::wasm32::f32x4_relaxed_max",
+    "core::arch::wasm32::f64x2_relaxed_min",
+    "core::arch::wasm32::f64x2_relaxed_max",
+    "core::arch::wasm32::i16x8_relaxed_q15mulr",
+    "core::arch::wasm32::u16x8_relaxed_q15mulr",
+    "core::arch::wasm32::i16x8_relaxed_dot_i8x16_i7x16",
+    "core::arch::wasm32::u16x8_relaxed_dot_i8x16_i7x16",
+    "core::arch::wasm32::i32x4_relaxed_dot_i8x16_i7x16_add",
+    "core::arch::wasm32::u32x4_relaxed_dot_i8x16_i7x16_add",
+]
+doc_path = "core/arch/wasm32/fn.i8x16_relaxed_swizzle.html"

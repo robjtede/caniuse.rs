@@ -1,0 +1,12 @@
+title = "uninitialized allocations for `Arc`"
+flag = "new_uninit"
+impl_pr_id = 62451
+tracking_issue_id = 63291
+stabilization_pr_id = 129401
+items = [
+    "Arc<T>::new_uninit",
+    "Arc<[T]>::new_uninit_slice",
+    "Arc<MaybeUninit<T>>::assume_init",
+    "Arc<[MaybeUninit<T>]>::assume_init",
+]
+doc_path = "std/sync/struct.Arc.html#method.new_uninit"

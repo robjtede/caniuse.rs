@@ -1,0 +1,12 @@
+title = "uninitialized allocations for `Rc`"
+flag = "new_uninit"
+impl_pr_id = 62451
+tracking_issue_id = 63291
+stabilization_pr_id = 129401
+items = [
+    "Rc<T>::new_uninit",
+    "Rc<[T]>::new_uninit_slice",
+    "Rc<MaybeUninit<T>>::assume_init",
+    "Rc<[MaybeUninit<T>]>::assume_init",
+]
+doc_path = "std/rc/struct.Rc.html#method.new_uninit"
