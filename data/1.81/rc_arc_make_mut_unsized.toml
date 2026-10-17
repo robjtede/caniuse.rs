@@ -1,0 +1,7 @@
+title = "`Rc::make_mut` and `Arc::make_mut` for unsized types"
+impl_pr_id = 116113
+items = [
+    "Rc::make_mut",
+    "Arc::make_mut",
+]
+doc_path = "std/rc/struct.Rc.html#method.make_mut"

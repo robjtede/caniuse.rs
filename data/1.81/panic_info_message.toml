@@ -1,0 +1,12 @@
+title = "`PanicInfo::message` and `PanicMessage`"
+flag = "panic_info_message"
+tracking_issue_id = 66745
+stabilization_pr_id = 126732
+items = [
+    "core::panic::PanicInfo::message",
+    "core::panic::PanicMessage",
+    "core::panic::PanicMessage::as_str",
+    "impl Display for PanicMessage<'_>",
+    "impl Debug for PanicMessage<'_>",
+]
+doc_path = "core/panic/struct.PanicInfo.html#method.message"

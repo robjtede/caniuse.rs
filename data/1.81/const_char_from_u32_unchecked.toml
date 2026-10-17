@@ -1,0 +1,10 @@
+title = "`char::from_u32_unchecked` function and method as `const fn`"
+flag = "const_char_from_u32_unchecked"
+impl_pr_id = 89258
+tracking_issue_id = 89259
+stabilization_pr_id = 126958
+items = [
+    "std::char::from_u32_unchecked",
+    "char::from_u32_unchecked",
+]
+doc_path = "std/primitive.char.html#method.from_u32_unchecked"

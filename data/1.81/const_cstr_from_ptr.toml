@@ -1,0 +1,9 @@
+title = "`CStr::from_ptr` and `CStr::count_bytes` as `const fn`"
+flag = "const_cstr_from_ptr"
+tracking_issue_id = 113219
+stabilization_pr_id = 127433
+items = [
+    "CStr::from_ptr",
+    "CStr::count_bytes",
+]
+doc_path = "std/ffi/struct.CStr.html#method.from_ptr"

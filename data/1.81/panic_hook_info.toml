@@ -1,0 +1,9 @@
+title = "`PanicHookInfo`"
+flag = "panic_hook_info"
+impl_pr_id = 115974
+items = [
+    "std::panic::PanicHookInfo",
+    "std::panic::PanicHookInfo::payload",
+    "std::panic::PanicHookInfo::location",
+]
+doc_path = "std/panic/struct.PanicHookInfo.html"

@@ -1,0 +1,7 @@
+title = "`AtomicBool::fetch_not`"
+flag = "atomic_bool_fetch_not"
+impl_pr_id = 98479
+tracking_issue_id = 98485
+stabilization_pr_id = 127204
+items = ["AtomicBool::fetch_not"]
+doc_path = "1.81.0/std/sync/atomic/struct.AtomicBool.html#method.fetch_not"

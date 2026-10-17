@@ -1,0 +1,6 @@
+title = "Abort on uncaught panics in non-unwinding ABIs"
+flag = "c_unwind"
+rfc_id = 2945
+tracking_issue_id = 74990
+stabilization_pr_id = 116088
+doc_path = "nomicon/ffi.html#ffi-and-unwinding"

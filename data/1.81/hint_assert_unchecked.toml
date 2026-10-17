@@ -1,0 +1,7 @@
+title = "`hint::assert_unchecked`"
+flag = "hint_assert_unchecked"
+impl_pr_id = 119133
+tracking_issue_id = 119131
+stabilization_pr_id = 123588
+items = ["std::hint::assert_unchecked"]
+doc_path = "std/hint/fn.assert_unchecked.html"
