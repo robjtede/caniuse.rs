@@ -1,0 +1,15 @@
+title = "mutable access to multiple disjoint slice elements"
+flag = "get_many_mut"
+impl_pr_id = 83608
+tracking_issue_id = 104642
+stabilization_pr_id = 134633
+items = [
+    "<[T]>::get_disjoint_mut",
+    "<[T]>::get_disjoint_unchecked_mut",
+    "std::slice::GetDisjointMutError",
+    "std::slice::GetDisjointMutError::IndexOutOfBounds",
+    "std::slice::GetDisjointMutError::OverlappingIndices",
+    "impl Display for std::slice::GetDisjointMutError",
+    "impl Error for std::slice::GetDisjointMutError",
+]
+doc_path = "std/primitive.slice.html#method.get_disjoint_mut"

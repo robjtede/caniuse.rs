@@ -1,0 +1,9 @@
+title = "`FromBytesWithNulError` variants and `Copy` implementation"
+impl_pr_id = 134143
+items = [
+    "std::ffi::FromBytesWithNulError::InteriorNul",
+    "std::ffi::FromBytesWithNulError::InteriorNul::position",
+    "std::ffi::FromBytesWithNulError::NotNulTerminated",
+    "impl Copy for std::ffi::FromBytesWithNulError",
+]
+doc_path = "std/ffi/enum.FromBytesWithNulError.html"

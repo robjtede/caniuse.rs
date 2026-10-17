@@ -1,0 +1,20 @@
+title = "`NonZero::count_ones` as `const fn`"
+flag = "non_zero_count_ones"
+impl_pr_id = 118326
+tracking_issue_id = 120287
+stabilization_pr_id = 136663
+items = [
+    "NonZero<u8>::count_ones",
+    "NonZero<u16>::count_ones",
+    "NonZero<u32>::count_ones",
+    "NonZero<u64>::count_ones",
+    "NonZero<u128>::count_ones",
+    "NonZero<usize>::count_ones",
+    "NonZero<i8>::count_ones",
+    "NonZero<i16>::count_ones",
+    "NonZero<i32>::count_ones",
+    "NonZero<i64>::count_ones",
+    "NonZero<i128>::count_ones",
+    "NonZero<isize>::count_ones",
+]
+doc_path = "std/num/struct.NonZero.html#method.count_ones"

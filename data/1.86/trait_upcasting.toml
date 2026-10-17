@@ -1,0 +1,6 @@
+title = "trait object upcasting to supertraits"
+flag = "trait_upcasting"
+rfc_id = 3324
+tracking_issue_id = 65991
+stabilization_pr_id = 134367
+doc_path = "reference/type-coercions.html#unsized-coercions"

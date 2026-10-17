@@ -1,0 +1,7 @@
+title = "`str::is_char_boundary` as `const fn`"
+flag = "const_is_char_boundary"
+impl_pr_id = 131520
+tracking_issue_id = 131516
+stabilization_pr_id = 134016
+items = ["str::is_char_boundary"]
+doc_path = "std/primitive.str.html#method.is_char_boundary"
