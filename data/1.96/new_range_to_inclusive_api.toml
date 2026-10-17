@@ -1,0 +1,18 @@
+title = "`range::RangeToInclusive`"
+flag = "new_range_to_inclusive_api"
+rfc_id = 3550
+impl_pr_id = 125751
+tracking_issue_id = 125687
+stabilization_pr_id = 152304
+items = [
+    "core::range::RangeToInclusive",
+    "core::range::RangeToInclusive::last",
+    "core::range::RangeToInclusive::contains",
+    "impl<T> From<core::range::RangeToInclusive<T>> for core::ops::RangeToInclusive<T>",
+    "impl<T> From<core::ops::RangeToInclusive<T>> for core::range::RangeToInclusive<T>",
+    "impl<T> RangeBounds<T> for core::range::RangeToInclusive<T>",
+    "impl<T> RangeBounds<T> for core::range::RangeToInclusive<&T>",
+    "impl<T> SliceIndex<[T]> for core::range::RangeToInclusive<usize>",
+    "impl SliceIndex<str> for core::range::RangeToInclusive<usize>",
+]
+doc_path = "std/range/struct.RangeToInclusive.html"
