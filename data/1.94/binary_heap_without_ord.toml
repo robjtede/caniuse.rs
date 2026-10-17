@@ -1,0 +1,8 @@
+title = "Construct empty `BinaryHeap` values without `T: Ord`"
+impl_pr_id = 149408
+doc_path = "std/collections/struct.BinaryHeap.html#method.new"
+items = [
+    "BinaryHeap::new",
+    "BinaryHeap::with_capacity",
+    "impl<T> Default for BinaryHeap<T>",
+]

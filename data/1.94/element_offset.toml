@@ -1,0 +1,9 @@
+title = "`<[T]>::element_offset`"
+flag = "element_offset"
+impl_pr_id = 126770
+tracking_issue_id = 126769
+stabilization_pr_id = 150777
+doc_path = "std/primitive.slice.html#method.element_offset"
+items = [
+    "<[T]>::element_offset",
+]

@@ -1,0 +1,10 @@
+title = "`Peekable::next_if_map` and `next_if_map_mut`"
+flag = "peekable_next_if_map"
+impl_pr_id = 143725
+tracking_issue_id = 143702
+stabilization_pr_id = 148941
+doc_path = "std/iter/struct.Peekable.html#method.next_if_map"
+items = [
+    "Peekable::next_if_map",
+    "Peekable::next_if_map_mut",
+]
