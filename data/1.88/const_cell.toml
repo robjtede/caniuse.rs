@@ -1,0 +1,13 @@
+title = "`Cell` methods as `const fn`"
+flag = "const_cell"
+impl_pr_id = 131281
+tracking_issue_id = 131283
+stabilization_pr_id = 137928
+items = [
+    "Cell::replace",
+    "Cell::get",
+    "Cell::get_mut",
+    "Cell::from_mut",
+    "Cell::as_slice_of_cells",
+]
+doc_path = "std/cell/struct.Cell.html"

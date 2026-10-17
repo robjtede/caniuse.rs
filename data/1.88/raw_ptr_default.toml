@@ -1,0 +1,5 @@
+title = "`Default` implementations for raw pointers"
+flag = "raw_ptr_default"
+impl_pr_id = 139535
+items = ["impl Default for *const T", "impl Default for *mut T"]
+doc_path = "std/primitive.pointer.html#impl-Default-for-*const+T"

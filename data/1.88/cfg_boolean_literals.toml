@@ -1,0 +1,8 @@
+title = "boolean literals in `cfg` predicates"
+flag = "cfg_boolean_literals"
+rfc_id = 3695
+impl_pr_id = 131034
+tracking_issue_id = 131204
+stabilization_pr_id = 138632
+items = ["#[cfg(true)]", "#[cfg(false)]", "cfg!", "#[cfg_attr]"]
+doc_path = "reference/conditional-compilation.html"
