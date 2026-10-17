@@ -7,6 +7,22 @@ set positional-arguments
 default:
     @just --list
 
+# Check Rust formatting with the repository's existing style.
+fmt-check:
+    cargo fmt --all -- --check
+
+# Check the browser build with Clippy.
+lint:
+    cargo clippy --locked --target wasm32-unknown-unknown -- -D warnings
+
+# Run the Rust unit tests on the host.
+test:
+    cargo test --locked
+
+# Test the exact image that will be promoted for deployment.
+container-smoke image="caniuse-rs:local":
+    node scripts/docker-smoke.mjs "{{ image }}"
+
 # Writes the wasm binary and bundled JS into `public/`, then copies the
 # static files so the result is ready to serve directly.
 

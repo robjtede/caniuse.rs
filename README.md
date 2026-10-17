@@ -37,6 +37,30 @@ Available recipes:
 - `just serve`: build development assets and serve the site locally
 - `just serve-release`: build release assets and serve the site locally
 - `just deploy`: build release assets and upload them to production
+- `just fmt-check`: check Rust formatting
+- `just lint`: check the WebAssembly build with Clippy
+- `just test`: run the Rust unit tests
+- `just container-smoke IMAGE`: check a container's startup, assets, and deep links
+
+### Container publishing
+
+The Docker workflow builds a `linux/amd64` image for pull requests and checks
+it without publishing. Pushes to `main` or a `v*` tag publish a candidate at
+`ghcr.io/robjtede/caniuse.rs:sha-<full-commit>`.
+
+Promotion requires formatting, WebAssembly Clippy, and unit tests to pass. A
+separate job then runs `just container-smoke` against the exact published
+candidate digest. This checks startup as user 10001 with a read-only root
+filesystem, asset content types, the WebAssembly header, feature JSON, and SPA
+deep links. The smoke recipe requires Docker and Node.js 24.
+
+After these checks pass, the job points `stable` at the same image index without
+rebuilding it. Main-branch promotions also update `latest`; tag promotions add
+the version tag. A failed check leaves the deployment tags unchanged.
+
+Deployments must follow `ghcr.io/robjtede/caniuse.rs:stable` by digest. Publishing
+a candidate alone does not select a new deployment image. Manual workflow runs
+publish only from `main` or a `v*` tag.
 
 ### Adding data
 
