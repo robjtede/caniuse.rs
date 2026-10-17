@@ -1,0 +1,11 @@
+title = "provenance methods on `NonNull`"
+flag = "nonnull_provenance"
+impl_pr_id = 135242
+tracking_issue_id = 135243
+stabilization_pr_id = 142238
+items = [
+    "NonNull::without_provenance",
+    "NonNull::with_exposed_provenance",
+    "NonNull::expose_provenance",
+]
+doc_path = "std/ptr/struct.NonNull.html#method.without_provenance"

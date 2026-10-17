@@ -1,0 +1,7 @@
+title = "store `format_args!` with arguments in a variable"
+impl_pr_id = 140748
+tracking_issue_id = 92698
+items = [
+    "format_args!",
+]
+doc_path = "std/macro.format_args.html"

@@ -1,0 +1,15 @@
+title = "LoongArch runtime feature detection"
+flag = "stdarch_loongarch_feature"
+tracking_issue_id = 117425
+stabilization_pr_id = 138940
+items = [
+    "is_loongarch_feature_detected!",
+    "is_loongarch_feature_detected!(\"f\")",
+    "is_loongarch_feature_detected!(\"d\")",
+    "is_loongarch_feature_detected!(\"frecipe\")",
+    "is_loongarch_feature_detected!(\"lasx\")",
+    "is_loongarch_feature_detected!(\"lbt\")",
+    "is_loongarch_feature_detected!(\"lsx\")",
+    "is_loongarch_feature_detected!(\"lvz\")",
+]
+doc_path = "std/arch/macro.is_loongarch_feature_detected.html"

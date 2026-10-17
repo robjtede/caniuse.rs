@@ -1,0 +1,9 @@
+title = "`Result::flatten`"
+flag = "result_flattening"
+impl_pr_id = 70140
+tracking_issue_id = 70142
+stabilization_pr_id = 141072
+items = [
+    "Result::flatten",
+]
+doc_path = "std/result/enum.Result.html#method.flatten"

@@ -1,0 +1,23 @@
+title = "x86 Key Locker target features and intrinsics"
+flag = "keylocker_x86"
+impl_pr_id = 134814
+tracking_issue_id = 134813
+stabilization_pr_id = 140766
+items = [
+    "#[target_feature(enable = \"kl\")]",
+    "#[target_feature(enable = \"widekl\")]",
+    "is_x86_feature_detected!(\"kl\")",
+    "is_x86_feature_detected!(\"widekl\")",
+    "_mm_aesdec128kl_u8",
+    "_mm_aesdec256kl_u8",
+    "_mm_aesdecwide128kl_u8",
+    "_mm_aesdecwide256kl_u8",
+    "_mm_aesenc128kl_u8",
+    "_mm_aesenc256kl_u8",
+    "_mm_aesencwide128kl_u8",
+    "_mm_aesencwide256kl_u8",
+    "_mm_encodekey128_u32",
+    "_mm_encodekey256_u32",
+    "_mm_loadiwkey",
+]
+doc_path = "core/arch/x86/index.html"

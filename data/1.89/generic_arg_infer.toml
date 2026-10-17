@@ -1,0 +1,6 @@
+title = "explicitly inferred const generic arguments"
+flag = "generic_arg_infer"
+impl_pr_id = 83484
+tracking_issue_id = 85077
+stabilization_pr_id = 141610
+doc_path = "reference/items/generics.html#r-items.generics.const.inferred"

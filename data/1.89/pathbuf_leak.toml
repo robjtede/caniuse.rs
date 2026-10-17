@@ -1,0 +1,9 @@
+title = "`PathBuf::leak`"
+flag = "os_string_pathbuf_leak"
+impl_pr_id = 125966
+tracking_issue_id = 125965
+stabilization_pr_id = 137992
+items = [
+    "PathBuf::leak",
+]
+doc_path = "std/path/struct.PathBuf.html#method.leak"

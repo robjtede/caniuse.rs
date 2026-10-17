@@ -1,0 +1,24 @@
+title = "x86 SHA512, SM3, and SM4 target features and intrinsics"
+flag = "sha512_sm_x86"
+impl_pr_id = 126704
+tracking_issue_id = 126624
+stabilization_pr_id = 140767
+items = [
+    "#[target_feature(enable = \"sha512\")]",
+    "#[target_feature(enable = \"sm3\")]",
+    "#[target_feature(enable = \"sm4\")]",
+    "is_x86_feature_detected!(\"sha512\")",
+    "is_x86_feature_detected!(\"sm3\")",
+    "is_x86_feature_detected!(\"sm4\")",
+    "_mm256_sha512msg1_epi64",
+    "_mm256_sha512msg2_epi64",
+    "_mm256_sha512rnds2_epi64",
+    "_mm256_sm4key4_epi32",
+    "_mm256_sm4rnds4_epi32",
+    "_mm_sm3msg1_epi32",
+    "_mm_sm3msg2_epi32",
+    "_mm_sm3rnds2_epi32",
+    "_mm_sm4key4_epi32",
+    "_mm_sm4rnds4_epi32",
+]
+doc_path = "core/arch/x86/index.html"
