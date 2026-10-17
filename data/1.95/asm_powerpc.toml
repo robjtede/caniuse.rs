@@ -1,0 +1,6 @@
+title = "Inline assembly on PowerPC and PowerPC64"
+flag = "asm_experimental_arch"
+tracking_issue_id = 93335
+stabilization_pr_id = 147996
+items = ["core::arch::asm!", "core::arch::global_asm!"]
+doc_path = "reference/inline-assembly.html"

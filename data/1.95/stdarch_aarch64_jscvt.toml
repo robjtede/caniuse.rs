@@ -1,0 +1,6 @@
+title = "AArch64 JavaScript floating-point conversion intrinsic"
+flag = "stdarch_aarch64_jscvt"
+tracking_issue_id = 147555
+stabilization_pr_id = 151711
+items = ["core::arch::aarch64::__jcvt"]
+doc_path = "core/arch/aarch64/fn.__jcvt.html"

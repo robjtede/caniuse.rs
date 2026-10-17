@@ -1,0 +1,14 @@
+title = "Import path-segment keywords with renaming"
+impl_pr_id = 146972
+items = [
+    "use self as name;",
+    "use super as name;",
+    "use $crate as name;",
+    "use crate::{self as name};",
+    "use self::{self as name};",
+    "use super::{self as name};",
+    "use $crate::{self as name};",
+    "use super::super as name;",
+    "use super::super::{self as name};",
+]
+doc_path = "reference/items/use-declarations.html#self-imports"

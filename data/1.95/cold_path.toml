@@ -1,0 +1,6 @@
+title = "`hint::cold_path` as `const fn`"
+flag = "cold_path"
+tracking_issue_id = 136873
+stabilization_pr_id = 151576
+items = ["core::hint::cold_path"]
+doc_path = "core/hint/fn.cold_path.html"

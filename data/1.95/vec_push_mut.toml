@@ -1,0 +1,7 @@
+title = "`Vec` insertion methods that return mutable references"
+flag = "push_mut"
+impl_pr_id = 135975
+tracking_issue_id = 135974
+stabilization_pr_id = 151785
+items = ["Vec::push_mut", "Vec::insert_mut"]
+doc_path = "std/vec/struct.Vec.html#method.push_mut"
