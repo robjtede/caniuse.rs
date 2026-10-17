@@ -1,0 +1,17 @@
+title = "arithmetic and bitwise operations on `AtomicPtr`"
+flag = "strict_provenance_atomic_ptr"
+impl_pr_id = 96935
+tracking_issue_id = 99108
+stabilization_pr_id = 145467
+
+items = [
+    "AtomicPtr::fetch_ptr_add",
+    "AtomicPtr::fetch_ptr_sub",
+    "AtomicPtr::fetch_byte_add",
+    "AtomicPtr::fetch_byte_sub",
+    "AtomicPtr::fetch_or",
+    "AtomicPtr::fetch_and",
+    "AtomicPtr::fetch_xor",
+]
+
+doc_path = "std/sync/atomic/struct.AtomicPtr.html#method.fetch_ptr_add"

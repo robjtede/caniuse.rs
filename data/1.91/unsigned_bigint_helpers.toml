@@ -1,0 +1,33 @@
+title = "unsigned integer helpers for large integer arithmetic"
+flag = "unsigned_bigint_helpers"
+tracking_issue_id = 85532
+stabilization_pr_id = 144494
+
+items = [
+    "u8::carrying_add",
+    "u8::borrowing_sub",
+    "u8::carrying_mul",
+    "u8::carrying_mul_add",
+    "u16::carrying_add",
+    "u16::borrowing_sub",
+    "u16::carrying_mul",
+    "u16::carrying_mul_add",
+    "u32::carrying_add",
+    "u32::borrowing_sub",
+    "u32::carrying_mul",
+    "u32::carrying_mul_add",
+    "u64::carrying_add",
+    "u64::borrowing_sub",
+    "u64::carrying_mul",
+    "u64::carrying_mul_add",
+    "u128::carrying_add",
+    "u128::borrowing_sub",
+    "u128::carrying_mul",
+    "u128::carrying_mul_add",
+    "usize::carrying_add",
+    "usize::borrowing_sub",
+    "usize::carrying_mul",
+    "usize::carrying_mul_add",
+]
+
+doc_path = "std/primitive.u64.html#method.carrying_add"

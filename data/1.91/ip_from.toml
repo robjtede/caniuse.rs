@@ -1,0 +1,13 @@
+title = "construct IP addresses from octets and segments"
+flag = "ip_from"
+impl_pr_id = 130629
+tracking_issue_id = 131360
+stabilization_pr_id = 141744
+
+items = [
+    "Ipv4Addr::from_octets",
+    "Ipv6Addr::from_octets",
+    "Ipv6Addr::from_segments",
+]
+
+doc_path = "std/net/struct.Ipv6Addr.html#method.from_segments"

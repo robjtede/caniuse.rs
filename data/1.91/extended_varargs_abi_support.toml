@@ -1,0 +1,13 @@
+title = "C-style variadic declarations for more ABIs"
+flag = "extended_varargs_abi_support"
+tracking_issue_id = 100189
+stabilization_pr_id = 144066
+
+items = [
+    "extern \"sysv64\"",
+    "extern \"win64\"",
+    "extern \"efiapi\"",
+    "extern \"aapcs\"",
+]
+
+doc_path = "reference/items/external-blocks.html#variadic-functions"

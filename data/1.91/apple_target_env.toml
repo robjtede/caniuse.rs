@@ -1,0 +1,9 @@
+title = "`target_env` values for Mac Catalyst and Apple simulators"
+impl_pr_id = 139451
+
+items = [
+    "cfg(target_env = \"macabi\")",
+    "cfg(target_env = \"sim\")",
+]
+
+doc_path = "reference/conditional-compilation.html#target_env"

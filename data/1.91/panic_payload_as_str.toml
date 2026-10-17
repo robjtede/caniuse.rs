@@ -1,0 +1,11 @@
+title = "`PanicHookInfo::payload_as_str`"
+flag = "panic_payload_as_str"
+impl_pr_id = 115974
+tracking_issue_id = 125175
+stabilization_pr_id = 144861
+
+items = [
+    "PanicHookInfo::payload_as_str",
+]
+
+doc_path = "std/panic/struct.PanicHookInfo.html#method.payload_as_str"

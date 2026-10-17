@@ -1,0 +1,32 @@
+title = "`Sum` and `Product` implementations for unsigned `Saturating` integers"
+flag = "saturating_iter_arith"
+impl_pr_id = 144275
+
+items = [
+    "impl Sum for Saturating<u8>",
+    "impl Sum<&Saturating<u8>> for Saturating<u8>",
+    "impl Product for Saturating<u8>",
+    "impl Product<&Saturating<u8>> for Saturating<u8>",
+    "impl Sum for Saturating<u16>",
+    "impl Sum<&Saturating<u16>> for Saturating<u16>",
+    "impl Product for Saturating<u16>",
+    "impl Product<&Saturating<u16>> for Saturating<u16>",
+    "impl Sum for Saturating<u32>",
+    "impl Sum<&Saturating<u32>> for Saturating<u32>",
+    "impl Product for Saturating<u32>",
+    "impl Product<&Saturating<u32>> for Saturating<u32>",
+    "impl Sum for Saturating<u64>",
+    "impl Sum<&Saturating<u64>> for Saturating<u64>",
+    "impl Product for Saturating<u64>",
+    "impl Product<&Saturating<u64>> for Saturating<u64>",
+    "impl Sum for Saturating<u128>",
+    "impl Sum<&Saturating<u128>> for Saturating<u128>",
+    "impl Product for Saturating<u128>",
+    "impl Product<&Saturating<u128>> for Saturating<u128>",
+    "impl Sum for Saturating<usize>",
+    "impl Sum<&Saturating<usize>> for Saturating<usize>",
+    "impl Product for Saturating<usize>",
+    "impl Product<&Saturating<usize>> for Saturating<usize>",
+]
+
+doc_path = "std/num/struct.Saturating.html#impl-Sum-for-Saturating%3Cu32%3E"
