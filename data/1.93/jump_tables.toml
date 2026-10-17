@@ -1,0 +1,8 @@
+title = "`-Cjump-tables` compiler option"
+flag = "jump_tables"
+impl_pr_id = 105812
+tracking_issue_id = 116592
+stabilization_pr_id = 145974
+items = ["-Cjump-tables"]
+doc_path = "rustc/codegen-options/index.html#jump-tables"
+
