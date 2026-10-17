@@ -1,0 +1,4 @@
+title = "`TryFrom<CString>` implementation for `String`"
+impl_pr_id = 130608
+items = ["impl TryFrom<CString> for String"]
+doc_path = "std/string/struct.String.html#impl-TryFrom%3CCString%3E-for-String"

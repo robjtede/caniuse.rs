@@ -1,0 +1,30 @@
+title = "exponential formatting for `NonZero` integers"
+flag = "nonzero_fmt_exp"
+impl_pr_id = 131377
+items = [
+    "impl LowerExp for NonZero<u8>",
+    "impl LowerExp for NonZero<u16>",
+    "impl LowerExp for NonZero<u32>",
+    "impl LowerExp for NonZero<u64>",
+    "impl LowerExp for NonZero<u128>",
+    "impl LowerExp for NonZero<usize>",
+    "impl LowerExp for NonZero<i8>",
+    "impl LowerExp for NonZero<i16>",
+    "impl LowerExp for NonZero<i32>",
+    "impl LowerExp for NonZero<i64>",
+    "impl LowerExp for NonZero<i128>",
+    "impl LowerExp for NonZero<isize>",
+    "impl UpperExp for NonZero<u8>",
+    "impl UpperExp for NonZero<u16>",
+    "impl UpperExp for NonZero<u32>",
+    "impl UpperExp for NonZero<u64>",
+    "impl UpperExp for NonZero<u128>",
+    "impl UpperExp for NonZero<usize>",
+    "impl UpperExp for NonZero<i8>",
+    "impl UpperExp for NonZero<i16>",
+    "impl UpperExp for NonZero<i32>",
+    "impl UpperExp for NonZero<i64>",
+    "impl UpperExp for NonZero<i128>",
+    "impl UpperExp for NonZero<isize>",
+]
+doc_path = "std/num/struct.NonZero.html#impl-LowerExp-for-NonZero%3CT%3E"

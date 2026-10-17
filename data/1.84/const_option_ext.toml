@@ -1,0 +1,11 @@
+title = "`Option` pin and slice accessors as `const fn`"
+flag = "const_option_ext"
+tracking_issue_id = 91930
+stabilization_pr_id = 132966
+items = [
+    "Option::as_pin_ref",
+    "Option::as_pin_mut",
+    "Option::as_slice",
+    "Option::as_mut_slice",
+]
+doc_path = "std/option/enum.Option.html#method.as_pin_ref"

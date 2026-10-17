@@ -1,0 +1,7 @@
+title = "`char::is_lowercase` and `char::is_uppercase` as `const fn`"
+flag = "const_unicode_case_lookup"
+impl_pr_id = 101401
+tracking_issue_id = 101400
+stabilization_pr_id = 132948
+items = ["char::is_lowercase", "char::is_uppercase"]
+doc_path = "std/primitive.char.html#method.is_lowercase"

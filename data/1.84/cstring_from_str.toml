@@ -1,0 +1,4 @@
+title = "`FromStr` implementation for `CString`"
+impl_pr_id = 130608
+items = ["impl FromStr for CString"]
+doc_path = "std/ffi/struct.CString.html#impl-FromStr-for-CString"

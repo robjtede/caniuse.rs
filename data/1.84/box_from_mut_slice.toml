@@ -1,0 +1,11 @@
+title = "`From` implementations for `Box` from mutable slices and strings"
+flag = "box_from_mut_slice"
+impl_pr_id = 129329
+items = [
+    "impl<T: Clone> From<&mut [T]> for Box<[T]>",
+    "impl From<&mut str> for Box<str>",
+    "impl From<&mut CStr> for Box<CStr>",
+    "impl From<&mut OsStr> for Box<OsStr>",
+    "impl From<&mut Path> for Box<Path>",
+]
+doc_path = "std/boxed/struct.Box.html#impl-From%3C%26mut+%5BT%5D%3E-for-Box%3C%5BT%5D%3E"

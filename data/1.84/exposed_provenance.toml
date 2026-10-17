@@ -1,0 +1,12 @@
+title = "exposed provenance pointer APIs"
+flag = "exposed_provenance"
+rfc_id = 3559
+tracking_issue_id = 95228
+stabilization_pr_id = 130350
+items = [
+    "std::ptr::with_exposed_provenance",
+    "std::ptr::with_exposed_provenance_mut",
+    "<*const T>::expose_provenance",
+    "<*mut T>::expose_provenance",
+]
+doc_path = "std/ptr/index.html#exposed-provenance"

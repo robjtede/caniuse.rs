@@ -1,0 +1,31 @@
+title = "integer square roots"
+flag = "isqrt"
+tracking_issue_id = 116226
+stabilization_pr_id = 131391
+items = [
+    "u8::isqrt",
+    "u16::isqrt",
+    "u32::isqrt",
+    "u64::isqrt",
+    "u128::isqrt",
+    "usize::isqrt",
+    "i8::isqrt",
+    "i16::isqrt",
+    "i32::isqrt",
+    "i64::isqrt",
+    "i128::isqrt",
+    "isize::isqrt",
+    "i8::checked_isqrt",
+    "i16::checked_isqrt",
+    "i32::checked_isqrt",
+    "i64::checked_isqrt",
+    "i128::checked_isqrt",
+    "isize::checked_isqrt",
+    "NonZero<u8>::isqrt",
+    "NonZero<u16>::isqrt",
+    "NonZero<u32>::isqrt",
+    "NonZero<u64>::isqrt",
+    "NonZero<u128>::isqrt",
+    "NonZero<usize>::isqrt",
+]
+doc_path = "std/primitive.i32.html#method.isqrt"

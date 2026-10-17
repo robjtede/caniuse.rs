@@ -1,0 +1,16 @@
+title = "`Pin` constructors and reference accessors as `const fn`"
+flag = "const_pin"
+impl_pr_id = 76655
+tracking_issue_id = 76654
+stabilization_pr_id = 130136
+items = [
+    "Pin::new",
+    "Pin::new_unchecked",
+    "Pin::get_ref",
+    "Pin::into_ref",
+    "Pin::get_mut",
+    "Pin::get_unchecked_mut",
+    "Pin::static_ref",
+    "Pin::static_mut",
+]
+doc_path = "std/pin/struct.Pin.html#method.new"
