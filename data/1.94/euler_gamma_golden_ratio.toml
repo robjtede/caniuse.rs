@@ -1,0 +1,12 @@
+title = "Euler–Mascheroni and golden ratio constants"
+flag = "euler_gamma_golden_ratio"
+impl_pr_id = 103836
+tracking_issue_id = 146939
+stabilization_pr_id = 151164
+doc_path = "std/f32/consts/index.html"
+items = [
+    "std::f32::consts::EULER_GAMMA",
+    "std::f64::consts::EULER_GAMMA",
+    "std::f32::consts::GOLDEN_RATIO",
+    "std::f64::consts::GOLDEN_RATIO",
+]
