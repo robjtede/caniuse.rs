@@ -1,0 +1,15 @@
+title = "`unchecked_neg` for signed integers"
+flag = "unchecked_neg"
+impl_pr_id = 115626
+tracking_issue_id = 85122
+stabilization_pr_id = 149087
+items = [
+    "i8::unchecked_neg",
+    "i16::unchecked_neg",
+    "i32::unchecked_neg",
+    "i64::unchecked_neg",
+    "i128::unchecked_neg",
+    "isize::unchecked_neg",
+]
+doc_path = "std/primitive.isize.html#method.unchecked_neg"
+

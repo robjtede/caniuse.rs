@@ -1,0 +1,32 @@
+title = "`unchecked_shl` and `unchecked_shr` for integers"
+flag = "unchecked_shifts"
+tracking_issue_id = 85122
+stabilization_pr_id = 149087
+items = [
+    "i8::unchecked_shl",
+    "i8::unchecked_shr",
+    "i16::unchecked_shl",
+    "i16::unchecked_shr",
+    "i32::unchecked_shl",
+    "i32::unchecked_shr",
+    "i64::unchecked_shl",
+    "i64::unchecked_shr",
+    "i128::unchecked_shl",
+    "i128::unchecked_shr",
+    "isize::unchecked_shl",
+    "isize::unchecked_shr",
+    "u8::unchecked_shl",
+    "u8::unchecked_shr",
+    "u16::unchecked_shl",
+    "u16::unchecked_shr",
+    "u32::unchecked_shl",
+    "u32::unchecked_shr",
+    "u64::unchecked_shl",
+    "u64::unchecked_shr",
+    "u128::unchecked_shl",
+    "u128::unchecked_shr",
+    "usize::unchecked_shl",
+    "usize::unchecked_shr",
+]
+doc_path = "std/primitive.usize.html#method.unchecked_shl"
+

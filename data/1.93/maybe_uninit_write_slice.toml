@@ -1,0 +1,12 @@
+title = "Copy or clone a slice into a `MaybeUninit` slice"
+flag = "maybe_uninit_write_slice"
+impl_pr_id = 79607
+tracking_issue_id = 79995
+stabilization_pr_id = 148048
+# Only `write_copy_of_slice` is const-stable.
+items = [
+    "<[MaybeUninit<T>]>::write_copy_of_slice",
+    "<[MaybeUninit<T>]>::write_clone_of_slice",
+]
+doc_path = "std/primitive.slice.html#method.write_copy_of_slice"
+

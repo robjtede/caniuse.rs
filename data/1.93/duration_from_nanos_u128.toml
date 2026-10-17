@@ -1,0 +1,8 @@
+title = "`Duration::from_nanos_u128`"
+flag = "duration_from_nanos_u128"
+impl_pr_id = 145969
+tracking_issue_id = 139201
+stabilization_pr_id = 148587
+items = ["Duration::from_nanos_u128"]
+doc_path = "std/time/struct.Duration.html#method.from_nanos_u128"
+

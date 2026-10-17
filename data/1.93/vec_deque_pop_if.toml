@@ -1,0 +1,8 @@
+title = "`VecDeque::pop_front_if` and `VecDeque::pop_back_if`"
+flag = "vec_deque_pop_if"
+impl_pr_id = 135890
+tracking_issue_id = 135889
+stabilization_pr_id = 145992
+items = ["VecDeque::pop_front_if", "VecDeque::pop_back_if"]
+doc_path = "std/collections/struct.VecDeque.html#method.pop_front_if"
+

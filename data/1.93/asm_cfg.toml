@@ -1,0 +1,8 @@
+title = "`cfg` attributes on assembly macro arguments"
+flag = "asm_cfg"
+impl_pr_id = 140367
+tracking_issue_id = 140364
+stabilization_pr_id = 147736
+items = ["asm!", "global_asm!", "naked_asm!"]
+doc_path = "reference/inline-assembly.html#r-asm.attributes"
+
