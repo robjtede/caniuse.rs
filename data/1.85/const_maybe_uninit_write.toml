@@ -1,0 +1,8 @@
+title = "`MaybeUninit::write` as `const fn`"
+flag = "const_maybe_uninit_write"
+tracking_issue_id = 63567
+stabilization_pr_id = 131713
+items = [
+    "std::mem::MaybeUninit::write",
+]
+doc_path = "std/mem/union.MaybeUninit.html#method.write"

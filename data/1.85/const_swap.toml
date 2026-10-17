@@ -1,0 +1,12 @@
+title = "swap functions and methods as `const fn`"
+flag = "const_swap"
+tracking_issue_id = 83163
+stabilization_pr_id = 134757
+items = [
+    "std::mem::swap",
+    "std::ptr::swap",
+    "<[T]>::swap",
+    "<*mut T>::swap",
+    "std::ptr::NonNull::swap",
+]
+doc_path = "std/mem/fn.swap.html"

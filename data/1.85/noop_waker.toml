@@ -1,0 +1,9 @@
+title = "`Waker::noop` as `const fn`"
+flag = "noop_waker"
+impl_pr_id = 96875
+tracking_issue_id = 98286
+stabilization_pr_id = 133089
+items = [
+    "std::task::Waker::noop",
+]
+doc_path = "std/task/struct.Waker.html#method.noop"

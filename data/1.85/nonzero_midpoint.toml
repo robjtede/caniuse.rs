@@ -1,0 +1,14 @@
+title = "unsigned `NonZero::midpoint` as `const fn`"
+flag = "num_midpoint"
+impl_pr_id = 92048
+tracking_issue_id = 110840
+stabilization_pr_id = 131784
+items = [
+    "std::num::NonZeroU8::midpoint",
+    "std::num::NonZeroU16::midpoint",
+    "std::num::NonZeroU32::midpoint",
+    "std::num::NonZeroU64::midpoint",
+    "std::num::NonZeroU128::midpoint",
+    "std::num::NonZeroUsize::midpoint",
+]
+doc_path = "std/num/struct.NonZero.html#method.midpoint"

@@ -1,0 +1,17 @@
+title = "`Extend` implementations for tuples of arity 1 and 3 through 12"
+flag = "extend_for_tuple"
+impl_pr_id = 132187
+items = [
+    "impl Extend<(A,)> for (EA,)",
+    "impl Extend<(A, B, C)> for (EA, EB, EC)",
+    "impl Extend<(A, B, C, D)> for (EA, EB, EC, ED)",
+    "impl Extend<(A, B, C, D, E)> for (EA, EB, EC, ED, EE)",
+    "impl Extend<(A, B, C, D, E, F)> for (EA, EB, EC, ED, EE, EF)",
+    "impl Extend<(A, B, C, D, E, F, G)> for (EA, EB, EC, ED, EE, EF, EG)",
+    "impl Extend<(A, B, C, D, E, F, G, H)> for (EA, EB, EC, ED, EE, EF, EG, EH)",
+    "impl Extend<(A, B, C, D, E, F, G, H, I)> for (EA, EB, EC, ED, EE, EF, EG, EH, EI)",
+    "impl Extend<(A, B, C, D, E, F, G, H, I, J)> for (EA, EB, EC, ED, EE, EF, EG, EH, EI, EJ)",
+    "impl Extend<(A, B, C, D, E, F, G, H, I, J, K)> for (EA, EB, EC, ED, EE, EF, EG, EH, EI, EJ, EK)",
+    "impl Extend<(A, B, C, D, E, F, G, H, I, J, K, L)> for (EA, EB, EC, ED, EE, EF, EG, EH, EI, EJ, EK, EL)",
+]
+doc_path = "std/iter/trait.Extend.html#impl-Extend%3C(T,)%3E-for-(ExtendT,)"

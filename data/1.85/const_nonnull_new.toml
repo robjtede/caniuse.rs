@@ -1,0 +1,9 @@
+title = "`NonNull::new` as `const fn`"
+flag = "const_nonnull_new"
+impl_pr_id = 93236
+tracking_issue_id = 93235
+stabilization_pr_id = 134116
+items = [
+    "std::ptr::NonNull::new",
+]
+doc_path = "std/ptr/struct.NonNull.html#method.new"
