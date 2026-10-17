@@ -1,0 +1,5 @@
+title = "`FusedIterator` implementation for `StepBy<I>`"
+flag = "step_by_fused"
+impl_pr_id = 159963
+items = ["impl<I: FusedIterator> FusedIterator for StepBy<I>"]
+doc_path = "std/iter/struct.StepBy.html#impl-FusedIterator-for-StepBy%3CI%3E"

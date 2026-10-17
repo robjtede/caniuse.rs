@@ -1,0 +1,4 @@
+title = "`mem::transmute_copy` from unsized source types"
+impl_pr_id = 155989
+items = ["std::mem::transmute_copy"]
+doc_path = "std/mem/fn.transmute_copy.html"

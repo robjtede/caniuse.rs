@@ -1,0 +1,8 @@
+title = "`NumBuffer` exports in `alloc::fmt` and `std::fmt`"
+flag = "fmt_numbuffer"
+impl_pr_id = 161430
+items = [
+    "alloc::fmt::NumBuffer",
+    "std::fmt::NumBuffer",
+]
+doc_path = "std/fmt/struct.NumBuffer.html"

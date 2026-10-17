@@ -1,0 +1,7 @@
+title = "128-bit integers in x86 and x86-64 inline assembly vector registers"
+flag = "asm_experimental_reg"
+impl_pr_id = 151059
+tracking_issue_id = 133416
+stabilization_pr_id = 159525
+items = ["asm!"]
+doc_path = "reference/inline-assembly.html#register-operands"

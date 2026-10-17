@@ -1,0 +1,10 @@
+title = "`fs::set_times` and `fs::set_times_nofollow`"
+flag = "fs_set_times"
+impl_pr_id = 147468
+tracking_issue_id = 147455
+stabilization_pr_id = 160820
+items = [
+    "std::fs::set_times",
+    "std::fs::set_times_nofollow",
+]
+doc_path = "std/fs/fn.set_times.html"

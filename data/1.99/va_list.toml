@@ -1,0 +1,13 @@
+title = "`ffi::VaList` for C-variadic arguments"
+flag = "c_variadic"
+rfc_id = 2137
+tracking_issue_id = 44930
+stabilization_pr_id = 155697
+items = [
+    "core::ffi::VaList",
+    "core::ffi::VaList::next_arg",
+    "impl Clone for VaList<'_>",
+    "impl Debug for VaList<'_>",
+    "impl Drop for VaList<'_>",
+]
+doc_path = "core/ffi/struct.VaList.html"

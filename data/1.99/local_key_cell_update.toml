@@ -1,0 +1,7 @@
+title = "`LocalKey<Cell<T>>::update`"
+flag = "local_key_cell_update"
+impl_pr_id = 143990
+tracking_issue_id = 143989
+stabilization_pr_id = 157734
+items = ["std::thread::LocalKey<std::cell::Cell<T>>::update"]
+doc_path = "std/thread/struct.LocalKey.html#method.update"
