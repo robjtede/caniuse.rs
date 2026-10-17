@@ -1,0 +1,10 @@
+title = "128-bit integer representations for enums"
+flag = "repr128"
+rfc_id = 1504
+tracking_issue_id = 56071
+stabilization_pr_id = 138285
+items = [
+    "#[repr(u128)]",
+    "#[repr(i128)]",
+]
+doc_path = "reference/type-layout.html#primitive-representations"

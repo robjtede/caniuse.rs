@@ -1,0 +1,9 @@
+title = "`<[T; N]>::as_mut_slice` as `const fn`"
+flag = "const_array_as_mut_slice"
+impl_pr_id = 133332
+tracking_issue_id = 133333
+stabilization_pr_id = 140066
+items = [
+    "<[T; N]>::as_mut_slice",
+]
+doc_path = "std/primitive.array.html#method.as_mut_slice"

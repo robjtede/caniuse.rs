@@ -1,0 +1,16 @@
+title = "TCP quick ACK support on Linux and Android"
+flag = "tcp_quickack"
+impl_pr_id = 96324
+tracking_issue_id = 96256
+stabilization_pr_id = 129121
+items = [
+    "std::os::linux::net::TcpStreamExt",
+    "std::os::linux::net::TcpStreamExt::quickack",
+    "std::os::linux::net::TcpStreamExt::set_quickack",
+    "impl std::os::linux::net::TcpStreamExt for TcpStream",
+    "std::os::android::net::TcpStreamExt",
+    "std::os::android::net::TcpStreamExt::quickack",
+    "std::os::android::net::TcpStreamExt::set_quickack",
+    "impl std::os::android::net::TcpStreamExt for TcpStream",
+]
+doc_path = "std/os/linux/net/trait.TcpStreamExt.html"

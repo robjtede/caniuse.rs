@@ -1,0 +1,7 @@
+title = "`DerefMut` implementation for `LazyLock`"
+flag = "lazy_deref_mut"
+impl_pr_id = 129334
+items = [
+    "impl DerefMut for LazyLock<T, F>",
+]
+doc_path = "std/sync/struct.LazyLock.html#impl-DerefMut-for-LazyLock%3CT,+F%3E"

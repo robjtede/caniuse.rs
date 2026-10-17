@@ -1,0 +1,7 @@
+title = "`DerefMut` implementation for `LazyCell`"
+flag = "lazy_deref_mut"
+impl_pr_id = 129334
+items = [
+    "impl DerefMut for LazyCell<T, F>",
+]
+doc_path = "std/cell/struct.LazyCell.html#impl-DerefMut-for-LazyCell%3CT,+F%3E"

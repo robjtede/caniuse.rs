@@ -1,0 +1,20 @@
+title = "file locking APIs"
+flag = "file_lock"
+impl_pr_id = 130999
+tracking_issue_id = 130994
+stabilization_pr_id = 142125
+items = [
+    "File::lock",
+    "File::lock_shared",
+    "File::try_lock",
+    "File::try_lock_shared",
+    "File::unlock",
+    "std::fs::TryLockError",
+    "TryLockError::Error",
+    "TryLockError::WouldBlock",
+    "impl Error for TryLockError",
+    "impl Debug for TryLockError",
+    "impl Display for TryLockError",
+    "impl From<TryLockError> for io::Error",
+]
+doc_path = "std/fs/struct.File.html#method.lock"

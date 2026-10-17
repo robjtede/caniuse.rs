@@ -1,0 +1,7 @@
+title = "`Default` implementation for `array::IntoIter`"
+flag = "array_value_iter_default"
+impl_pr_id = 141574
+items = [
+    "impl Default for array::IntoIter<T, N>",
+]
+doc_path = "std/array/struct.IntoIter.html#impl-Default-for-IntoIter%3CT,+N%3E"

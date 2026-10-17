@@ -1,0 +1,9 @@
+title = "`OsString::leak`"
+flag = "os_string_pathbuf_leak"
+impl_pr_id = 125966
+tracking_issue_id = 125965
+stabilization_pr_id = 137992
+items = [
+    "OsString::leak",
+]
+doc_path = "std/ffi/struct.OsString.html#method.leak"

@@ -1,0 +1,6 @@
+title = "`NonZero<char>`"
+impl_pr_id = 141001
+items = [
+    "NonZero<char>",
+]
+doc_path = "std/num/struct.NonZero.html"

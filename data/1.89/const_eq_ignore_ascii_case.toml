@@ -1,0 +1,10 @@
+title = "`<[u8]>::eq_ignore_ascii_case` and `str::eq_ignore_ascii_case` as `const fn`"
+flag = "const_eq_ignore_ascii_case"
+impl_pr_id = 131721
+tracking_issue_id = 131719
+stabilization_pr_id = 142065
+items = [
+    "<[u8]>::eq_ignore_ascii_case",
+    "str::eq_ignore_ascii_case",
+]
+doc_path = "std/primitive.slice.html#method.eq_ignore_ascii_case"

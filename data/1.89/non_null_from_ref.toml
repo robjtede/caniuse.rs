@@ -1,0 +1,10 @@
+title = "`NonNull` constructors from references"
+flag = "non_null_from_ref"
+impl_pr_id = 130822
+tracking_issue_id = 130823
+stabilization_pr_id = 140511
+items = [
+    "NonNull::from_ref",
+    "NonNull::from_mut",
+]
+doc_path = "std/ptr/struct.NonNull.html#method.from_ref"
