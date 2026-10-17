@@ -1,0 +1,11 @@
+title = "Mutable slice chunk accessors as `const fn`"
+flag = "const_slice_first_last_chunk"
+tracking_issue_id = 111774
+stabilization_pr_id = 130428
+items = [
+    "<[T]>::first_chunk_mut",
+    "<[T]>::last_chunk_mut",
+    "<[T]>::split_first_chunk_mut",
+    "<[T]>::split_last_chunk_mut",
+]
+doc_path = "std/primitive.slice.html#method.first_chunk_mut"

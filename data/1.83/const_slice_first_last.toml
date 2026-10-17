@@ -1,0 +1,12 @@
+title = "Mutable slice first and last accessors as `const fn`"
+flag = "const_slice_first_last"
+impl_pr_id = 83571
+tracking_issue_id = 83570
+stabilization_pr_id = 131177
+items = [
+    "<[T]>::first_mut",
+    "<[T]>::last_mut",
+    "<[T]>::split_first_mut",
+    "<[T]>::split_last_mut",
+]
+doc_path = "std/primitive.slice.html#method.first_mut"

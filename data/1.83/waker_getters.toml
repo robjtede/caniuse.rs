@@ -1,0 +1,6 @@
+title = "`Waker` constructor and accessors"
+flag = "waker_getters"
+tracking_issue_id = 96992
+stabilization_pr_id = 129919
+items = ["Waker::new", "Waker::data", "Waker::vtable"]
+doc_path = "std/task/struct.Waker.html#method.new"

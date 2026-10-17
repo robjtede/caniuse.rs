@@ -1,0 +1,11 @@
+title = "More `Result` methods as `const fn`"
+flag = "const_result"
+tracking_issue_id = 82814
+stabilization_pr_id = 131287
+items = [
+    "Result::as_mut",
+    "Result::<&T, E>::copied",
+    "Result::<&mut T, E>::copied",
+    "Result::<Option<T>, E>::transpose",
+]
+doc_path = "std/result/enum.Result.html#method.as_mut"

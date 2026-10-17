@@ -1,0 +1,5 @@
+title = "`const extern fn` with all supported calling conventions"
+flag = "const_extern_fn"
+tracking_issue_id = 64926
+stabilization_pr_id = 129753
+doc_path = "reference/items/functions.html#const-functions"

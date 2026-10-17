@@ -1,0 +1,12 @@
+title = "`finish_non_exhaustive` for debug builders"
+flag = "debug_more_non_exhaustive"
+impl_pr_id = 127945
+tracking_issue_id = 127942
+stabilization_pr_id = 131109
+items = [
+    "DebugList::finish_non_exhaustive",
+    "DebugMap::finish_non_exhaustive",
+    "DebugSet::finish_non_exhaustive",
+    "DebugTuple::finish_non_exhaustive",
+]
+doc_path = "std/fmt/struct.DebugList.html#method.finish_non_exhaustive"

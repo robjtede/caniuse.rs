@@ -1,0 +1,7 @@
+title = "`array::from_mut` as `const fn`"
+flag = "const_array_from_ref"
+impl_pr_id = 90162
+tracking_issue_id = 90206
+stabilization_pr_id = 130538
+items = ["std::array::from_mut"]
+doc_path = "std/array/fn.from_mut.html"

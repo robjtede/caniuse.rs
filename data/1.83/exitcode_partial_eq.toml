@@ -1,0 +1,4 @@
+title = "`PartialEq` for `ExitCode`"
+impl_pr_id = 127633
+items = ["impl PartialEq for std::process::ExitCode"]
+doc_path = "std/process/struct.ExitCode.html#impl-PartialEq-for-ExitCode"

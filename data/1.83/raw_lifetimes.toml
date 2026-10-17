@@ -1,0 +1,4 @@
+title = "Raw lifetimes and loop labels in Rust 2021 and later"
+impl_pr_id = 126452
+tracking_issue_id = 126335
+doc_path = "reference/tokens.html#lifetimes-and-loop-labels"

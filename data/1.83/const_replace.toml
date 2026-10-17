@@ -1,0 +1,7 @@
+title = "`mem::replace` and `ptr::replace` as `const fn`"
+flag = "const_replace"
+impl_pr_id = 83091
+tracking_issue_id = 83164
+stabilization_pr_id = 130954
+items = ["std::mem::replace", "std::ptr::replace"]
+doc_path = "std/mem/fn.replace.html"

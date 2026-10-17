@@ -1,0 +1,7 @@
+title = "`char::MIN`"
+flag = "char_min"
+impl_pr_id = 114299
+tracking_issue_id = 114298
+stabilization_pr_id = 130154
+items = ["char::MIN"]
+doc_path = "std/primitive.char.html#associatedconstant.MIN"

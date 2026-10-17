@@ -1,0 +1,10 @@
+title = "Mutable slice constructors as `const fn`"
+flag = "const_slice_from_raw_parts_mut"
+tracking_issue_id = 67456
+stabilization_pr_id = 130403
+items = [
+    "std::ptr::slice_from_raw_parts_mut",
+    "std::slice::from_raw_parts_mut",
+    "NonNull::slice_from_raw_parts",
+]
+doc_path = "std/slice/fn.from_raw_parts_mut.html"

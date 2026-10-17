@@ -1,0 +1,7 @@
+title = "`Option::get_or_insert_default`"
+flag = "option_get_or_insert_default"
+impl_pr_id = 82849
+tracking_issue_id = 82901
+stabilization_pr_id = 129087
+items = ["Option::get_or_insert_default"]
+doc_path = "std/option/enum.Option.html#method.get_or_insert_default"

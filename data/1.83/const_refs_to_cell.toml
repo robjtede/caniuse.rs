@@ -1,0 +1,6 @@
+title = "References to interior mutable values in `const` contexts"
+flag = "const_refs_to_cell"
+impl_pr_id = 80418
+tracking_issue_id = 80384
+stabilization_pr_id = 129195
+doc_path = "reference/const_eval.html#constant-expressions"
