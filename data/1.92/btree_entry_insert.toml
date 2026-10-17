@@ -1,0 +1,10 @@
+title = "`insert_entry` methods on `BTreeMap` entries"
+flag = "btree_entry_insert"
+impl_pr_id = 133042
+tracking_issue_id = 65225
+stabilization_pr_id = 144871
+items = [
+    "std::collections::btree_map::Entry::insert_entry",
+    "std::collections::btree_map::VacantEntry::insert_entry",
+]
+doc_path = "std/collections/btree_map/enum.Entry.html#method.insert_entry"

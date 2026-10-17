@@ -1,0 +1,11 @@
+title = "`TokenStream` extension from token tree items"
+flag = "token_stream_extend_tt_items"
+impl_pr_id = 145722
+tracking_issue_id = 112815
+items = [
+    "impl Extend<proc_macro::Group> for proc_macro::TokenStream",
+    "impl Extend<proc_macro::Literal> for proc_macro::TokenStream",
+    "impl Extend<proc_macro::Punct> for proc_macro::TokenStream",
+    "impl Extend<proc_macro::Ident> for proc_macro::TokenStream",
+]
+doc_path = "proc_macro/struct.TokenStream.html#impl-Extend%3CGroup%3E-for-TokenStream"

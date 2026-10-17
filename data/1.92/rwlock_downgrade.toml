@@ -1,0 +1,7 @@
+title = "`RwLockWriteGuard::downgrade`"
+flag = "rwlock_downgrade"
+impl_pr_id = 128219
+tracking_issue_id = 128203
+stabilization_pr_id = 143191
+items = ["std::sync::RwLockWriteGuard::downgrade"]
+doc_path = "std/sync/struct.RwLockWriteGuard.html#method.downgrade"

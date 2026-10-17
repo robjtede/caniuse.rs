@@ -1,0 +1,14 @@
+title = "`NonZero::div_ceil` for unsigned integers"
+flag = "unsigned_nonzero_div_ceil"
+impl_pr_id = 132665
+tracking_issue_id = 132968
+stabilization_pr_id = 147562
+items = [
+    "NonZero<u8>::div_ceil",
+    "NonZero<u16>::div_ceil",
+    "NonZero<u32>::div_ceil",
+    "NonZero<u64>::div_ceil",
+    "NonZero<u128>::div_ceil",
+    "NonZero<usize>::div_ceil",
+]
+doc_path = "std/num/struct.NonZero.html#method.div_ceil"
