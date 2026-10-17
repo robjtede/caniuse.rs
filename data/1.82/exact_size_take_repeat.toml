@@ -1,0 +1,10 @@
+title = "`DoubleEndedIterator` and `ExactSizeIterator` for finite repeat iterators"
+flag = "exact_size_take_repeat"
+impl_pr_id = 106943
+tracking_issue_id = 104434
+items = [
+    "impl DoubleEndedIterator for Take<Repeat<T>>",
+    "impl ExactSizeIterator for Take<Repeat<T>>",
+    "impl ExactSizeIterator for Take<RepeatWith<F>>",
+]
+doc_path = "std/iter/struct.Take.html#impl-DoubleEndedIterator-for-Take%3CRepeat%3CT%3E%3E"

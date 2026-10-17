@@ -1,0 +1,11 @@
+title = "`Default` implementations for more collection iterators"
+flag = "default_iters_sequel"
+impl_pr_id = 128261
+items = [
+    "impl Default for binary_heap::Iter<'_, T>",
+    "impl Default for btree_map::RangeMut<'_, K, V>",
+    "impl Default for btree_map::ValuesMut<'_, K, V>",
+    "impl Default for vec_deque::Iter<'_, T>",
+    "impl Default for vec_deque::IterMut<'_, T>",
+]
+doc_path = "std/collections/binary_heap/struct.Iter.html#impl-Default-for-Iter%3C'_,+T%3E"

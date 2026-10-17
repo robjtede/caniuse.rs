@@ -1,0 +1,11 @@
+title = "`Waker` and `Context` methods as `const fn`"
+flag = "const_waker"
+impl_pr_id = 101798
+tracking_issue_id = 102012
+stabilization_pr_id = 128228
+items = [
+    "task::Waker::from_raw",
+    "task::Context::from_waker",
+    "task::Context::waker",
+]
+doc_path = "std/task/struct.Waker.html#method.from_raw"

@@ -1,0 +1,9 @@
+title = "`CharIndices::offset`"
+flag = "char_indices_offset"
+impl_pr_id = 82585
+tracking_issue_id = 83871
+stabilization_pr_id = 129276
+items = [
+    "str::CharIndices::offset",
+]
+doc_path = "std/str/struct.CharIndices.html#method.offset"

@@ -1,0 +1,9 @@
+title = "nested field access in `offset_of!`"
+flag = "offset_of_nested"
+rfc_id = 3308
+tracking_issue_id = 120140
+stabilization_pr_id = 128284
+items = [
+    "offset_of!",
+]
+doc_path = "std/mem/macro.offset_of.html"

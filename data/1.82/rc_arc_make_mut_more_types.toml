@@ -1,0 +1,11 @@
+title = "`Rc::make_mut` and `Arc::make_mut` for `Path`, `OsStr`, and `CStr`"
+impl_pr_id = 126877
+items = [
+    "Rc<Path>::make_mut",
+    "Rc<OsStr>::make_mut",
+    "Rc<CStr>::make_mut",
+    "Arc<Path>::make_mut",
+    "Arc<OsStr>::make_mut",
+    "Arc<CStr>::make_mut",
+]
+doc_path = "std/rc/struct.Rc.html#method.make_mut"
