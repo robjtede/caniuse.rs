@@ -1,0 +1,7 @@
+title = "`char::is_control` as `const fn`"
+flag = "const_is_control"
+stabilization_pr_id = 155528
+doc_path = "std/primitive.char.html#method.is_control"
+items = [
+    "char::is_control",
+]

@@ -1,0 +1,12 @@
+title = "`div32`, `lam-bh`, `lamcas`, `ld-seq-sa`, and `scq` LoongArch target features"
+flag = "loongarch_target_feature"
+tracking_issue_id = 150252
+stabilization_pr_id = 154510
+doc_path = "reference/attributes/codegen.html#loongarch"
+items = [
+    "#[target_feature(enable = \"div32\")]",
+    "#[target_feature(enable = \"lam-bh\")]",
+    "#[target_feature(enable = \"lamcas\")]",
+    "#[target_feature(enable = \"ld-seq-sa\")]",
+    "#[target_feature(enable = \"scq\")]",
+]
