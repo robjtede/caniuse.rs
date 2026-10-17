@@ -1,0 +1,11 @@
+title = "`array::repeat`"
+flag = "array_repeat"
+impl_pr_id = 119127
+tracking_issue_id = 126695
+stabilization_pr_id = 145465
+
+items = [
+    "core::array::repeat",
+]
+
+doc_path = "core/array/fn.repeat.html"

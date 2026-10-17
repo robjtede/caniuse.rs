@@ -1,0 +1,9 @@
+title = "`Debug` implementation for Windows `EncodeWide`"
+flag = "encode_wide_debug"
+impl_pr_id = 140153
+
+items = [
+    "impl Debug for std::os::windows::ffi::EncodeWide<'_>",
+]
+
+doc_path = "std/os/windows/ffi/struct.EncodeWide.html#impl-Debug-for-EncodeWide%3C'_%3E"

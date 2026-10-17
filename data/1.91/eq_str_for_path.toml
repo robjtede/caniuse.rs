@@ -1,0 +1,16 @@
+title = "compare paths with strings"
+flag = "eq_str_for_path"
+impl_pr_id = 140956
+
+items = [
+    "impl PartialEq<str> for Path",
+    "impl PartialEq<Path> for str",
+    "impl PartialEq<String> for Path",
+    "impl PartialEq<Path> for String",
+    "impl PartialEq<str> for PathBuf",
+    "impl PartialEq<PathBuf> for str",
+    "impl PartialEq<String> for PathBuf",
+    "impl PartialEq<PathBuf> for String",
+]
+
+doc_path = "std/path/struct.Path.html#impl-PartialEq%3Cstr%3E-for-Path"

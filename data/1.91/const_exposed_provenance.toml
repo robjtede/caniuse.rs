@@ -1,0 +1,11 @@
+title = "construct exposed-provenance pointers in const contexts"
+flag = "const_exposed_provenance"
+tracking_issue_id = 144538
+stabilization_pr_id = 145462
+
+items = [
+    "std::ptr::with_exposed_provenance",
+    "std::ptr::with_exposed_provenance_mut",
+]
+
+doc_path = "std/ptr/fn.with_exposed_provenance.html"

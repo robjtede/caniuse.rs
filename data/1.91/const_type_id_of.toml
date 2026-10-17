@@ -1,0 +1,10 @@
+title = "`TypeId::of` as `const fn`"
+flag = "const_type_id"
+tracking_issue_id = 77125
+stabilization_pr_id = 144133
+
+items = [
+    "TypeId::of",
+]
+
+doc_path = "std/any/struct.TypeId.html#method.of"

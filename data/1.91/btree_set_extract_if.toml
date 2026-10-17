@@ -1,0 +1,14 @@
+title = "`BTreeSet::extract_if`"
+flag = "btree_extract_if"
+tracking_issue_id = 70530
+stabilization_pr_id = 145471
+
+items = [
+    "BTreeSet::extract_if",
+    "std::collections::btree_set::ExtractIf",
+    "impl Debug for std::collections::btree_set::ExtractIf<'_, T, R, F>",
+    "impl Iterator for std::collections::btree_set::ExtractIf<'_, T, R, F>",
+    "impl FusedIterator for std::collections::btree_set::ExtractIf<'_, T, R, F>",
+]
+
+doc_path = "std/collections/struct.BTreeSet.html#method.extract_if"
