@@ -14,4 +14,4 @@ items = [
     "AtomicPtr::fetch_xor",
 ]
 
-doc_path = "std/sync/atomic/struct.AtomicPtr.html#method.fetch_ptr_add"
+doc_path = "std/sync/atomic/type.AtomicPtr.html#method.fetch_ptr_add"
