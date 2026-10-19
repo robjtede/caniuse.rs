@@ -1,4 +1,5 @@
 title = "`rust-version` in Cargo.toml"
+changelog_section = "Cargo"
 rfc_id = 2495
 tracking_issue_id = 65262
 aliases = ["MSRV", "Minimum Supported Rust Version"]

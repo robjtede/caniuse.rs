@@ -3,14 +3,14 @@ use std::rc::Rc;
 use gloo_events::EventListener;
 use gloo_utils::document;
 use wasm_bindgen::JsCast;
-use web_sys::{HtmlInputElement, KeyboardEvent};
+use web_sys::{Element, HtmlInputElement, KeyboardEvent};
 use yew::{html, Component, Context, Html, NodeRef};
 use yew_router::BrowserRouter;
 
 use crate::{
     components::{
         index::{Explore, IndexContents},
-        About, FeaturePage, Header, Index, VersionPage,
+        About, Atlas, FeaturePage, Header, Index,
     },
     AppRoute, FEATURES, VERSIONS,
 };
@@ -25,6 +25,7 @@ pub struct App {
 pub enum Msg {
     FocusInput,
     Search(Rc<String>),
+    ClearSearch,
 }
 
 impl Component for App {
@@ -35,6 +36,21 @@ impl Component for App {
         let link2 = ctx.link().clone();
         let _key_listener = EventListener::new(&document(), "keypress", move |event| {
             let event = event.dyn_ref::<KeyboardEvent>().expect("wrong event type");
+            let editing = event
+                .target()
+                .and_then(|target| target.dyn_into::<Element>().ok())
+                .is_some_and(|target| {
+                    target
+                        .closest("input, textarea, select, [contenteditable]")
+                        .ok()
+                        .flatten()
+                        .is_some()
+                });
+
+            if editing || event.ctrl_key() || event.meta_key() || event.alt_key() {
+                return;
+            }
+
             if event.key().as_str() == "s" {
                 link2.send_message(Msg::FocusInput);
             }
@@ -53,6 +69,13 @@ impl Component for App {
                 self.search_query = query;
                 true
             }
+            Msg::ClearSearch => {
+                self.search_query = Rc::new(String::new());
+                if let Some(input) = self.input_ref.cast::<HtmlInputElement>() {
+                    input.set_value("");
+                }
+                true
+            }
         }
     }
 
@@ -66,6 +89,10 @@ impl Component for App {
         let search_query = self.search_query.clone();
         let render_route = move |route| match &route {
             AppRoute::Index | AppRoute::RecentlyStabilized | AppRoute::Unstable => {
+                if search_query.is_empty() && matches!(route, AppRoute::Index) {
+                    return html! { <Atlas /> };
+                }
+
                 let show = if search_query.is_empty() {
                     IndexContents::Explore(match &route {
                         AppRoute::Index => Explore::Stable,
@@ -86,7 +113,7 @@ impl Component for App {
                 None => html! { "error: feature not found!" },
             },
             AppRoute::Version { number } => match VERSIONS.iter().find(|v| v.number == number) {
-                Some(&data) => html! { <VersionPage data={data} /> },
+                Some(&data) => html! { <Atlas key={data.number} initial_version={data.number} /> },
                 None => html! { "error: version not found!" },
             },
         };
@@ -98,17 +125,13 @@ impl Component for App {
 
         html! {
             <BrowserRouter>
-                <Header input_ref={self.input_ref.clone()} oninput={oninput} />
+                <Header input_ref={self.input_ref.clone()} oninput={oninput}
+                    has_query={!self.search_query.is_empty()}
+                    onclear={ctx.link().callback(|_| Msg::ClearSearch)} />
                 <div class="page">
                     <Switch render={render_route} />
                 </div>
             </BrowserRouter>
-        }
-    }
-
-    fn rendered(&mut self, ctx: &Context<Self>, first_render: bool) {
-        if first_render {
-            ctx.link().send_message(Msg::FocusInput);
         }
     }
 }

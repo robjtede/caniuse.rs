@@ -1,4 +1,5 @@
 title = "`String::try_reserve`"
+changelog_section = "Stabilised APIs"
 flag = "try_reserve"
 impl_pr_id = 48648
 tracking_issue_id = 48043

@@ -64,11 +64,43 @@ publish only from `main` or a `v*` tag.
 
 ### Adding data
 
+The home page is a horizontal release atlas. Release permalinks
+(`/versions/1.57`, for example) open the atlas at that release. Search, feature
+permalinks, and the recent and unstable listings remain available.
+
+The selected release is reflected in the URL hash (`#1.57`, `#beta`, or
+`#unstable`). Opening that URL selects the release. Scroll updates replace the
+current history entry. CSS scroll snapping centers releases after scrolling.
+
+The carousel mounts content only for visible releases and nearby releases.
+Lightweight placeholders preserve scroll width and snap positions. Expanded
+features and vertical reading positions are restored when a release returns.
+
+Use the arrow buttons, arrow keys, release selector, or bottom timeline to move
+between releases. A trackpad or touch gesture can scroll horizontally. Vertical
+scrolling stays vertical. The timeline always follows horizontal movement with
+parallax. The home page opens at the latest stable release, followed by Beta
+and Unstable panels. Reduced-motion users get immediate release jumps.
+
+Optional fields in `data/versions.toml` supply the editorial release introduction:
+
+- `headline`: A short release heading.
+- `summary`: A factual description of the highlighted change.
+- `example`: A code or configuration excerpt. Excerpts need not be complete programs.
+
+Without these fields, the atlas shows the version and its feature groups.
+The feature groups describe this project's coverage, not every change in the Rust release.
+
 You may want to look at issue [#16][] for missing data. These fields can be
 specified for a feature:
 
 * `title`: Short description to identify the feature. Should fit into
   "can i use {title}?".
+* `changelog_section`: The verified section heading from that version's
+  [Rust release notes](https://doc.rust-lang.org/stable/releases.html), such as
+  `Language`, `Libraries`, `Stabilised APIs`, or `Cargo`. Preserve the upstream
+  spelling. Do not infer a section from an API name or feature flag. Omit this
+  field until checked; the atlas puts such entries under "Other tracked features".
 * `flag`: The feature flag, if any – you can most often find this in the diff of
   the stabilization or implementation PR, for library features look for
   `#[stable]` and `#[rustc_const_stable]` attributes.

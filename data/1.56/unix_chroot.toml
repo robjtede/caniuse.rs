@@ -1,4 +1,5 @@
 title = "`std::os::unix::fs::chroot`"
+changelog_section = "Stabilised APIs"
 flag = "unix_chroot"
 impl_pr_id = 84716
 tracking_issue_id = 84715

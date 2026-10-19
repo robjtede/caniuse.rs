@@ -1,4 +1,5 @@
 title = "`Iterator::map_while`"
+changelog_section = "Stabilised APIs"
 flag = "iter_map_while"
 tracking_issue_id = 68537
 stabilization_pr_id = 89086

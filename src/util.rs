@@ -51,7 +51,9 @@ pub fn view_text(mut text: &str) -> Html {
 pub fn home_button() -> Html {
     let classes: Classes = "button".into();
     html! {
-        <RouterLink to={AppRoute::Index} classes={classes}>{fa_home()}</RouterLink>
+        <RouterLink to={AppRoute::Index} classes={classes}>
+            {fa_home()}<span class="sr-only">{"Back to release atlas"}</span>
+        </RouterLink>
     }
 }
 

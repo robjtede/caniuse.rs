@@ -28,6 +28,8 @@ pub struct Props {
     #[prop_or_default]
     pub input_ref: NodeRef,
     pub oninput: Callback<InputEvent>,
+    pub onclear: Callback<()>,
+    pub has_query: bool,
 }
 
 impl Component for Header {
@@ -82,7 +84,8 @@ impl Component for Header {
         let (menu_button, menu_classes) = if self.is_menu_open {
             (
                 html! {
-                    <button type="button" class="active" aria-hidden="true">
+                    <button type="button" class="active" aria-label="Close menu"
+                        aria-expanded="true" aria-controls="site-menu">
                         {fa_bars()}
                     </button>
                 },
@@ -96,7 +99,8 @@ impl Component for Header {
 
             (
                 html! {
-                    <button type="button" onclick={open_menu}>
+                    <button type="button" onclick={open_menu} aria-label="Open menu"
+                        aria-expanded="false" aria-controls="site-menu">
                         {fa_bars()}
                     </button>
                 },
@@ -109,11 +113,15 @@ impl Component for Header {
         let root: HtmlElement = document_element().dyn_into().unwrap();
         let theme_anchor = if root.dataset().get("theme").unwrap() == "dark" {
             html! {
-                <a onclick={set_theme("light")}>{fa_sun()}{"Light theme"}</a>
+                <button type="button" class="menu-action" onclick={set_theme("light")}>
+                    {fa_sun()}{"Light theme"}
+                </button>
             }
         } else {
             html! {
-                <a onclick={set_theme("dark")}>{fa_moon()}{"Dark theme"}</a>
+                <button type="button" class="menu-action" onclick={set_theme("dark")}>
+                    {fa_moon()}{"Dark theme"}
+                </button>
             }
         };
 
@@ -125,20 +133,34 @@ impl Component for Header {
             }
             cb.emit(ev);
         };
+        let clear = ctx.props().onclear.clone();
+        let onclear = Callback::from(move |_| clear.emit(()));
+        let onkeydown = ctx.link().batch_callback(|event: web_sys::KeyboardEvent| {
+            (event.key() == "Escape").then_some(Msg::CloseMenu)
+        });
 
         html! {
-            <header>
+            <header onkeydown={onkeydown}>
                 <div class="inner">
+                    <a class="site-brand" href="/" aria-label="caniuse.rs release atlas">{"caniuse.rs"}</a>
                     <div class="caniuse">
                         <label for="query">{"Can I use"}</label>
                         <input ref={ctx.props().input_ref.clone()} id="query" type="search"
-                            oninput={oninput} />
-                        {"?"}
+                            placeholder="Search features" oninput={oninput} />
+                        {if ctx.props().has_query {
+                            html! { <button type="button" class="search-clear" onclick={onclear}>{"Clear"}</button> }
+                        } else {
+                            html! { "?" }
+                        }}
                     </div>
+                    {super::atlas::navigation()}
                     <nav aria-label="Site navigation">
                         {menu_button}
-                        <ul class={"menu ".to_owned() + menu_classes}>
+                        <ul id="site-menu" class={"menu ".to_owned() + menu_classes}>
                             <li>{theme_anchor}</li>
+                            <li><a href="/">{"Release atlas"}</a></li>
+                            <li><a href="/recent">{"Recently stabilized"}</a></li>
+                            <li><a href="/unstable">{"Unstable features"}</a></li>
                             <li>
                                 <RouterLink to={AppRoute::About}>
                                     {fa_question_circle()}{"About"}

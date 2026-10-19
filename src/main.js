@@ -1,4 +1,5 @@
 import init, { run } from '../pkg/caniuse_rs.js';
+import './atlas.js';
 
 var theme;
 try {
@@ -9,11 +10,7 @@ try {
 }
 
 if (typeof theme !== "string") {
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-        theme = "dark";
-    } else {
-        theme = "light";
-    }
+    theme = "dark";
 }
 
 document.documentElement.dataset.theme = theme;

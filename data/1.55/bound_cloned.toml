@@ -1,4 +1,5 @@
 title = "`Bound::cloned`"
+changelog_section = "Stabilised APIs"
 flag = "bound_cloned"
 tracking_issue_id = 61356
 stabilization_pr_id = 86797

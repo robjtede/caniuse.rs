@@ -1,4 +1,5 @@
 title = "the `shrink_to` method on collections"
+changelog_section = "Stabilised APIs"
 flag = "shrink_to"
 impl_pr_id = 49400
 tracking_issue_id = 56431

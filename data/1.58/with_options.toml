@@ -1,4 +1,5 @@
 title = "`File::options`"
+changelog_section = "Stabilized APIs"
 flag = "with_options"
 tracking_issue_id = 65439
 impl_pr_id = 65429

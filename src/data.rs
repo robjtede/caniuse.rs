@@ -5,6 +5,8 @@
 pub struct FeatureData {
     /// Short description to identify the feature
     pub title: &'static str,
+    /// Section in the upstream release notes, when verified.
+    pub changelog_section: Option<&'static str>,
     /// Feature flag name, for things that were previously or are still Rust
     /// nightly features with such a thing (`#![feature(...)]`)
     pub flag: Option<&'static str>,
@@ -43,6 +45,9 @@ impl FeatureData {
 pub struct VersionData {
     /// The version number, without the patch component (e.g. "1.31")
     pub number: &'static str,
+    pub headline: Option<&'static str>,
+    pub summary: Option<&'static str>,
+    pub example: Option<&'static str>,
     /// The channel (stable / beta / nightly)
     pub channel: Channel,
     /// Release date, in format "yyyy-mm-dd"

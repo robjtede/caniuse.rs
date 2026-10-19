@@ -1,4 +1,5 @@
 title = "`{integer}::saturating_div`"
+changelog_section = "Stabilized APIs"
 flag = "saturating_div"
 tracking_issue_id = 87920
 impl_pr_id = 87921

@@ -1,4 +1,5 @@
 title = "panicking in `const` contexts"
+changelog_section = "Language"
 flag = "const_panic"
 impl_pr_id = 52011
 tracking_issue_id = 51999

@@ -27,6 +27,12 @@ struct VersionData {
     /// Rust version number, e.g. "1.0.0"
     #[serde(skip_deserializing)]
     number: String,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    headline: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    summary: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    example: Option<String>,
     /// The channel (stable / beta / nightly)
     #[serde(default)]
     channel: Channel,
@@ -59,6 +65,9 @@ struct FeatureList {
 struct FeatureData {
     /// Short description to identify the feature
     title: String,
+    /// Exact heading in the upstream release notes.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    changelog_section: Option<String>,
     /// Feature flag name, for things that were previously or are still Rust
     /// nightly features with such a thing (`#![feature(...)]`)
     #[serde(skip_serializing_if = "Option::is_none")]
@@ -234,6 +243,9 @@ fn generate_output(data: Data) -> (TokenStream, serde_json::Value) {
             json["versions"][&d.number] = serde_json::to_value(d).unwrap();
 
             let number = &d.number;
+            let headline = option_literal(&d.headline);
+            let summary = option_literal(&d.summary);
+            let example = option_literal(&d.example);
             let channel = Ident::new(&format!("{:?}", d.channel), Span::call_site());
             let release_date = option_literal(&d.release_date);
             let release_notes = option_literal(&d.release_notes);
@@ -243,6 +255,9 @@ fn generate_output(data: Data) -> (TokenStream, serde_json::Value) {
             versions.push(quote! {
                 VersionData {
                     number: #number,
+                    headline: #headline,
+                    summary: #summary,
+                    example: #example,
                     channel: Channel::#channel,
                     release_date: #release_date,
                     release_notes: #release_notes,
@@ -273,6 +288,7 @@ fn generate_output(data: Data) -> (TokenStream, serde_json::Value) {
             };
 
             let title = &f.title;
+            let changelog_section = option_literal(&f.changelog_section);
             let flag = option_literal(&f.flag);
             let slug = f.slug;
             let rfc_id = option_literal(&f.rfc_id);
@@ -292,6 +308,7 @@ fn generate_output(data: Data) -> (TokenStream, serde_json::Value) {
             features.push(quote! {
                 FeatureData {
                     title: #title,
+                    changelog_section: #changelog_section,
                     flag: #flag,
                     slug: #slug,
                     version: #version,

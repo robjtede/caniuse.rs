@@ -484,3 +484,186 @@ input[type = 'search']::-webkit-search-results-button,
 input[type = 'search']::-webkit-search-results-decoration {
     display: none;
 }
+
+/* Shared navigation stays usable on the atlas and the existing reference pages. */
+header .inner {
+    max-width: 1440px;
+    gap: 1.5rem;
+    padding: 0 2rem;
+}
+
+.site-brand {
+    flex-shrink: 0;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.caniuse {
+    flex: 1;
+    width: auto;
+    min-width: 0;
+    max-width: 660px;
+    margin-left: auto;
+}
+
+.caniuse input {
+    min-width: 0;
+}
+
+.caniuse input::placeholder {
+    color: var(--text-muted-color);
+    opacity: 1;
+}
+
+header nav {
+    width: auto;
+    flex-shrink: 0;
+}
+
+header nav > button {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+}
+
+.menu {
+    width: 13rem;
+}
+
+.menu-action {
+    width: 100%;
+    height: auto;
+    min-height: 44px;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: .4em;
+    padding: .45em .6em;
+    margin: 0;
+    background: none;
+    box-shadow: none;
+    color: var(--heading-color);
+}
+
+.menu a {
+    min-height: 44px;
+}
+
+.caniuse .search-clear {
+    width: auto;
+    height: 36px;
+    padding: 0 .5rem;
+    background: none;
+    box-shadow: none;
+    color: var(--text-color);
+    font-size: .75rem;
+}
+
+:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+}
+
+.caniuse input:focus-visible {
+    outline: 2px solid var(--text-color);
+    outline-offset: 3px;
+}
+
+body:has(.atlas) header {
+    --header-bg: #14232c;
+    --heading-color: #e7eef0;
+    --text-color: #e7eef0;
+    --text-muted-color: #b0bec4;
+    --button-bg: #21343e;
+    --button-hover-bg: #304955;
+    --separator-color: #405762;
+}
+
+html[data-theme='light'] body:has(.atlas) header {
+    --header-bg: #f6f8f2;
+    --heading-color: #24382e;
+    --text-color: #24382e;
+    --text-muted-color: #51685b;
+    --button-bg: #e6eddd;
+    --button-hover-bg: #d2dec8;
+    --separator-color: #bdcbbf;
+}
+
+header button:focus-visible {
+    outline: 2px solid var(--text-color);
+    outline-offset: 3px;
+}
+
+.info > *,
+.box {
+    min-width: 0;
+}
+
+.page > .box {
+    width: 100%;
+}
+
+.links {
+    flex-wrap: wrap;
+    gap: .5rem 0;
+}
+
+.title,
+.flag code,
+.items code {
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 700px) {
+    header {
+        height: 4.5rem;
+    }
+
+    header .inner {
+        padding: 0 1rem;
+        gap: .75rem;
+    }
+
+    .site-brand {
+        font-size: .85rem;
+    }
+
+    .caniuse {
+        padding: 0;
+        font-size: .85rem;
+    }
+
+    .caniuse label {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        clip-path: inset(50%);
+        overflow: hidden;
+    }
+
+    .caniuse input {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .page {
+        padding-top: 4.5rem;
+    }
+
+    nav.explore {
+        top: 4.5rem;
+    }
+
+    .feature-entry {
+        flex-direction: column;
+    }
+
+    .feature-entry .box {
+        width: 100%;
+    }
+
+    .version {
+        text-align: left;
+        width: auto;
+        padding: .4rem .5rem;
+    }
+}

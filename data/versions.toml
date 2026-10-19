@@ -317,24 +317,36 @@ gh_milestone_id = 82
 blog_post_path = "2021/07/29/Rust-1.54.0/"
 
 ["1.55"]
+headline = "Give arrays a new shape."
+summary = "Transform fixed-size arrays without leaving the array type."
+example = "let squares = [1, 2, 3].map(|n| n * n);"
 release_date = "2021-09-09"
 release_notes = "version-55-2021-09-09"
 gh_milestone_id = 84
 blog_post_path = "2021/09/09/Rust-1.55.0/"
 
 ["1.56"]
+headline = "Declare where you begin."
+summary = "State the minimum supported Rust version in your package manifest."
+example = "[package]\nname = \"my-crate\"\nrust-version = \"1.56\""
 release_date = "2021-10-21"
 release_notes = "version-1560-2021-10-21"
 gh_milestone_id = 85
 blog_post_path = "2021/10/21/Rust-1.56.0/"
 
 ["1.57"]
+headline = "Make room. Handle failure."
+summary = "Reserve capacity with a Result, so allocation failure can be handled."
+example = "let mut bytes = Vec::<u8>::new();\nbytes.try_reserve(1024)?;"
 release_date = "2021-12-02"
 release_notes = "version-1570-2021-12-02"
 gh_milestone_id = 86
 blog_post_path = "2021/12/02/Rust-1.57.0/"
 
 ["1.58"]
+headline = "Let the name speak."
+summary = "Capture variables directly in format strings. Less repetition, same result."
+example = "let name = \"Ferris\";\nprintln!(\"Hello, {name}!\");"
 release_date = "2022-01-13"
 release_notes = "version-1580-2022-01-13"
 gh_milestone_id = 87

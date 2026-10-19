@@ -1,4 +1,5 @@
 title = "`[T; N]::map`"
+changelog_section = "Stabilised APIs"
 flag = "array_map"
 impl_pr_id = 75212
 tracking_issue_id = 75243

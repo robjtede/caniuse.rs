@@ -1,4 +1,5 @@
 title = "attribute macros after derive macros, on the same item"
+changelog_section = "Language"
 flag = "macro_attributes_in_derive_output"
 tracking_issue_id = 81119
 stabilization_pr_id = 87220

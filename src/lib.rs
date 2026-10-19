@@ -11,15 +11,15 @@ mod util;
 mod components {
     mod about;
     mod app;
+    mod atlas;
     mod feature_entry;
     mod feature_page;
     mod header;
     mod index;
-    mod version_page;
 
     pub use self::{
-        about::About, app::App, feature_entry::FeatureEntry, feature_page::FeaturePage,
-        header::Header, index::Index, version_page::VersionPage,
+        about::About, app::App, atlas::Atlas, feature_entry::FeatureEntry,
+        feature_page::FeaturePage, header::Header, index::Index,
     };
 }
 

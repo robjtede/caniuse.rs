@@ -1,4 +1,5 @@
 title = "`unwrap_unchecked` methods"
+changelog_section = "Stabilized APIs"
 flag = "option_result_unwrap_unchecked"
 tracking_issue_id = 81383
 impl_pr_id = 80876
