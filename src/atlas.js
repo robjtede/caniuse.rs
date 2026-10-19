@@ -51,11 +51,21 @@ class ReleaseAtlas extends HTMLElement {
             if (index >= 0) this.go(index, true);
         });
         this.listen(this.viewport, 'scroll', () => this.schedulePaint(), { passive: true });
+        this.listen(this.viewport, 'scrollend', () => {
+            this.paint();
+
+            // A previous scroll can finish after a new destination was requested.
+            if (Math.abs(this.viewport.scrollLeft - this.destination * this.step) < 1) {
+                this.destination = null;
+            }
+        });
+        this.listen(this.viewport, 'wheel', () => { this.destination = null; }, { passive: true });
+        this.listen(this.viewport, 'pointerdown', () => { this.destination = null; }, { passive: true });
         this.listen(this.viewport, 'keydown', event => this.keyboard(event));
         this.listen(this.timeline, 'keydown', event => this.keyboard(event));
         this.listen(this.select, 'change', () => this.go(this.select.selectedIndex));
-        this.listen(this.previous, 'click', () => this.go(this.index - 1));
-        this.listen(this.next, 'click', () => this.go(this.index + 1));
+        this.listen(this.previous, 'click', () => this.go((this.destination ?? this.index) - 1));
+        this.listen(this.next, 'click', () => this.go((this.destination ?? this.index) + 1));
         this.bindDrag(this.viewport, false);
         this.bindDrag(this.timeline, true);
         this.resizeObserver = new ResizeObserver(() => this.layout());
@@ -179,6 +189,12 @@ class ReleaseAtlas extends HTMLElement {
         const destination = Math.max(0, Math.min(this.panels.length - 1, index));
         const distant = Math.abs(destination - this.index) > 3;
 
+        // Repeated input advances from the requested release while scrolling catches up.
+        // Do not restart a smooth scroll when a held key reaches the boundary.
+        if (!instant && destination === this.destination) return;
+
+        this.destination = destination;
+
         if (distant || instant) this.updateWindow(destination, this.viewport.clientWidth);
 
         this.viewport.scrollTo({
@@ -186,7 +202,10 @@ class ReleaseAtlas extends HTMLElement {
             behavior: instant || this.reducedMotion.matches || distant ? 'instant' : 'smooth',
         });
 
-        if (instant || this.reducedMotion.matches || distant) this.paint();
+        if (instant || this.reducedMotion.matches || distant) {
+            this.paint();
+            this.destination = null;
+        }
     }
 
     updateWindow(index, width) {
@@ -237,15 +256,26 @@ class ReleaseAtlas extends HTMLElement {
             return;
         }
 
+        const index = this.destination ?? this.index;
         const destinations = {
-            ArrowLeft: this.index - 1,
-            ArrowRight: this.index + 1,
+            ArrowLeft: index - 1,
+            ArrowRight: index + 1,
             Home: 0,
             End: this.panels.length - 1,
         };
 
         if (event.key in destinations) {
             event.preventDefault();
+
+            // Release content can become inert or unmount as it leaves the viewport.
+            if (this.viewport.contains(event.target)) {
+                this.viewport.focus({ preventScroll: true });
+            } else if (event.target.closest('.atlas-tick')) {
+                const destination = Math.max(0, Math.min(this.panels.length - 1, destinations[event.key]));
+
+                this.ticks[destination].focus({ preventScroll: true });
+            }
+
             this.go(destinations[event.key]);
         }
     }
