@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-19T10:32:18.412Z",
+  "generatedAt": "2026-10-19T12:19:53.819Z",
   "title": "Design System: caniuse.rs",
   "extensions": {
     "shadows": [
@@ -49,7 +49,7 @@
       "kind": "button",
       "description": "Circular previous or next release control.",
       "html": "<button class=\"ds-arrow\" aria-label=\"Next release\"><svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M4 10h12m-5-5 5 5-5 5\"/></svg></button>",
-      "css": ".ds-arrow{width:44px;height:44px;border:1px solid var(--atlas-line,#405762);border-radius:50%;background:none;color:var(--atlas-ink,#e7eef0);cursor:pointer}.ds-arrow svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.5}.ds-arrow:hover:not(:disabled){color:var(--atlas-accent,#d6f39b)}.ds-arrow:disabled{opacity:.3;cursor:default}.ds-arrow:focus-visible{outline:2px solid var(--atlas-accent,#d6f39b);outline-offset:3px}"
+      "css": ".ds-arrow{width:44px;height:44px;border:1px solid var(--control-border,#ac8870);border-radius:50%;background:none;color:var(--atlas-ink,#f3e5d7);cursor:pointer}.ds-arrow svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.5}.ds-arrow:hover:not(:disabled){color:var(--atlas-accent,#ffad75)}.ds-arrow:disabled{opacity:.3;cursor:default}.ds-arrow:focus-visible{outline:2px solid var(--atlas-accent,#ffad75);outline-offset:3px}"
     },
     {
       "name": "Release selector",
@@ -57,21 +57,21 @@
       "refersTo": "release-select",
       "description": "Native control for direct release selection.",
       "html": "<label class=\"ds-label\" for=\"ds-release\">Jump to release</label><select class=\"ds-select\" id=\"ds-release\"><option>Rust 1.90.0</option><option>Rust 1.91.0</option></select>",
-      "css": ".ds-label{display:block;font: .75rem \"Source Sans Pro\",sans-serif;color:var(--atlas-muted,#b0bec4)}.ds-select{min-height:44px;border:1px solid var(--atlas-line,#405762);border-radius:5px;padding:.5rem;background:var(--atlas-paper,#14232c);color:var(--atlas-ink,#e7eef0);font:.875rem \"Source Sans Pro\",sans-serif}.ds-select:focus-visible{outline:2px solid var(--atlas-accent,#d6f39b);outline-offset:3px}"
+      "css": ".ds-label{display:block;font: .75rem \"Source Sans Pro\",sans-serif;color:var(--atlas-muted,#c4a997)}.ds-select{min-height:44px;border:1px solid var(--control-border,#ac8870);border-radius:5px;padding:.5rem;background:var(--atlas-paper,#211a17);color:var(--atlas-ink,#f3e5d7);font:.875rem \"Source Sans Pro\",sans-serif}.ds-select:focus-visible{outline:2px solid var(--atlas-accent,#ffad75);outline-offset:3px}"
     },
     {
       "name": "Feature disclosure",
       "kind": "custom",
       "description": "Native disclosure for a tracked feature.",
       "html": "<details class=\"ds-feature\"><summary>Feature title</summary><div><a href=\"#feature\">Feature details and permalink</a></div></details>",
-      "css": ".ds-feature{color:var(--atlas-ink,#e7eef0);font-family:\"Source Sans Pro\",sans-serif}.ds-feature summary{padding:.85rem .2rem;cursor:pointer;font-size:.95rem;line-height:1.6}.ds-feature summary::marker{color:var(--atlas-accent,#d6f39b);font-size:.7em}.ds-feature[open] summary{color:var(--atlas-accent,#d6f39b)}.ds-feature div{padding:0 .75rem 1rem;font-size:.85rem;line-height:1.6;color:var(--atlas-muted,#b0bec4)}.ds-feature a{color:inherit;text-underline-offset:4px}.ds-feature summary:focus-visible{outline:2px solid var(--atlas-accent,#d6f39b);outline-offset:3px}.ds-feature a:focus-visible{outline:2px solid var(--atlas-accent,#d6f39b);outline-offset:3px}"
+      "css": ".ds-feature{color:var(--atlas-ink,#f3e5d7);font-family:\"Source Sans Pro\",sans-serif}.ds-feature summary{padding:.85rem .2rem;cursor:pointer;font-size:.95rem;line-height:1.6}.ds-feature summary::marker{color:var(--atlas-accent,#ffad75);font-size:.7em}.ds-feature[open] summary{color:var(--atlas-accent,#ffad75)}.ds-feature div{padding:0 .75rem 1rem;font-size:.85rem;line-height:1.6;color:var(--atlas-muted,#c4a997)}.ds-feature a{color:inherit;text-underline-offset:4px}.ds-feature summary:focus-visible{outline:2px solid var(--atlas-accent,#ffad75);outline-offset:3px}.ds-feature a:focus-visible{outline:2px solid var(--atlas-accent,#ffad75);outline-offset:3px}"
     },
     {
       "name": "Timeline tick",
       "kind": "nav",
       "description": "Release tick with an explicit current state.",
       "html": "<button class=\"ds-tick\" aria-current=\"true\"><span>1.90.0</span><small>2025</small></button>",
-      "css": ".ds-tick{position:relative;min-height:58px;min-width:64px;padding:14px 15px 5px;border:0;background:none;color:var(--atlas-muted,#b0bec4);font:.8rem \"Source Sans Pro\",sans-serif;font-variant-numeric:tabular-nums;cursor:pointer}.ds-tick::before{content:\"\";position:absolute;top:0;width:1px;height:9px;background:var(--atlas-line,#405762)}.ds-tick small{display:block;font-size:.65rem;margin-top:.3rem}.ds-tick[aria-current=true],.ds-tick:hover{color:var(--atlas-accent,#d6f39b)}.ds-tick:focus-visible{outline:2px solid var(--atlas-accent,#d6f39b);outline-offset:3px}"
+      "css": ".ds-tick{position:relative;min-height:58px;min-width:64px;padding:14px 15px 5px;border:0;background:none;color:var(--atlas-muted,#c4a997);font:.8rem \"Source Sans Pro\",sans-serif;font-variant-numeric:tabular-nums;cursor:pointer}.ds-tick::before{content:\"\";position:absolute;top:0;width:1px;height:9px;background:var(--atlas-line,#604b40)}.ds-tick small{display:block;font-size:.65rem;margin-top:.3rem}.ds-tick[aria-current=true],.ds-tick:hover{color:var(--atlas-accent,#ffad75)}.ds-tick:focus-visible{outline:2px solid var(--atlas-accent,#ffad75);outline-offset:3px}"
     },
     {
       "name": "Code example",
@@ -79,15 +79,30 @@
       "refersTo": "code-example",
       "description": "Optional release example; preview content is illustrative.",
       "html": "<pre class=\"ds-example\"><code>let version = \"Rust\";</code></pre>",
-      "css": ".ds-example{padding:1rem;border-radius:6px;background:var(--atlas-code,#21343e);color:var(--atlas-accent,#d6f39b);white-space:pre-wrap;line-height:1.8;margin:0 0 1.5rem;font-family:\"Source Code Pro\",monospace}.ds-example code{font-family:inherit;font-size:.875em;overflow-wrap:anywhere}"
+      "css": ".ds-example{padding:1rem;border-radius:6px;background:var(--atlas-code,#3a2c24);color:var(--atlas-accent,#ffad75);white-space:pre-wrap;line-height:1.8;margin:0 0 1.5rem;font-family:\"Source Code Pro\",monospace}.ds-example code{font-family:inherit;font-size:.875em;overflow-wrap:anywhere}"
+    },
+    {
+      "name": "Ferris brand",
+      "kind": "custom",
+      "description": "Decorative CC0 Ferris beside the accessible site link. Artwork source and license: static/ferris.LICENSE.",
+      "html": "<a class=\"ds-brand\" href=\"#\">caniuse.rs</a>",
+      "css": ".ds-brand{display:inline-flex;align-items:center;gap:.5rem;color:var(--atlas-ink,#f3e5d7);font-family:\"Source Sans Pro\",sans-serif;font-weight:600;text-decoration:none}.ds-brand::before{content:\"\";display:block;width:36px;aspect-ratio:3/2;background:url(/ferris.svg) center/contain no-repeat}"
+    },
+    {
+      "name": "Search result",
+      "kind": "custom",
+      "description": "Flat feature row with a wrapping title and an explicit availability link. Uses the atlas palette and typography.",
+      "html": "<div class=\"ds-search-row\"><a href=\"/features/let_chains_2024\">if- and while-let-chains in Rust 2024</a><a class=\"ds-availability\" href=\"/versions/1.88\">Rust 1.88</a></div>",
+      "css": ".ds-search-row{display:grid;grid-template-columns:minmax(0,1fr) 6rem;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--atlas-line,#604b40);color:var(--atlas-ink,#f3e5d7);font:.95rem/1.45 \"Source Sans Pro\",sans-serif}.ds-search-row>a{color:inherit;overflow-wrap:anywhere}.ds-search-row .ds-availability{color:var(--green,#94cf9b);font-size:.85rem;line-height:1.6;text-align:right;text-underline-offset:.2em}"
     }
   ],
   "narrative": {
     "northStar": "Release atlas",
-    "overview": "The atlas presents Rust releases as a horizontal sequence of readable columns. Large version numbers and a bottom timeline establish position. Feature titles, source links, and code retain the density of a technical reference.\n\nThis document records the implemented atlas and its shared navigation. Search, feature details, recent features, and unstable features retain their existing reference layouts. The atlas palette does not replace those pages' status colors.",
+    "overview": "The atlas presents Rust releases as a horizontal sequence of readable columns. Large version numbers and a bottom timeline establish position. Feature titles, source links, and code retain the density of a technical reference.\n\nThe visual direction belongs to the Rust community: warm orange accents, ivory or charcoal surfaces, and Ferris as a small, familiar guide. Search results use flat rows, fine dividers, and the atlas typography. Feature details, recent features, and unstable features share the palette and retain their existing reference layouts. Availability labels keep their separate status colors.",
     "keyCharacteristics": [
       "Horizontal release columns with independently scrollable feature lists.",
-      "Flat surfaces, fine dividers, and green accents.",
+      "Flat surfaces, fine dividers, and orange accents.",
+      "Locally hosted CC0 Ferris artwork in the site brand and empty search states.",
       "Local sans-serif and monospace fonts.",
       "A bottom timeline that follows release position."
     ],
@@ -102,7 +117,7 @@
       "**Don't** infer changelog categories from feature titles.",
       "**Don't** describe tracked-feature counts as complete release-note coverage.",
       "**Don't** require storage for release navigation.",
-      "**Don't** apply atlas-specific styling to all reference pages without review."
+      "**Don't** replace reference layouts or availability meanings when applying shared brand colors."
     ]
   }
 }

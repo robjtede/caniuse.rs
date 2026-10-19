@@ -1,10 +1,10 @@
 .atlas {
-    --atlas-paper: #14232c;
-    --atlas-ink: #e7eef0;
-    --atlas-muted: #b0bec4;
-    --atlas-line: #405762;
-    --atlas-accent: #d6f39b;
-    --atlas-code: #21343e;
+    --atlas-paper: var(--body-bg);
+    --atlas-ink: var(--text-color);
+    --atlas-muted: var(--text-muted-color);
+    --atlas-line: var(--separator-color);
+    --atlas-accent: var(--accent-color);
+    --atlas-code: var(--code-bg);
 
     display: flex;
     flex-direction: column;
@@ -17,22 +17,7 @@
 }
 
 html[data-theme='light'] .atlas {
-    --atlas-paper: #f6f8f2;
-    --atlas-ink: #24382e;
-    --atlas-muted: #51685b;
-    --atlas-line: #bdcbbf;
-    --atlas-accent: #356419;
-    --atlas-code: #e6eddd;
-
     color-scheme: light;
-}
-
-body:has(.atlas) {
-    background: #14232c;
-}
-
-html[data-theme='light'] body:has(.atlas) {
-    background: #f6f8f2;
 }
 
 .page:has(.atlas) {
@@ -85,7 +70,7 @@ html[data-theme='light'] body:has(.atlas) {
     min-height: 44px;
     color: var(--text-color);
     background: var(--header-bg);
-    border: 1px solid var(--separator-color);
+    border: 1px solid var(--control-border);
     border-radius: 5px;
     padding: .5rem;
     font-size: .875rem;
@@ -103,7 +88,7 @@ html[data-theme='light'] body:has(.atlas) {
     background: none;
     box-shadow: none;
     padding: 0;
-    border: 1px solid var(--separator-color);
+    border: 1px solid var(--control-border);
     border-radius: 50%;
 }
 

@@ -16,7 +16,8 @@
 
             assert(mounted <= radius * 2 + 1, 'Release content is not bounded: ' + mounted);
             assert(atlas.panels[index].querySelector('.atlas-release-content'), 'Selected release is blank');
-            assert(location.hash === '#' + atlas.panels[index].dataset.version, 'Hash does not match selection');
+            assert(location.pathname === '/versions/' + atlas.panels[index].dataset.version
+                && !location.hash, 'Release path does not match selection');
 
             const panel = atlas.panels[index].getBoundingClientRect();
             const viewport = atlas.viewport.getBoundingClientRect();

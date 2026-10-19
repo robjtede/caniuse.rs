@@ -54,7 +54,8 @@ pub fn atlas(props: &Props) -> Html {
         let hash = gloo_utils::window().location().hash().unwrap_or_default();
         let index = versions
             .iter()
-            .position(|v| format!("#{}", v.number) == hash)
+            .position(|v| Some(v.number) == props.initial_version)
+            .or_else(|| versions.iter().position(|v| format!("#{}", v.number) == hash))
             .or_else(|| versions.iter().position(|v| Some(v.number) == initial))
             .unwrap_or(0);
 

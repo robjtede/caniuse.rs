@@ -126,7 +126,18 @@ impl Component for Index {
     }
 
     fn view(&self, _: &Context<Self>) -> Html {
-        match &self.show {
+        let search_status = match &self.show {
+            ContentsToRender::Explore(_) => None,
+            ContentsToRender::SearchResults => {
+                let count = self.current_search_results.len();
+
+                Some(format!("{count} matching feature{}", if count == 1 { "" } else { "s" }))
+            }
+            ContentsToRender::EmptySearchResults => Some("No matching features".into()),
+            ContentsToRender::InvalidSearchResults => Some("Search query not supported".into()),
+        };
+
+        let contents = match &self.show {
             ContentsToRender::Explore(ex) => {
                 // Stack slots, to be able to dynamically dispatch to one of
                 // the iterators without an extra allocation
@@ -198,11 +209,24 @@ impl Component for Index {
                 html! { <div class="feature-list">{ for list }</div> }
             }
             ContentsToRender::EmptySearchResults => {
-                html! { <div class="box muted">{"Nothing found, sorry."}</div> }
+                html! { <div class="box muted">{"Try a different feature name or API."}</div> }
             }
             ContentsToRender::InvalidSearchResults => {
-                html! { <div class="box muted">{"Invalid search terms."}</div> }
+                html! { <div class="box muted">{"Remove backticks and use ASCII characters."}</div> }
             }
+        };
+
+        match search_status {
+            Some(status) => html! {
+                <section class="search-results" aria-labelledby="search-heading">
+                    <div class="reference-heading">
+                        <h1 id="search-heading">{"Feature search"}</h1>
+                        <p role="status">{status}</p>
+                    </div>
+                    {contents}
+                </section>
+            },
+            None => contents,
         }
     }
 }

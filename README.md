@@ -68,9 +68,11 @@ The home page is a horizontal release atlas. Release permalinks
 (`/versions/1.57`, for example) open the atlas at that release. Search, feature
 permalinks, and the recent and unstable listings remain available.
 
-The selected release is reflected in the URL hash (`#1.57`, `#beta`, or
-`#unstable`). Opening that URL selects the release. Scroll updates replace the
-current history entry. CSS scroll snapping centers releases after scrolling.
+The selected release is reflected in its path (`/versions/1.57`,
+`/versions/beta`, or `/versions/unstable`). Opening that URL selects the release.
+Scroll updates replace the current history entry. Older root URLs such as
+`/#1.57` still open the requested release and change to its version path.
+CSS scroll snapping centers releases after scrolling.
 
 The carousel mounts content only for visible releases and nearby releases.
 Lightweight placeholders preserve scroll width and snap positions. Expanded

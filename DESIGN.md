@@ -2,18 +2,18 @@
 name: caniuse.rs
 description: Rust feature reference and horizontal release atlas.
 colors:
-  atlas-paper: "#14232c"
-  atlas-ink: "#e7eef0"
-  atlas-muted: "#b0bec4"
-  atlas-line: "#405762"
-  atlas-accent: "#d6f39b"
-  atlas-code: "#21343e"
-  atlas-light-paper: "#f6f8f2"
-  atlas-light-ink: "#24382e"
-  atlas-light-muted: "#51685b"
-  atlas-light-line: "#bdcbbf"
-  atlas-light-accent: "#356419"
-  atlas-light-code: "#e6eddd"
+  atlas-paper: "#211a17"
+  atlas-ink: "#f3e5d7"
+  atlas-muted: "#c4a997"
+  atlas-line: "#604b40"
+  atlas-accent: "#ffad75"
+  atlas-code: "#3a2c24"
+  atlas-light-paper: "#fff8f1"
+  atlas-light-ink: "#3f2d25"
+  atlas-light-muted: "#765849"
+  atlas-light-line: "#d9c0ad"
+  atlas-light-accent: "#a3431c"
+  atlas-light-code: "#edddcd"
 typography:
   display:
     fontFamily: "Source Sans Pro, sans-serif"
@@ -63,12 +63,13 @@ components:
 
 The atlas presents Rust releases as a horizontal sequence of readable columns. Large version numbers and a bottom timeline establish position. Feature titles, source links, and code retain the density of a technical reference.
 
-This document records the implemented atlas and its shared navigation. Search, feature details, recent features, and unstable features retain their existing reference layouts. The atlas palette does not replace those pages' status colors.
+The visual direction belongs to the Rust community: warm orange accents, ivory or charcoal surfaces, and Ferris as a small, familiar guide. Search results use flat rows, fine dividers, and the atlas typography. Feature details, recent features, and unstable features share the palette and retain their existing reference layouts. Availability labels keep their separate status colors.
 
 **Key Characteristics:**
 
 - Horizontal release columns with independently scrollable feature lists.
-- Flat surfaces, fine dividers, and green accents.
+- Flat surfaces, fine dividers, and orange accents.
+- Locally hosted CC0 Ferris artwork in the site brand and empty search states.
 - Local sans-serif and monospace fonts.
 - A bottom timeline that follows release position.
 
@@ -76,11 +77,11 @@ This document records the implemented atlas and its shared navigation. Search, f
 
 ### Primary
 
-The atlas accent identifies version links, the active timeline position, open feature titles, example code, and keyboard focus. The default is pale green on a dark blue-gray surface. The light theme uses a deeper green accent.
+The atlas accent identifies version links, the active timeline position, open feature titles, example code, and keyboard focus. The default is peach-orange on warm charcoal. The light theme uses burnt orange on ivory. Orange expresses community identity and navigation; text labels continue to identify availability.
 
 ### Neutral
 
-Paper, ink, muted text, divider, and code-surface tokens have explicit light-theme equivalents. Keep each theme's values together. Shared navigation adopts the atlas colors while the atlas is present. Existing reference pages continue to use the global surface and status tokens in `static/style.css`.
+Paper, ink, muted text, divider, and code-surface tokens have explicit light-theme equivalents. Keep each theme's values together. The atlas maps these roles to the shared tokens in `static/style.css`, so the header, atlas, and reference pages use one palette. Green, olive, amber, orange, and red remain semantic status roles, with explicit values for each theme. Text and placeholder contrast must be at least 4.5:1; control borders and focus indicators must be at least 3:1 against their surfaces.
 
 ## Typography
 
@@ -100,7 +101,7 @@ At a viewport width of 700px or less, the shared header grows to 4.5rem, page gu
 
 Atlas surfaces are flat. Dividers separate releases and feature groups; a distinct background identifies code examples. Atlas buttons remove the global button shadow. The shared reference interface still uses small shadows on buttons and menus.
 
-The timeline uses spatial motion for position: its ticks are 112px apart and move with the fractional release position. There is no decorative image layer.
+The timeline uses spatial motion for position: its ticks are 112px apart and move with the fractional release position. Ferris stays in the header and empty search states, with no image layer behind reference content.
 
 ## Shapes
 
@@ -110,7 +111,15 @@ Release columns have square edges and thin rules. The release selector and code 
 
 ### Shared navigation and search
 
-The fixed header contains the site link, search field, and menu. The search field uses a bottom border and a visible keyboard focus outline. The menu keeps access to existing reference routes and the theme switch. The atlas defaults to dark and has a light variant selected through the shared theme control.
+The fixed header contains Ferris beside the site link, the search field, and the menu. Ferris is decorative; the link keeps its accessible name. The search field has a minimum height of 44px, a bottom border, and a visible keyboard focus outline. On compact screens, it fills its available column. The menu keeps access to existing reference routes and the theme switch. The atlas defaults to dark and has a light variant selected through the shared theme control.
+
+### Ferris artwork
+
+Use the unmodified flat Ferris SVG from [rustacean.net](https://rustacean.net/), hosted at `/ferris.svg`. The artist is Karen Rustad Tölva and the artwork is dedicated to the public domain under CC0 1.0. The source and license are recorded in `static/ferris.LICENSE`. Keep Ferris small beside the site name and use a larger instance in empty search states. Do not repeat the mascot in release columns or use it behind text.
+
+### Feature search
+
+Search results share the atlas's flat surfaces, fine dividers, body typography, and code treatment. A page heading and a live result count establish context. The feature name and availability form two columns, with long names wrapping in the first column. Empty and invalid searches keep the same page heading and show Ferris with a useful next step. Availability retains its written label and semantic color.
 
 ### Release navigation
 
@@ -128,7 +137,7 @@ The timeline shows version, abbreviated month, and year, or “Upcoming” when 
 
 The timeline always follows horizontal movement with parallax. Reduced-motion preference makes release jumps immediate. Jumps of more than three releases are also immediate.
 
-The root route opens at the latest stable release. Beta and Unstable panels follow it. An explicit release route selects its requested version.
+The root route opens at the latest stable release. Beta and Unstable panels follow it. Selection updates the path to `/versions/N`, `/versions/beta`, or `/versions/unstable`, replacing the current history entry. Direct paths and browser Back/Forward select the requested release. Old root hash links remain readable and change to the matching path. Path changes keep the atlas mounted, so expanded features and reading positions survive release navigation.
 
 ## Do's and Don'ts
 
@@ -138,10 +147,13 @@ The root route opens at the latest stable release. Beta and Unstable panels foll
 - **Do** preserve native links, disclosure controls, and keyboard focus.
 - **Do** keep long feature lists vertically scrollable within their release.
 - **Do** use explicit data for section names, release copy, and examples.
+- **Do** use orange for community identity and preserve written availability labels.
+- **Do** keep Ferris artwork local and retain its source and license record.
 
 ### Don't:
 
 - **Don't** infer changelog categories from feature titles.
 - **Don't** describe tracked-feature counts as complete release-note coverage.
 - **Don't** require storage for release navigation.
-- **Don't** apply atlas-specific styling to all reference pages without review.
+- **Don't** replace reference layouts or availability meanings when applying shared brand colors.
+- **Don't** use mascot imagery behind feature text or repeat it in every release.

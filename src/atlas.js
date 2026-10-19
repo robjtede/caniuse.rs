@@ -1,5 +1,17 @@
 // Yew owns the release markup. This element owns scrolling and browser event lifetimes.
 class ReleaseAtlas extends HTMLElement {
+    static get observedAttributes() {
+        return ['data-initial-version'];
+    }
+
+    attributeChangedCallback() {
+        if (!this.viewport) return;
+
+        const index = this.routeIndex();
+
+        if (index >= 0 && index !== this.index) this.go(index, true);
+    }
+
     connectedCallback() {
         this.setupFrame = requestAnimationFrame(() => this.setup());
     }
@@ -40,16 +52,19 @@ class ReleaseAtlas extends HTMLElement {
         this.contentObserver = new MutationObserver(() => this.restorePanelState());
         this.contentObserver.observe(this.querySelector('.atlas-track'), { childList: true, subtree: true });
 
-        const hashIndex = this.hashIndex();
+        const routeIndex = this.routeIndex();
         const initial = this.dataset.initialVersion;
 
-        this.index = hashIndex >= 0 ? hashIndex
+        this.index = routeIndex >= 0 ? routeIndex
             : Math.max(0, this.panels.findIndex(panel => panel.dataset.version === initial));
-        this.listen(window, 'hashchange', () => {
-            const index = this.hashIndex();
+        const followRoute = () => {
+            const index = this.routeIndex();
 
-            if (index >= 0) this.go(index, true);
-        });
+            if (index >= 0 && index !== this.index) this.go(index, true);
+        };
+
+        this.listen(window, 'popstate', followRoute);
+        this.listen(window, 'hashchange', followRoute);
         this.listen(this.viewport, 'scroll', () => this.schedulePaint(), { passive: true });
         this.listen(this.viewport, 'scrollend', () => {
             this.paint();
@@ -78,8 +93,18 @@ class ReleaseAtlas extends HTMLElement {
         target.addEventListener(name, callback, { ...options, signal: this.events.signal });
     }
 
-    hashIndex() {
-        return this.panels.findIndex(panel => '#' + panel.dataset.version === location.hash);
+    routeIndex() {
+        const route = location.pathname.match(/^\/versions\/([^/]+)$/);
+
+        if (route) {
+            return this.panels.findIndex(panel => panel.dataset.version === route[1]);
+        }
+
+        if (location.pathname !== '/') return -1;
+
+        const legacy = this.panels.findIndex(panel => '#' + panel.dataset.version === location.hash);
+
+        return legacy >= 0 ? legacy : this.panels.findLastIndex(panel => !panel.dataset.channel);
     }
 
     layout() {
@@ -175,11 +200,13 @@ class ReleaseAtlas extends HTMLElement {
             clearTimeout(this.announceTimer);
             this.announceTimer = setTimeout(() => {
                 this.announcement.textContent = label;
-                const hash = '#' + panel.dataset.version;
+                const path = '/versions/' + panel.dataset.version;
 
                 // Keep scroll updates shareable without adding one history entry per release.
-                if (location.hash !== hash) {
-                    history.replaceState(history.state, '', location.pathname + location.search + hash);
+                if (location.pathname !== path || location.hash) {
+                    history.replaceState(history.state, '', path + location.search);
+                    // Notify the Rust router without remounting the release stream.
+                    window.dispatchEvent(new PopStateEvent('popstate', { state: history.state }));
                 }
             }, 180);
         }

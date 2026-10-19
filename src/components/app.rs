@@ -112,10 +112,18 @@ impl Component for App {
                 Some(&data) => html! { <FeaturePage data={data} /> },
                 None => html! { "error: feature not found!" },
             },
-            AppRoute::Version { number } => match VERSIONS.iter().find(|v| v.number == number) {
-                Some(&data) => html! { <Atlas key={data.number} initial_version={data.number} /> },
-                None => html! { "error: version not found!" },
-            },
+            AppRoute::Version { number } => {
+                let version = match number.as_str() {
+                    "beta" => Some("beta"),
+                    "unstable" => Some("unstable"),
+                    number => VERSIONS.iter().find(|v| v.number == number).map(|v| v.number),
+                };
+
+                match version {
+                    Some(version) => html! { <Atlas initial_version={version} /> },
+                    None => html! { "error: version not found!" },
+                }
+            }
         };
 
         let input = self.input_ref.clone();
