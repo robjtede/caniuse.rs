@@ -7,7 +7,7 @@ Rust feature search
 This site allows you to quickly which version of Rust stabilized a certain
 feature, or whether it is still unstable. Head over to [caniuse.rs] to try it!
 
-[caniuse.rs]: https://caniuse.rs/
+[caniuse.rs]: https://caniuse-rs.x52.dev/
 
 ## Contributing
 
@@ -36,7 +36,6 @@ Available recipes:
 - `just build-release`: build release wasm/js assets into `public/`
 - `just serve`: build development assets and serve the site locally
 - `just serve-release`: build release assets and serve the site locally
-- `just deploy`: build release assets and upload them to production
 - `just fmt-check`: check Rust formatting
 - `just lint`: check the WebAssembly build with Clippy
 - `just test`: run the Rust unit tests

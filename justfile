@@ -33,8 +33,6 @@ build:
     rollup src/main.js --format iife --file public/caniuse_rs.js
     cp -r static/. public/
 
-# This is the production-oriented build used by `deploy`.
-
 # Build the web assets with release-mode wasm output.
 build-release:
     wasm-pack build --no-typescript --target web
@@ -106,10 +104,3 @@ serve-release: build-release
     finally:
         server.server_close()
 
-# This first stages the generated `public/` directory on the remote machine, then syncs
-# it into the live document root with `sudo`.
-
-# Build release assets and upload them to the production host.
-deploy: build-release
-    rsync -rzz public caniuse.rs:/tmp/caniuse/
-    ssh caniuse.rs 'set -e; sudo chown root: /tmp/caniuse/public; sudo rsync -r --delete /tmp/caniuse/public/* /srv/http/caniuse.rs/; sudo rm -r /tmp/caniuse/public'
