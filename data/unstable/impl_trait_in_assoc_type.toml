@@ -1,0 +1,6 @@
+title = "`impl Trait` in associated types"
+flag = "impl_trait_in_assoc_type"
+rfc_id = 2515
+impl_pr_id = 110237
+tracking_issue_id = 63063
+unstable_book_path = "language-features/impl-trait-in-assoc-type.html"

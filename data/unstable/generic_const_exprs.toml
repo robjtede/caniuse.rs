@@ -1,0 +1,5 @@
+title = "generic parameters in const expressions"
+flag = "generic_const_exprs"
+impl_pr_id = 76559
+tracking_issue_id = 76560
+unstable_book_path = "language-features/generic-const-exprs.html"

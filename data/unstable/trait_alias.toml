@@ -1,0 +1,6 @@
+title = "trait aliases"
+flag = "trait_alias"
+rfc_id = 1733
+impl_pr_id = 55101
+tracking_issue_id = 41517
+unstable_book_path = "language-features/trait-alias.html"

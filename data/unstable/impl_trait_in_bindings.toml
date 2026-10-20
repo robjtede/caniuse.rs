@@ -1,0 +1,6 @@
+title = "`impl Trait` in `let` bindings"
+flag = "impl_trait_in_bindings"
+rfc_id = 2071
+impl_pr_id = 134185
+tracking_issue_id = 63065
+unstable_book_path = "language-features/impl-trait-in-bindings.html"

@@ -1,0 +1,13 @@
+title = "the `AsyncIterator` trait"
+flag = "async_iterator"
+rfc_id = 2996
+impl_pr_id = 79023
+tracking_issue_id = 79024
+items = [
+    "std::async_iter::AsyncIterator",
+    "std::async_iter::AsyncIterator::poll_next",
+    "std::async_iter::AsyncIterator::size_hint",
+]
+doc_path = "nightly/std/async_iter/trait.AsyncIterator.html"
+unstable_book_path = "library-features/async-iterator.html"
+aliases = ["Stream", "asynchronous iteration"]

@@ -1,0 +1,5 @@
+title = "negative trait implementations"
+flag = "negative_impls"
+impl_pr_id = 68004
+tracking_issue_id = 68318
+unstable_book_path = "language-features/negative-impls.html"

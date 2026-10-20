@@ -1,0 +1,7 @@
+title = "custom test frameworks"
+flag = "custom_test_frameworks"
+rfc_id = 2318
+impl_pr_id = 53410
+tracking_issue_id = 50297
+items = ["#[test_case]", "#![test_runner]"]
+unstable_book_path = "language-features/custom-test-frameworks.html"

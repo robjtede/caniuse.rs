@@ -1,0 +1,7 @@
+title = "`Iterator::map_windows`"
+flag = "iter_map_windows"
+impl_pr_id = 94667
+tracking_issue_id = 87155
+items = ["Iterator::map_windows", "std::iter::MapWindows"]
+doc_path = "nightly/std/iter/trait.Iterator.html#method.map_windows"
+unstable_book_path = "library-features/iter-map-windows.html"

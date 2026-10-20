@@ -1,0 +1,6 @@
+title = "`gen` blocks"
+flag = "gen_blocks"
+rfc_id = 3513
+impl_pr_id = 116447
+tracking_issue_id = 117078
+unstable_book_path = "language-features/gen-blocks.html"

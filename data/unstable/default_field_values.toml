@@ -1,0 +1,6 @@
+title = "default values for struct fields"
+flag = "default_field_values"
+rfc_id = 3681
+impl_pr_id = 129514
+tracking_issue_id = 132162
+unstable_book_path = "language-features/default-field-values.html"

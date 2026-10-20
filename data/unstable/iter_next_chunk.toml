@@ -1,0 +1,7 @@
+title = "iterator chunks as arrays"
+flag = "iter_next_chunk"
+impl_pr_id = 93700
+tracking_issue_id = 98326
+items = ["Iterator::next_chunk", "DoubleEndedIterator::next_chunk_back"]
+doc_path = "nightly/std/iter/trait.Iterator.html#method.next_chunk"
+unstable_book_path = "library-features/iter-next-chunk.html"

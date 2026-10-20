@@ -1,0 +1,5 @@
+title = "structs and enums as const generic parameters"
+flag = "adt_const_params"
+impl_pr_id = 88369
+tracking_issue_id = 95174
+unstable_book_path = "language-features/adt-const-params.html"

@@ -1,0 +1,6 @@
+title = "`const trait` declarations"
+flag = "const_trait_impl"
+rfc_id = 3762
+impl_pr_id = 143879
+tracking_issue_id = 143874
+unstable_book_path = "language-features/const-trait-impl.html"

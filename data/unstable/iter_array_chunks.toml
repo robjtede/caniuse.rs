@@ -1,0 +1,11 @@
+title = "`Iterator::array_chunks`"
+flag = "iter_array_chunks"
+impl_pr_id = 100026
+tracking_issue_id = 100450
+items = [
+    "Iterator::array_chunks",
+    "std::iter::ArrayChunks",
+    "std::iter::ArrayChunks::into_remainder",
+]
+doc_path = "nightly/std/iter/trait.Iterator.html#method.array_chunks"
+unstable_book_path = "library-features/iter-array-chunks.html"

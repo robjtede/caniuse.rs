@@ -1,0 +1,7 @@
+title = "`array::try_from_fn`"
+flag = "array_try_from_fn"
+impl_pr_id = 75644
+tracking_issue_id = 89379
+items = ["std::array::try_from_fn"]
+doc_path = "nightly/std/array/fn.try_from_fn.html"
+unstable_book_path = "library-features/array-try-from-fn.html"

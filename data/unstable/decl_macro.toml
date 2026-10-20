@@ -1,0 +1,7 @@
+title = "declarative macros with the `macro` keyword"
+flag = "decl_macro"
+rfc_id = 1584
+impl_pr_id = 40847
+tracking_issue_id = 39412
+unstable_book_path = "language-features/decl-macro.html"
+aliases = ["declarative macros 2.0", "macros by example"]

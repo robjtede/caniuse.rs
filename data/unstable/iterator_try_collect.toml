@@ -1,0 +1,7 @@
+title = "`Iterator::try_collect`"
+flag = "iterator_try_collect"
+impl_pr_id = 94041
+tracking_issue_id = 94047
+items = ["Iterator::try_collect"]
+doc_path = "nightly/std/iter/trait.Iterator.html#method.try_collect"
+unstable_book_path = "library-features/iterator-try-collect.html"

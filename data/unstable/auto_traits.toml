@@ -1,0 +1,6 @@
+title = "custom auto traits"
+flag = "auto_traits"
+rfc_id = 19
+impl_pr_id = 45247
+tracking_issue_id = 13231
+unstable_book_path = "language-features/auto-traits.html"
