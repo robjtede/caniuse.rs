@@ -62,6 +62,11 @@ Deployments must follow `ghcr.io/robjtede/caniuse.rs:stable` by digest. Publishi
 a candidate alone does not select a new deployment image. Manual workflow runs
 publish only from `main` or a `v*` tag.
 
+### Social preview image
+
+The shared HTML template includes a description, Open Graph metadata, and a
+Twitter large-image card. Both previews use `static/opengraph.png`.
+
 ### Adding data
 
 The home page is a horizontal release atlas. Release permalinks
