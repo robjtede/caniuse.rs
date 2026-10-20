@@ -1,4 +1,5 @@
 title = "`if let` guards on match arms"
+changelog_section = "Language"
 flag = "if_let_guard"
 rfc_id = 2294
 tracking_issue_id = 51114

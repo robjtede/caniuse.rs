@@ -1,4 +1,5 @@
 title = "`bool::ok_or` and `bool::ok_or_else`"
+changelog_section = "Stabilized APIs"
 flag = "bool_to_result"
 impl_pr_id = 142749
 tracking_issue_id = 142748

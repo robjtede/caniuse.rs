@@ -1,4 +1,5 @@
 title = "`checked_signed_diff` on unsigned integers"
+changelog_section = "Stabilized APIs"
 flag = "unsigned_signed_diff"
 impl_pr_id = 126042
 tracking_issue_id = 126041

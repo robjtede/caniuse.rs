@@ -1,0 +1,8 @@
+title = "`Arc::map`"
+flag = "smart_pointer_map"
+impl_pr_id = 144420
+tracking_issue_id = 144419
+stabilization_pr_id = 160534
+
+items = ["Arc::map"]
+doc_path = "std/sync/struct.Arc.html#method.map"

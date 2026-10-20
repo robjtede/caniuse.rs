@@ -1,4 +1,5 @@
 title = "Array and slice `AsRef` implementations for `Cell`"
+changelog_section = "Stabilized APIs"
 flag = "more_conversion_trait_impls"
 impl_pr_id = 145504
 tracking_issue_id = 88248

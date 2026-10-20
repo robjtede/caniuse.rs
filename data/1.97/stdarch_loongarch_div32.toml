@@ -1,4 +1,5 @@
 title = "LoongArch `div32` runtime feature detection"
+changelog_section = "Language"
 flag = "stdarch_loongarch_div32"
 tracking_issue_id = 117425
 stabilization_pr_id = 154510

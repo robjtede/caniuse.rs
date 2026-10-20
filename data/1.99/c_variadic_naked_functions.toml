@@ -1,4 +1,5 @@
 title = "C-variadic naked function definitions"
+changelog_section = "Language"
 flag = "c_variadic_naked_functions"
 impl_pr_id = 148770
 tracking_issue_id = 148767

@@ -8,6 +8,6 @@ items = [
     "std::async_iter::AsyncIterator::poll_next",
     "std::async_iter::AsyncIterator::size_hint",
 ]
-doc_path = "nightly/std/async_iter/trait.AsyncIterator.html"
+doc_path = "std/async_iter/trait.AsyncIterator.html"
 unstable_book_path = "library-features/async-iterator.html"
 aliases = ["Stream", "asynchronous iteration"]

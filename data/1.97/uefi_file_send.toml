@@ -1,4 +1,5 @@
 title = "`Send` for `File` on UEFI"
+changelog_section = "Stabilized APIs"
 impl_pr_id = 154003
 doc_path = "std/fs/struct.File.html#impl-Send-for-File"
 items = [

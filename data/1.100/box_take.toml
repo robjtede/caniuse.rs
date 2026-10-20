@@ -1,0 +1,8 @@
+title = "`Box::take`"
+flag = "box_take"
+impl_pr_id = 147227
+tracking_issue_id = 147212
+stabilization_pr_id = 160436
+
+items = ["Box::take"]
+doc_path = "std/boxed/struct.Box.html#method.take"

@@ -1,0 +1,8 @@
+title = "`str::trim_prefix` and `str::trim_suffix`"
+flag = "trim_prefix_suffix"
+impl_pr_id = 142331
+tracking_issue_id = 142312
+stabilization_pr_id = 160544
+
+items = ["str::trim_prefix", "str::trim_suffix"]
+doc_path = "std/primitive.str.html#method.trim_prefix"

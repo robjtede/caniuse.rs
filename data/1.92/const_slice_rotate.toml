@@ -1,4 +1,5 @@
 title = "slice rotation methods as `const fn`"
+changelog_section = "Stabilized APIs"
 flag = "const_slice_rotate"
 impl_pr_id = 143554
 tracking_issue_id = 143812

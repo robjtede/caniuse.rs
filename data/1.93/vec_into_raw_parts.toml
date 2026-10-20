@@ -1,4 +1,5 @@
 title = "`Vec::into_raw_parts` and `String::into_raw_parts`"
+changelog_section = "Stabilized APIs"
 flag = "vec_into_raw_parts"
 impl_pr_id = 65705
 tracking_issue_id = 65816

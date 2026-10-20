@@ -1,4 +1,5 @@
 title = "round string indices to character boundaries"
+changelog_section = "Stabilized APIs"
 flag = "round_char_boundary"
 impl_pr_id = 86497
 tracking_issue_id = 93743

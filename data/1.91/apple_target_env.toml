@@ -1,4 +1,5 @@
 title = "`target_env` values for Mac Catalyst and Apple simulators"
+changelog_section = "Language"
 impl_pr_id = 139451
 
 items = [

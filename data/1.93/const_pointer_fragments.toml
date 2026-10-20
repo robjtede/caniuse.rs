@@ -1,4 +1,5 @@
 title = "Copy pointers byte by byte during constant evaluation"
+changelog_section = "Language"
 impl_pr_id = 144081
 stabilization_pr_id = 148259
 doc_path = "reference/const_eval.html"

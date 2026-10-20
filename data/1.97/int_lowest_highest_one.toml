@@ -1,4 +1,5 @@
 title = "const `lowest_one` and `highest_one` methods for integers"
+changelog_section = "Stabilized APIs"
 flag = "int_lowest_highest_one"
 impl_pr_id = 145381
 tracking_issue_id = 145203

@@ -1,4 +1,5 @@
 title = "`<[T]>::element_offset`"
+changelog_section = "Stabilized APIs"
 flag = "element_offset"
 impl_pr_id = 126770
 tracking_issue_id = 126769

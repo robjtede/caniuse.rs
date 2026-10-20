@@ -1,4 +1,5 @@
 title = "`Copy` and `Hash` implementations for `IntErrorKind`"
+changelog_section = "Stabilized APIs"
 impl_pr_id = 131923
 tracking_issue_id = 131826
 items = [

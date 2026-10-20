@@ -1,4 +1,5 @@
 title = "`<[T; N]>::each_ref` and `each_mut` as `const fn`"
+changelog_section = "Stabilized APIs"
 flag = "const_array_each_ref"
 impl_pr_id = 133288
 tracking_issue_id = 133289

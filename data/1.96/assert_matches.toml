@@ -1,4 +1,5 @@
 title = "`assert_matches!` and `debug_assert_matches!`"
+changelog_section = "Stabilized APIs"
 flag = "assert_matches"
 impl_pr_id = 82770
 tracking_issue_id = 82775

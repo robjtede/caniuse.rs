@@ -4,5 +4,5 @@ rfc_id = 3519
 impl_pr_id = 132961
 tracking_issue_id = 44874
 items = ["std::ops::Receiver"]
-doc_path = "nightly/std/ops/trait.Receiver.html"
+doc_path = "std/ops/trait.Receiver.html"
 unstable_book_path = "language-features/arbitrary-self-types.html"

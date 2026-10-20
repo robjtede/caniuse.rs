@@ -1,4 +1,5 @@
 title = "`Vec` insertion methods that return mutable references"
+changelog_section = "Stabilized APIs"
 flag = "push_mut"
 impl_pr_id = 135975
 tracking_issue_id = 135974

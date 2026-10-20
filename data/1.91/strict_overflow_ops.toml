@@ -1,4 +1,5 @@
 title = "integer arithmetic that always panics on overflow"
+changelog_section = "Stabilized APIs"
 flag = "strict_overflow_ops"
 tracking_issue_id = 118260
 stabilization_pr_id = 144682

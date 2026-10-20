@@ -1,0 +1,27 @@
+title = "the `Allocator` trait"
+flag = "allocator_api"
+rfc_id = 1398
+tracking_issue_id = 32838
+stabilization_pr_id = 156882
+
+items = [
+    "std::alloc::Allocator",
+    "std::alloc::Allocator::allocate",
+    "std::alloc::Allocator::allocate_zeroed",
+    "std::alloc::Allocator::deallocate",
+    "std::alloc::Allocator::grow",
+    "std::alloc::Allocator::grow_zeroed",
+    "std::alloc::Allocator::shrink",
+    "std::alloc::AllocError",
+    "std::alloc::Global",
+    "impl Error for AllocError",
+    "impl Display for AllocError",
+    "impl Allocator for Global",
+    "impl Allocator for System",
+    "impl Allocator for &A",
+    "impl Allocator for &mut A",
+    "impl Allocator for Box<T, A>",
+    "impl Allocator for Rc<T, A>",
+    "impl Allocator for Arc<T, A>",
+]
+doc_path = "std/alloc/trait.Allocator.html"

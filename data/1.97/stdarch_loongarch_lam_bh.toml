@@ -1,4 +1,5 @@
 title = "LoongArch `lam-bh` runtime feature detection"
+changelog_section = "Language"
 flag = "stdarch_loongarch_lam_bh"
 tracking_issue_id = 117425
 stabilization_pr_id = 154510

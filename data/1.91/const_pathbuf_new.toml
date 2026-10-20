@@ -1,4 +1,5 @@
 title = "`PathBuf::new` as `const fn`"
+changelog_section = "Stabilized APIs"
 flag = "const_pathbuf_osstring_new"
 impl_pr_id = 141467
 tracking_issue_id = 141520

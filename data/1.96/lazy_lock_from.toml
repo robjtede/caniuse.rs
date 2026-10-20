@@ -1,4 +1,5 @@
 title = "`From<T>` for `LazyLock<T, F>`"
+changelog_section = "Stabilized APIs"
 flag = "from_wrapper_impls"
 impl_pr_id = 146013
 items = ["impl<T, F> From<T> for LazyLock<T, F>"]

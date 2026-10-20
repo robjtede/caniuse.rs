@@ -1,4 +1,5 @@
 title = "`TypeId::of` as `const fn`"
+changelog_section = "Stabilized APIs"
 flag = "const_type_id"
 tracking_issue_id = 77125
 stabilization_pr_id = 144133

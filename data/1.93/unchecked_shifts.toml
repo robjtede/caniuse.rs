@@ -1,4 +1,5 @@
 title = "`unchecked_shl` and `unchecked_shr` for integers"
+changelog_section = "Stabilized APIs"
 flag = "unchecked_shifts"
 tracking_issue_id = 85122
 stabilization_pr_id = 149087

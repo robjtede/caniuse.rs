@@ -1,4 +1,5 @@
 title = "`Box` conversions to and from `NonNull`"
+changelog_section = "Stabilized APIs"
 flag = "box_vec_non_null"
 impl_pr_id = 130061
 tracking_issue_id = 130364

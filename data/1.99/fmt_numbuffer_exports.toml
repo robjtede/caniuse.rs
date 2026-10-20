@@ -1,4 +1,5 @@
 title = "`NumBuffer` exports in `alloc::fmt` and `std::fmt`"
+changelog_section = "Libraries"
 flag = "fmt_numbuffer"
 impl_pr_id = 161430
 items = [

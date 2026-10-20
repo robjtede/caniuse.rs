@@ -1,0 +1,6 @@
+title = "`Default` for `sync::Once`"
+flag = "once_default"
+impl_pr_id = 160136
+
+items = ["impl Default for std::sync::Once"]
+doc_path = "std/sync/struct.Once.html#impl-Default-for-Once"

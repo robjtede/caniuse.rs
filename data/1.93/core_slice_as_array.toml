@@ -1,4 +1,5 @@
 title = "Convert slices and slice pointers to array references and pointers"
+changelog_section = "Stabilized APIs"
 flag = "core_slice_as_array"
 impl_pr_id = 133512
 tracking_issue_id = 133508

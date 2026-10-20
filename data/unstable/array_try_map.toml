@@ -3,5 +3,5 @@ flag = "array_try_map"
 impl_pr_id = 91286
 tracking_issue_id = 79711
 items = ["<[T; N]>::try_map"]
-doc_path = "nightly/std/primitive.array.html#method.try_map"
+doc_path = "std/primitive.array.html#method.try_map"
 unstable_book_path = "library-features/array-try-map.html"

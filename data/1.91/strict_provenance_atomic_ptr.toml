@@ -1,4 +1,5 @@
 title = "arithmetic and bitwise operations on `AtomicPtr`"
+changelog_section = "Stabilized APIs"
 flag = "strict_provenance_atomic_ptr"
 impl_pr_id = 96935
 tracking_issue_id = 99108

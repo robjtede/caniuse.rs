@@ -1,4 +1,5 @@
 title = "`Path::file_prefix`"
+changelog_section = "Stabilized APIs"
 flag = "path_file_prefix"
 impl_pr_id = 85166
 tracking_issue_id = 86319

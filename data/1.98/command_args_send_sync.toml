@@ -1,4 +1,5 @@
 title = "`Send` and `Sync` for `process::CommandArgs` on all supported targets"
+changelog_section = "Stabilized APIs"
 impl_pr_id = 155113
 tracking_issue_id = 154517
 items = ["impl Send for std::process::CommandArgs", "impl Sync for std::process::CommandArgs"]

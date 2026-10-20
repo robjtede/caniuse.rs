@@ -595,3 +595,6 @@ release_date = "2026-10-01"
 release_notes = "version-1990-2026-10-01"
 gh_milestone_id = 147
 blog_post_path = "2026/10/01/Rust-1.99.0/"
+
+["1.100"]
+channel = "beta"

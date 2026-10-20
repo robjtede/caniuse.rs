@@ -1,4 +1,5 @@
 title = "`Default` for `RepeatN`"
+changelog_section = "Stabilized APIs"
 flag = "iter_repeat_n_default"
 impl_pr_id = 139690
 doc_path = "std/iter/struct.RepeatN.html#impl-Default-for-RepeatN%3CA%3E"

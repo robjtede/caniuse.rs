@@ -1,0 +1,8 @@
+title = "`Vec::from_fn`"
+flag = "vec_from_fn"
+impl_pr_id = 149699
+tracking_issue_id = 149698
+stabilization_pr_id = 162685
+
+items = ["Vec::from_fn"]
+doc_path = "std/vec/struct.Vec.html#method.from_fn"

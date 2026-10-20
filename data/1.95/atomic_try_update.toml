@@ -1,4 +1,5 @@
 title = "`update` and `try_update` methods on atomic types"
+changelog_section = "Stabilized APIs"
 flag = "atomic_try_update"
 tracking_issue_id = 135894
 stabilization_pr_id = 148590

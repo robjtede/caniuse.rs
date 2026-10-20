@@ -1,4 +1,5 @@
 title = "`TryFrom<char>` implementation for `usize`"
+changelog_section = "Stabilized APIs"
 flag = "usize_try_from_char"
 impl_pr_id = 146792
 doc_path = "std/primitive.usize.html#impl-TryFrom%3Cchar%3E-for-usize"

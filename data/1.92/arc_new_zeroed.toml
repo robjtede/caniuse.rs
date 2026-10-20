@@ -1,4 +1,5 @@
 title = "`Arc::new_zeroed` and `Arc::new_zeroed_slice`"
+changelog_section = "Stabilized APIs"
 flag = "new_zeroed_alloc"
 tracking_issue_id = 129396
 stabilization_pr_id = 144091

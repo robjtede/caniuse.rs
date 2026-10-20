@@ -1,4 +1,5 @@
 title = "Construct empty `BinaryHeap` values without `T: Ord`"
+changelog_section = "Libraries"
 impl_pr_id = 149408
 doc_path = "std/collections/struct.BinaryHeap.html#method.new"
 items = [

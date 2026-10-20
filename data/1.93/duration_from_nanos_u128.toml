@@ -1,4 +1,5 @@
 title = "`Duration::from_nanos_u128`"
+changelog_section = "Stabilized APIs"
 flag = "duration_from_nanos_u128"
 impl_pr_id = 145969
 tracking_issue_id = 139201

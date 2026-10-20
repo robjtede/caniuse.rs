@@ -1,4 +1,5 @@
 title = "`Copy` for `FromBytesUntilNulError`"
+changelog_section = "Stabilized APIs"
 impl_pr_id = 152367
 doc_path = "std/ffi/struct.FromBytesUntilNulError.html#impl-Copy-for-FromBytesUntilNulError"
 items = [

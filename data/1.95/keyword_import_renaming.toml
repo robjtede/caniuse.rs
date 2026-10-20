@@ -1,4 +1,5 @@
 title = "Import path-segment keywords with renaming"
+changelog_section = "Language"
 impl_pr_id = 146972
 items = [
     "use self as name;",

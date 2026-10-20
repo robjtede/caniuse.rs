@@ -1,4 +1,5 @@
 title = "const bit isolation methods for integers"
+changelog_section = "Stabilized APIs"
 flag = "isolate_most_least_significant_one"
 impl_pr_id = 136910
 tracking_issue_id = 136909

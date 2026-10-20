@@ -1,3 +1,4 @@
 title = "trailing `self` in import paths"
+changelog_section = "Language"
 impl_pr_id = 155137
 doc_path = "reference/items/use-declarations.html#self-imports"

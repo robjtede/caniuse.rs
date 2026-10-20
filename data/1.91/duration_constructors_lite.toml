@@ -1,4 +1,5 @@
 title = "`Duration::from_mins` and `Duration::from_hours`"
+changelog_section = "Stabilized APIs"
 flag = "duration_constructors_lite"
 impl_pr_id = 140882
 tracking_issue_id = 140881

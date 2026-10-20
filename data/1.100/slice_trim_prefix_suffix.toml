@@ -1,0 +1,8 @@
+title = "slice `trim_prefix` and `trim_suffix` methods"
+flag = "trim_prefix_suffix"
+impl_pr_id = 142331
+tracking_issue_id = 142312
+stabilization_pr_id = 160544
+
+items = ["<[T]>::trim_prefix", "<[T]>::trim_suffix"]
+doc_path = "std/primitive.slice.html#method.trim_prefix"

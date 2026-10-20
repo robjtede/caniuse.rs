@@ -1,4 +1,5 @@
 title = "`insert_entry` methods on `BTreeMap` entries"
+changelog_section = "Stabilized APIs"
 flag = "btree_entry_insert"
 impl_pr_id = 133042
 tracking_issue_id = 65225

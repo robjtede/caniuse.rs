@@ -1,4 +1,5 @@
 title = "`Cell::as_array_of_cells`"
+changelog_section = "Stabilized APIs"
 flag = "as_array_of_cells"
 impl_pr_id = 87944
 tracking_issue_id = 88248

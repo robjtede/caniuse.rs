@@ -1,4 +1,5 @@
 title = "Find the range of a substring or subslice"
+changelog_section = "Stabilized APIs"
 flag = "substr_range"
 impl_pr_id = 126770
 tracking_issue_id = 126769

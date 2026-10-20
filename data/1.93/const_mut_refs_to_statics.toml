@@ -1,4 +1,5 @@
 title = "Constants that contain mutable references to static items"
+changelog_section = "Language"
 impl_pr_id = 148746
 doc_path = "reference/const_eval.html"
 

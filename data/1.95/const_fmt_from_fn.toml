@@ -1,4 +1,5 @@
 title = "`fmt::from_fn` as `const fn`"
+changelog_section = "Stabilized APIs"
 flag = "const_fmt_from_fn"
 impl_pr_id = 150300
 items = ["std::fmt::from_fn"]

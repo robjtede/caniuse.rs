@@ -1,4 +1,5 @@
 title = "C-style variadic declarations for more ABIs"
+changelog_section = "Language"
 flag = "extended_varargs_abi_support"
 tracking_issue_id = 100189
 stabilization_pr_id = 144066

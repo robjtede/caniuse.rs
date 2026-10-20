@@ -1,4 +1,5 @@
 title = "`<[T]>::reverse` as `const fn`"
+changelog_section = "Stabilized APIs"
 flag = "const_slice_reverse"
 impl_pr_id = 135121
 tracking_issue_id = 135120

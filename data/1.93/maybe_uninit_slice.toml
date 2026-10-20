@@ -1,4 +1,5 @@
 title = "`assume_init_*` methods for `MaybeUninit` slices"
+changelog_section = "Stabilized APIs"
 flag = "maybe_uninit_slice"
 rfc_id = 1892
 tracking_issue_id = 63569

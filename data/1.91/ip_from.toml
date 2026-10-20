@@ -1,4 +1,5 @@
 title = "construct IP addresses from octets and segments"
+changelog_section = "Stabilized APIs"
 flag = "ip_from"
 impl_pr_id = 130629
 tracking_issue_id = 131360

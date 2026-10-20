@@ -1,4 +1,5 @@
 title = "`IntoIterator` implementations for boxed arrays"
+changelog_section = "Stabilized APIs"
 flag = "boxed_array_value_iter"
 impl_pr_id = 134021
 items = [

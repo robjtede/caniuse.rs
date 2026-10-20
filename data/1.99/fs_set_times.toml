@@ -1,4 +1,5 @@
 title = "`fs::set_times` and `fs::set_times_nofollow`"
+changelog_section = "Stabilized APIs"
 flag = "fs_set_times"
 impl_pr_id = 147468
 tracking_issue_id = 147455

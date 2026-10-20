@@ -1,6 +1,7 @@
 # Upstream stabilization: https://github.com/rust-lang/stdarch/pull/1922.
 # The Rust PR imports this stabilization into the standard library.
 title = "AArch64 NEON half precision intrinsics and vector types"
+changelog_section = "Stabilized APIs"
 flag = "stdarch_neon_fp16"
 tracking_issue_id = 136306
 stabilization_pr_id = 150639

@@ -1,4 +1,5 @@
 title = "unsigned integer helpers for large integer arithmetic"
+changelog_section = "Stabilized APIs"
 flag = "unsigned_bigint_helpers"
 tracking_issue_id = 85532
 stabilization_pr_id = 144494

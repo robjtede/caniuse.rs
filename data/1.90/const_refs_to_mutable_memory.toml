@@ -1,4 +1,5 @@
 title = "shared references to mutable or external memory in constant values"
+changelog_section = "Language"
 impl_pr_id = 140942
 tracking_issue_id = 140653
 doc_path = "reference/items/constant-items.html"

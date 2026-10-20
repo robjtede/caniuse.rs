@@ -1,4 +1,5 @@
 title = "outlined modules in attribute and derive macro input"
+changelog_section = "Language"
 flag = "proc_macro_hygiene"
 tracking_issue_id = 54727
 stabilization_pr_id = 157857

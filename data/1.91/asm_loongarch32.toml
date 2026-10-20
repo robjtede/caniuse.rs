@@ -1,4 +1,5 @@
 title = "inline assembly on LoongArch32"
+changelog_section = "Language"
 flag = "asm_experimental_arch"
 impl_pr_id = 142248
 tracking_issue_id = 93335

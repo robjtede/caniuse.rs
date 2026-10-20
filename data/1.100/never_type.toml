@@ -1,0 +1,9 @@
+title = "the never type (`!`)"
+flag = "never_type"
+rfc_id = 1216
+impl_pr_id = 35162
+tracking_issue_id = 35121
+stabilization_pr_id = 155499
+
+items = ["!", "std::convert::Infallible"]
+doc_path = "std/primitive.never.html"

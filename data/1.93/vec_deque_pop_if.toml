@@ -1,4 +1,5 @@
 title = "`VecDeque::pop_front_if` and `VecDeque::pop_back_if`"
+changelog_section = "Stabilized APIs"
 flag = "vec_deque_pop_if"
 impl_pr_id = 135890
 tracking_issue_id = 135889

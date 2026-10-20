@@ -1,4 +1,5 @@
 title = "`RwLockWriteGuard::downgrade`"
+changelog_section = "Stabilized APIs"
 flag = "rwlock_downgrade"
 impl_pr_id = 128219
 tracking_issue_id = 128203

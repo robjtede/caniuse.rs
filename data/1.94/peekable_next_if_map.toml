@@ -1,4 +1,5 @@
 title = "`Peekable::next_if_map` and `next_if_map_mut`"
+changelog_section = "Stabilized APIs"
 flag = "peekable_next_if_map"
 impl_pr_id = 143725
 tracking_issue_id = 143702

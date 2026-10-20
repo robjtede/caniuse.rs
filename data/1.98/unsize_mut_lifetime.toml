@@ -1,3 +1,4 @@
 title = "Shorten lifetimes of mutable references during unsizing in invariant types"
+changelog_section = "Language"
 impl_pr_id = 149219
 doc_path = "reference/type-coercions.html#unsized-coercions"

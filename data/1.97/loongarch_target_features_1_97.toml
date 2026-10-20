@@ -1,4 +1,5 @@
 title = "`div32`, `lam-bh`, `lamcas`, `ld-seq-sa`, and `scq` LoongArch target features"
+changelog_section = "Language"
 flag = "loongarch_target_feature"
 tracking_issue_id = 150252
 stabilization_pr_id = 154510

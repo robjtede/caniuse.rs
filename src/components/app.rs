@@ -12,7 +12,7 @@ use crate::{
         index::{Explore, IndexContents},
         About, Atlas, FeaturePage, Header, Index,
     },
-    AppRoute, FEATURES, VERSIONS,
+    AppRoute, Channel, FEATURES, VERSIONS,
 };
 
 pub struct App {
@@ -116,7 +116,13 @@ impl Component for App {
                 let version = match number.as_str() {
                     "beta" => Some("beta"),
                     "unstable" => Some("unstable"),
-                    number => VERSIONS.iter().find(|v| v.number == number).map(|v| v.number),
+                    number => VERSIONS.iter().find(|v| v.number == number).map(|v| {
+                        if v.channel == Channel::Beta {
+                            "beta"
+                        } else {
+                            v.number
+                        }
+                    }),
                 };
 
                 match version {

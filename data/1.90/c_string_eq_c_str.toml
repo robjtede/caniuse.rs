@@ -1,4 +1,5 @@
 title = "equality comparisons between `CStr`, `CString`, and `Cow<CStr>`"
+changelog_section = "Libraries"
 flag = "c_string_eq_c_str"
 impl_pr_id = 137268
 tracking_issue_id = 137265

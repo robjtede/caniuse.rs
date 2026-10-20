@@ -1,0 +1,11 @@
+title = "the main thread handle of a Windows child process"
+flag = "windows_process_extensions_main_thread_handle"
+impl_pr_id = 96725
+tracking_issue_id = 96723
+stabilization_pr_id = 160108
+
+items = [
+    "std::os::windows::process::ChildExt",
+    "std::os::windows::process::ChildExt::main_thread_handle",
+]
+doc_path = "std/os/windows/process/trait.ChildExt.html#tymethod.main_thread_handle"

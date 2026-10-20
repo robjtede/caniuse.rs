@@ -1,4 +1,5 @@
 title = "`cfg_select!` macro"
+changelog_section = "Stabilized APIs"
 flag = "cfg_select"
 tracking_issue_id = 115585
 stabilization_pr_id = 149783

@@ -1,4 +1,5 @@
 title = "`Sum` and `Product` implementations for unsigned `Saturating` integers"
+changelog_section = "Stabilized APIs"
 flag = "saturating_iter_arith"
 impl_pr_id = 144275
 

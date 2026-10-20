@@ -1,4 +1,5 @@
 title = "`fmt::NumBuffer` and its `const` constructor"
+changelog_section = "Stabilized APIs"
 flag = "int_format_into"
 impl_pr_id = 142098
 tracking_issue_id = 138215

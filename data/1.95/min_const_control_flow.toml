@@ -1,4 +1,5 @@
 title = "`ControlFlow` predicates as `const fn`"
+changelog_section = "Stabilized APIs"
 flag = "min_const_control_flow"
 impl_pr_id = 148248
 tracking_issue_id = 148738

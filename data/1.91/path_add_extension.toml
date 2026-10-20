@@ -1,4 +1,5 @@
 title = "append an extension to a path"
+changelog_section = "Stabilized APIs"
 flag = "path_add_extension"
 impl_pr_id = 123600
 tracking_issue_id = 127292

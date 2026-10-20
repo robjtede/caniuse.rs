@@ -1,4 +1,5 @@
 title = "`PanicHookInfo::payload_as_str`"
+changelog_section = "Stabilized APIs"
 flag = "panic_payload_as_str"
 impl_pr_id = 115974
 tracking_issue_id = 125175

@@ -1,4 +1,5 @@
 title = "`expr` macro metavariables in configuration predicates"
+changelog_section = "Language"
 impl_pr_id = 146961
 items = ["cfg!", "cfg_select!", "#[cfg]", "#[cfg_attr]"]
 doc_path = "reference/conditional-compilation.html"

@@ -1,0 +1,8 @@
+title = "the initial window state of a Windows child process"
+flag = "windows_process_extensions_show_window"
+impl_pr_id = 126690
+tracking_issue_id = 127544
+stabilization_pr_id = 162856
+
+items = ["std::os::windows::process::CommandExt::show_window"]
+doc_path = "std/os/windows/process/trait.CommandExt.html#tymethod.show_window"

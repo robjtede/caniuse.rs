@@ -1,4 +1,5 @@
 title = "`TryFrom` integer conversions for `bool`"
+changelog_section = "Stabilized APIs"
 flag = "bool_try_from_int"
 impl_pr_id = 147400
 items = [

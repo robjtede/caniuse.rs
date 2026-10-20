@@ -1,4 +1,5 @@
 title = "rounding methods on `f32` and `f64` as `const fn`"
+changelog_section = "Stabilized APIs"
 flag = "const_float_round_methods"
 impl_pr_id = 141521
 tracking_issue_id = 141555

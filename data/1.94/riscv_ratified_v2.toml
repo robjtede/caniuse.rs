@@ -1,4 +1,5 @@
 title = "Runtime detection for additional RISC-V target features"
+changelog_section = "Language"
 flag = "riscv_ratified_v2"
 tracking_issue_id = 111192
 stabilization_pr_id = 145948

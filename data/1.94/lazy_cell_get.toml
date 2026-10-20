@@ -1,4 +1,5 @@
 title = "`LazyCell::get`, `get_mut`, and `force_mut`"
+changelog_section = "Stabilized APIs"
 flag = "lazy_get"
 impl_pr_id = 130476
 tracking_issue_id = 129333

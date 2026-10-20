@@ -1,4 +1,5 @@
 title = "size, alignment, and allocation layout from raw pointers"
+changelog_section = "Stabilized APIs"
 flag = "layout_for_ptr"
 impl_pr_id = 69079
 tracking_issue_id = 69835

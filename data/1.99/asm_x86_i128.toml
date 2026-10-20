@@ -1,4 +1,5 @@
 title = "128-bit integers in x86 and x86-64 inline assembly vector registers"
+changelog_section = "Language"
 flag = "asm_experimental_reg"
 impl_pr_id = 151059
 tracking_issue_id = 133416

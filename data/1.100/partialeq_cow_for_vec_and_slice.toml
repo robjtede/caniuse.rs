@@ -1,0 +1,11 @@
+title = "comparisons of vectors and slice references with `Cow<[T]>`"
+flag = "partialeq_cow_for_vec_and_slice"
+impl_pr_id = 156160
+tracking_issue_id = 152830
+
+items = [
+    "impl PartialEq<Cow<'_, [U]>> for Vec<T, A>",
+    "impl PartialEq<Cow<'_, [U]>> for &[T]",
+    "impl PartialEq<Cow<'_, [U]>> for &mut [T]",
+]
+doc_path = "std/vec/struct.Vec.html"

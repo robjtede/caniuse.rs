@@ -1,4 +1,5 @@
 title = "Remove a prefix and suffix together from strings and slices"
+changelog_section = "Stabilized APIs"
 flag = "strip_circumfix"
 impl_pr_id = 147947
 tracking_issue_id = 147946

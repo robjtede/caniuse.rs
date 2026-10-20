@@ -1,6 +1,7 @@
 # Upstream stabilization: https://github.com/rust-lang/stdarch/pull/1905.
 # The Rust PR imports this stabilization into the standard library.
 title = "x86 AVX-512 FP16 intrinsics and vector types"
+changelog_section = "Stabilized APIs"
 flag = "stdarch_x86_avx512fp16"
 tracking_issue_id = 127213
 stabilization_pr_id = 150639

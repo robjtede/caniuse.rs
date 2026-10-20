@@ -1,4 +1,5 @@
 title = "`char::is_control` as `const fn`"
+changelog_section = "Stabilized APIs"
 flag = "const_is_control"
 stabilization_pr_id = 155528
 doc_path = "std/primitive.char.html#method.is_control"

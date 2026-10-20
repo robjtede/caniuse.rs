@@ -1,4 +1,5 @@
 title = "`range::Range` and `RangeIter`"
+changelog_section = "Stabilized APIs"
 flag = "new_range_api"
 rfc_id = 3550
 impl_pr_id = 125751

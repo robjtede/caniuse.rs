@@ -1,0 +1,17 @@
+title = "`mem::DropGuard`"
+flag = "drop_guard"
+impl_pr_id = 144236
+tracking_issue_id = 144426
+stabilization_pr_id = 161520
+
+items = [
+    "std::mem::DropGuard",
+    "std::mem::DropGuard::new",
+    "std::mem::DropGuard::dismiss",
+    "impl Deref for DropGuard<T, F>",
+    "impl DerefMut for DropGuard<T, F>",
+    "impl Drop for DropGuard<T, F>",
+    "impl Debug for DropGuard<T, F>",
+]
+doc_path = "std/mem/struct.DropGuard.html"
+aliases = ["scope guard", "defer"]

@@ -1,4 +1,5 @@
 title = "`iter::chain`"
+changelog_section = "Stabilized APIs"
 flag = "iter_chain"
 impl_pr_id = 106186
 tracking_issue_id = 125964

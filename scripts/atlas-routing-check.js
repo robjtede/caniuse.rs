@@ -24,6 +24,35 @@
         assert(document.querySelector('release-atlas'), 'The channel route did not keep the atlas');
     }
 
+    const data = await (await fetch('/features.json')).json();
+    const betaVersion = Object.keys(data.versions).find(number => data.versions[number].channel === 'beta');
+
+    if (betaVersion) {
+        history.pushState(history.state, '', '/versions/' + betaVersion);
+        window.dispatchEvent(new PopStateEvent('popstate', { state: history.state }));
+        await waitFor(() => location.pathname === '/versions/beta'
+            && document.querySelector('#atlas-release')?.value === 'beta');
+
+        const feature = document.querySelector('[data-version="beta"] a[href^="/features/"]');
+
+        assert(feature, 'The beta panel has no feature links');
+        feature.click();
+        await waitFor(() => location.pathname.startsWith('/features/'));
+
+        const release = document.querySelector('a[href="/versions/' + betaVersion + '"]');
+
+        assert(release, 'The beta feature has no numeric release link');
+        release.click();
+        await waitFor(() => location.pathname === '/versions/beta'
+            && document.querySelector('#atlas-release')?.value === 'beta');
+
+        const currentSelect = document.querySelector('#atlas-release');
+
+        currentSelect.value = 'unstable';
+        currentSelect.dispatchEvent(new Event('change', { bubbles: true }));
+        await waitFor(() => location.pathname === '/versions/unstable');
+    }
+
     const input = document.querySelector('#query');
 
     input.value = 'let chains';
@@ -43,5 +72,5 @@
     history.forward();
     await waitFor(() => location.pathname === '/' && document.querySelector('.search-results'));
 
-    return { stablePath: true, channelPaths: true, searchReturn: true, backForward: true };
+    return { stablePath: true, channelPaths: true, betaVersionPath: Boolean(betaVersion), searchReturn: true, backForward: true };
 })()

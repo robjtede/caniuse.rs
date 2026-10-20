@@ -1,0 +1,8 @@
+title = "`Path::trim_prefix`"
+flag = "trim_prefix_suffix"
+impl_pr_id = 154320
+tracking_issue_id = 142312
+stabilization_pr_id = 160544
+
+items = ["Path::trim_prefix"]
+doc_path = "std/path/struct.Path.html#method.trim_prefix"

@@ -1,4 +1,5 @@
 title = "`TokenStream` extension from token tree items"
+changelog_section = "Stabilized APIs"
 flag = "token_stream_extend_tt_items"
 impl_pr_id = 145722
 tracking_issue_id = 112815

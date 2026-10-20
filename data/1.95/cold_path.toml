@@ -1,4 +1,5 @@
 title = "`hint::cold_path` as `const fn`"
+changelog_section = "Stabilized APIs"
 flag = "cold_path"
 tracking_issue_id = 136873
 stabilization_pr_id = 151576

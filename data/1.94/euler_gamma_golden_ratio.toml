@@ -1,4 +1,5 @@
 title = "Euler–Mascheroni and golden ratio constants"
+changelog_section = "Stabilized APIs"
 flag = "euler_gamma_golden_ratio"
 impl_pr_id = 103836
 tracking_issue_id = 146939

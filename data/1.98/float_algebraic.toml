@@ -1,4 +1,5 @@
 title = "Algebraic arithmetic on `f32` and `f64`, including `const` contexts"
+changelog_section = "Stabilized APIs"
 flag = "float_algebraic"
 impl_pr_id = 136457
 tracking_issue_id = 136469

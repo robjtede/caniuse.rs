@@ -1,0 +1,8 @@
+title = "`Rc::map`"
+flag = "smart_pointer_map"
+impl_pr_id = 144420
+tracking_issue_id = 144419
+stabilization_pr_id = 160534
+
+items = ["Rc::map"]
+doc_path = "std/rc/struct.Rc.html#method.map"

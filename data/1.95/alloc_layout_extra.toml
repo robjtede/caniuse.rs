@@ -1,4 +1,5 @@
 title = "Additional `alloc::Layout` methods as `const fn`"
+changelog_section = "Stabilized APIs"
 flag = "alloc_layout_extra"
 tracking_issue_id = 55724
 stabilization_pr_id = 148769

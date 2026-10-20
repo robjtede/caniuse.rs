@@ -1,0 +1,8 @@
+title = "`bool::toggle`"
+flag = "bool_toggle"
+impl_pr_id = 159296
+tracking_issue_id = 159298
+stabilization_pr_id = 160299
+
+items = ["bool::toggle"]
+doc_path = "std/primitive.bool.html#method.toggle"

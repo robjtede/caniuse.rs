@@ -1,0 +1,8 @@
+title = "`Box::map`"
+flag = "smart_pointer_map"
+impl_pr_id = 144420
+tracking_issue_id = 144419
+stabilization_pr_id = 160534
+
+items = ["Box::map"]
+doc_path = "std/boxed/struct.Box.html#method.map"

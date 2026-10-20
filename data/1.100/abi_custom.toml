@@ -1,0 +1,8 @@
+title = "`extern \"custom\"` functions"
+flag = "abi_custom"
+rfc_id = 3980
+impl_pr_id = 140770
+tracking_issue_id = 140829
+stabilization_pr_id = 158504
+
+doc_path = "reference/items/functions.html"

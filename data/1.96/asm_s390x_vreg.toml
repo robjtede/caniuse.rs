@@ -1,4 +1,5 @@
 title = "s390x vector register inputs and outputs in inline assembly"
+changelog_section = "Language"
 flag = "asm_experimental_reg"
 impl_pr_id = 131664
 tracking_issue_id = 133416

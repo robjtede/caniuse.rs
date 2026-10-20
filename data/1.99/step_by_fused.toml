@@ -1,4 +1,5 @@
 title = "`FusedIterator` implementation for `StepBy<I>`"
+changelog_section = "Stabilized APIs"
 flag = "step_by_fused"
 impl_pr_id = 159963
 items = ["impl<I: FusedIterator> FusedIterator for StepBy<I>"]

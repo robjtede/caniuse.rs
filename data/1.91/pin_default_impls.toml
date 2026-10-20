@@ -1,4 +1,5 @@
 title = "`Default` implementations for pinned smart pointers"
+changelog_section = "Stabilized APIs"
 flag = "pin_default_impls"
 impl_pr_id = 143717
 tracking_issue_id = 143688

@@ -1,4 +1,5 @@
 title = "`-Cjump-tables` compiler option"
+changelog_section = "Compiler"
 flag = "jump_tables"
 impl_pr_id = 105812
 tracking_issue_id = 116592

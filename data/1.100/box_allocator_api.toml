@@ -1,0 +1,15 @@
+title = "custom allocators for `Box`"
+flag = "allocator_api"
+rfc_id = 1398
+tracking_issue_id = 32838
+stabilization_pr_id = 156882
+
+items = [
+    "Box::new_in",
+    "Box::from_raw_in",
+    "Box::from_non_null_in",
+    "Box::into_raw_with_allocator",
+    "Box::into_non_null_with_allocator",
+    "Box::allocator",
+]
+doc_path = "std/boxed/struct.Box.html#method.new_in"

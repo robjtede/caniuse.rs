@@ -1,4 +1,5 @@
 title = "29 additional RISC-V target features"
+changelog_section = "Language"
 flag = "riscv_target_feature"
 tracking_issue_id = 150257
 stabilization_pr_id = 145948

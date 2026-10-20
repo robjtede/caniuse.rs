@@ -1,4 +1,5 @@
 title = "C-variadic function definitions"
+changelog_section = "Language"
 flag = "c_variadic"
 rfc_id = 2137
 impl_pr_id = 57760

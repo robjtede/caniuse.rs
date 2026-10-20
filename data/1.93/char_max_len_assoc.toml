@@ -1,4 +1,5 @@
 title = "`char::MAX_LEN_UTF8` and `char::MAX_LEN_UTF16`"
+changelog_section = "Stabilized APIs"
 flag = "char_max_len_assoc"
 impl_pr_id = 120580
 tracking_issue_id = 121714

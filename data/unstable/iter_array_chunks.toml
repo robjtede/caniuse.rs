@@ -7,5 +7,5 @@ items = [
     "std::iter::ArrayChunks",
     "std::iter::ArrayChunks::into_remainder",
 ]
-doc_path = "nightly/std/iter/trait.Iterator.html#method.array_chunks"
+doc_path = "std/iter/trait.Iterator.html#method.array_chunks"
 unstable_book_path = "library-features/iter-array-chunks.html"

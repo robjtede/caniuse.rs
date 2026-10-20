@@ -1,4 +1,5 @@
 title = "`Debug` implementation for Windows `EncodeWide`"
+changelog_section = "Stabilized APIs"
 flag = "encode_wide_debug"
 impl_pr_id = 145335
 

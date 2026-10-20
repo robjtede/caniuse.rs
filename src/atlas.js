@@ -7,7 +7,8 @@ class ReleaseAtlas extends HTMLElement {
     attributeChangedCallback() {
         if (!this.viewport) return;
 
-        const index = this.routeIndex();
+        const initial = this.dataset.initialVersion;
+        const index = this.panels.findIndex(panel => panel.dataset.version === initial);
 
         if (index >= 0 && index !== this.index) this.go(index, true);
     }

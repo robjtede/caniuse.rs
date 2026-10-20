@@ -1,4 +1,5 @@
 title = "`array::repeat`"
+changelog_section = "Stabilized APIs"
 flag = "array_repeat"
 impl_pr_id = 119127
 tracking_issue_id = 126695

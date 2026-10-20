@@ -1,4 +1,5 @@
 title = "Format a value with a closure"
+changelog_section = "Stabilized APIs"
 flag = "fmt_from_fn"
 tracking_issue_id = 146705
 stabilization_pr_id = 145915

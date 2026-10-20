@@ -1,4 +1,5 @@
 title = "`BTreeSet::extract_if`"
+changelog_section = "Stabilized APIs"
 flag = "btree_extract_if"
 tracking_issue_id = 70530
 stabilization_pr_id = 145471

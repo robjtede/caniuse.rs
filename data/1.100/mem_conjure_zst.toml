@@ -1,0 +1,8 @@
+title = "`mem::conjure_zst`"
+flag = "mem_conjure_zst"
+impl_pr_id = 146479
+tracking_issue_id = 95383
+stabilization_pr_id = 161710
+
+items = ["std::mem::conjure_zst"]
+doc_path = "std/mem/fn.conjure_zst.html"

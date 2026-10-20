@@ -1,4 +1,5 @@
 title = "`<[T]>::array_windows` and `ArrayWindows`"
+changelog_section = "Stabilized APIs"
 flag = "array_windows"
 impl_pr_id = 75026
 tracking_issue_id = 75027

@@ -1,4 +1,5 @@
 title = "`Location::file_as_c_str`"
+changelog_section = "Stabilized APIs"
 flag = "file_with_nul"
 impl_pr_id = 135054
 tracking_issue_id = 141727

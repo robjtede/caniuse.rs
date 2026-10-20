@@ -1,4 +1,5 @@
 title = "const `NonZero::bit_width` for unsigned integers"
+changelog_section = "Stabilized APIs"
 flag = "uint_bit_width"
 impl_pr_id = 148797
 tracking_issue_id = 142326

@@ -1,4 +1,5 @@
 title = "volatile access to memory outside Rust allocations, including address zero"
+changelog_section = "Language"
 impl_pr_id = 141260
 items = [
     "std::ptr::read_volatile",

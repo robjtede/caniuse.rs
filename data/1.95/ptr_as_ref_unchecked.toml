@@ -1,4 +1,5 @@
 title = "Unchecked raw-pointer reference conversions as `const fn`"
+changelog_section = "Stabilized APIs"
 flag = "ptr_as_ref_unchecked"
 impl_pr_id = 122492
 tracking_issue_id = 122034

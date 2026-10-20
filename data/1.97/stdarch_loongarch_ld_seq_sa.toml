@@ -1,4 +1,5 @@
 title = "LoongArch `ld-seq-sa` runtime feature detection"
+changelog_section = "Language"
 flag = "stdarch_loongarch_ld_seq_sa"
 tracking_issue_id = 117425
 stabilization_pr_id = 154510

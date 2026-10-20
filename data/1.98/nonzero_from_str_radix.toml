@@ -1,4 +1,5 @@
 title = "`NonZero::from_str_radix`, including `const` contexts"
+changelog_section = "Stabilized APIs"
 flag = "nonzero_from_str_radix"
 impl_pr_id = 151945
 tracking_issue_id = 152193

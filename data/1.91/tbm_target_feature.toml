@@ -1,4 +1,5 @@
 title = "`tbm` target feature"
+changelog_section = "Language"
 flag = "tbm_target_feature"
 tracking_issue_id = 44839
 stabilization_pr_id = 144542

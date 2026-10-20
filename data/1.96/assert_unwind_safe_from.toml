@@ -1,4 +1,5 @@
 title = "`From<T>` for `AssertUnwindSafe<T>` where `T: UnwindSafe`"
+changelog_section = "Stabilized APIs"
 flag = "from_wrapper_impls"
 impl_pr_id = 146013
 items = ["impl<T: UnwindSafe> From<T> for AssertUnwindSafe<T>"]

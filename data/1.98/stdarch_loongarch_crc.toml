@@ -1,4 +1,5 @@
 title = "LoongArch64 CRC intrinsics"
+changelog_section = "Libraries"
 flag = "stdarch_loongarch_crc"
 tracking_issue_id = 156908
 # This Rust PR imports the stabilization from rust-lang/stdarch#2137.

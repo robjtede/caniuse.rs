@@ -1,4 +1,5 @@
 title = "`NonZero::div_ceil` for unsigned integers"
+changelog_section = "Stabilized APIs"
 flag = "unsigned_nonzero_div_ceil"
 impl_pr_id = 132665
 tracking_issue_id = 132968

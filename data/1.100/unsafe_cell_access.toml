@@ -1,0 +1,12 @@
+title = "direct access to `UnsafeCell` contents"
+flag = "unsafe_cell_access"
+impl_pr_id = 136398
+tracking_issue_id = 136327
+stabilization_pr_id = 162504
+
+items = [
+    "UnsafeCell::replace",
+    "UnsafeCell::as_ref_unchecked",
+    "UnsafeCell::as_mut_unchecked",
+]
+doc_path = "std/cell/struct.UnsafeCell.html#method.replace"
